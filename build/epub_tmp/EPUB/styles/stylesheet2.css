@@ -1,0 +1,214 @@
+@namespace epub "http://www.idpf.org/2007/ops";
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  line-height: 1.5;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  orphans: 2;
+  widows: 2;
+}
+
+/* TOC links */
+nav#TOC a,
+#TOC a,
+.toc a,
+nav[epub|type~="toc"] a,
+nav[role="doc-toc"] a,
+nav#toc a {
+  color: blue !important;
+  text-decoration: none;
+}
+
+a.footnote-ref,
+a.footnote-back {
+  color: blue !important;
+}
+
+a.footnote-ref {
+  font-size: 0.833em;
+}
+
+/* Titlepages */
+.titlepage {
+  break-before: page;
+  page-break-before: always;
+  line-height: 1.4;
+  margin: 0;
+  padding: 1rem;
+}
+
+.titlepage.sampradaya-page {
+  text-align: center;
+  font-size: 1.8em;
+}
+.titlepage.invocations-page {
+  text-align: center;
+  font-size: 1.2em;
+}
+.titlepage.copyright-page {
+  font-size: 1em;
+}
+
+/* Safer heading spacing */
+h1 {
+  margin: 0 0 0.2em 0;
+}
+h1 + h5 {
+  margin: 0.2em 0 1.6em 0;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+}
+
+h1,
+h2,
+h3 {
+  page-break-after: avoid;
+  break-after: avoid;
+}
+
+/* Tables */
+table,
+table th,
+table td,
+table th p,
+table td p,
+table li {
+  font-size: 0.9166em !important;
+  line-height: 1.2;
+}
+table td p,
+table th p {
+  margin-block: 0.3em;
+}
+
+/* ===================== */
+/* Verse blockquotes     */
+/* ===================== */
+
+/* Verse blockquote container */
+blockquote {
+  margin: 1.1em 0;
+  padding-left: 2em; /* soft indent */
+  padding-right: 2em; /* soft indent */
+  border: none !important; /* no left rule */
+}
+
+/* Sanskrit paragraph (container only) */
+blockquote > p:first-child {
+  margin: 0;
+  padding: 0;
+  line-height: 1; /* neutral — spacing handled by em */
+}
+
+/* Each Sanskrit line */
+blockquote > p:first-child em {
+  display: block;
+  font-style: italic;
+  line-height: 1.25; /* tight stacking */
+  margin: 0;
+  padding: 0;
+}
+
+/* Kill <br/> spacing completely */
+blockquote > p:first-child br {
+  display: none;
+}
+
+/* Translation paragraph */
+blockquote > p:nth-child(2) {
+  margin: 0.45em 0 0 0;
+  padding: 0;
+  font-weight: bold;
+  line-height: 1.35;
+}
+
+/* Lists (Kindle-friendly) */
+ol,
+ul {
+  padding-left: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+li {
+  margin: 0 0 0.25em 0;
+  padding: 0;
+}
+li p {
+  margin: 0;
+}
+
+/* Captions */
+caption,
+.caption,
+figcaption {
+  text-align: center;
+  font-size: 0.833em;
+  color: #555;
+  margin-top: 0.25em;
+}
+caption {
+  caption-side: bottom;
+}
+
+/* Verse blocks */
+.verse {
+  margin: 1.1em 0;
+  padding: 0.85em 0.95em;
+  border-left: 0.22em solid currentColor;
+  border-radius: 0.2em;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.verse .verse-ref {
+  display: block;
+  font-size: 0.9em;
+  opacity: 0.75;
+  margin-bottom: 0.45em;
+  letter-spacing: 0.02em;
+}
+
+.verse .sa,
+.verse .en {
+  display: block;
+  white-space: pre-wrap;
+  padding-left: 0.4em;
+  text-indent: 0;
+}
+
+.verse .sa {
+  margin: 0.2em 0 0.6em 0;
+  line-height: 1.35;
+  font-style: italic;
+}
+.verse .en {
+  margin: 0.2em 0 0 0;
+  line-height: 1.45;
+}
+
+.customquote {
+  font-size: 0.9366em;
+  font-style: italic;
+  color: #3b3b3b;
+  /* spacing */
+  margin: 1em 0;
+  padding: 0.6em 0.9em;
+}
+/* IAST / Devanagari fallbacks */
+.sa {
+  font-family: serif;
+}
+[lang="sa-Deva"],
+.devanagari {
+  font-family: serif;
+}
+
+/* Paragraph spacing */
+p {
+  margin: 0.65em 0;
+}

@@ -1,0 +1,458 @@
+\documentclass[11pt, twoside]{memoir}
+
+% Set font size to a much larger value
+% Set the page size
+% Page + typeblock
+\setstocksize{18.0cm}{10.0cm}
+\settrimmedsize{18.0cm}{10.0cm}{*}
+
+% We want: stock width = 10cm, text width = 7.4cm
+% So total horizontal margins = 2.6cm
+% Let's set INNER = 1.8cm, OUTER = 0.8cm (very obviously different)
+
+\settypeblocksize{15.0cm}{7.4cm}{*}          % height, width, ratio
+\setlrmarginsandblock{1.5cm}{1.1cm}{*}       % inner, outer, ratio
+\setulmargins{*}{*}{1}                       % keep vertical centered
+\setlength{\footskip}{0.7cm}
+
+\checkandfixthelayout
+\setlength{\parindent}{1em}
+% Apply the layout settings
+\checkandfixthelayout
+
+\usepackage{qrcode}
+\usepackage{csquotes} % for quotes
+\usepackage{etoolbox}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+\usepackage{titlesec}
+\usepackage{adjustbox}
+\usepackage{titling} % For custom title page formatting
+\usepackage{setspace}
+% Package + options (hanging indent; left-aligned block)
+\usepackage[hang, flushmargin]{footmisc}
+\usepackage{enumitem} % tightening vertical spacing in itemize
+
+
+\usepackage{microtype} % load after fonts
+\emergencystretch=3em 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%% WIDOW/ORPHAN CONTROL %%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% --- Keep lines together (global penalties) ---
+\clubpenalty=10000           % no "club lines" (single first line at page bottom)
+\widowpenalty=10000          % no "widow lines" (single last line at page top)
+\displaywidowpenalty=10000   % avoid widow after display math
+\brokenpenalty=10000         % discourage breaks after hyphenated lines
+\predisplaypenalty=10000
+\postdisplaypenalty=10000
+
+% --- Smarter automatic fixes for paragraphs and headings ---
+\usepackage[all,defaultlines=2]{nowidow} % keep at least 2 lines at top/bottom
+
+% --- Reserve space before headings/blocks so they don’t get stranded ---
+\usepackage{needspace}
+
+
+\setlength{\footnotemargin}{1em}   % (later you have \renewcommand — that should be \setlength)
+
+% Vertical spacing above the footnote area (text → rule → notes)
+\setlength{\skip\footins}{14pt}
+
+% Spacing between individual footnotes
+\setlength{\footnotesep}{9pt}
+
+\usepackage[framemethod=default]{mdframed}  % for \newmdenv
+
+\newmdenv[
+  linewidth=0pt, % No border line
+  skipabove=0.5\baselineskip, % Space above the box
+  skipbelow=0.5\baselineskip, % Space below the box
+  innermargin=0pt, % Internal margin inside the box
+]{customquote}
+
+
+
+% (Optional, currently commented) line spacing inside footnotes
+%\renewcommand{\footnotelayout}{\setstretch{1.5}}
+\setmainfont[
+    Path = assets/fonts/, % Specify the relative path to the fonts directory
+    UprightFont = AdobeDevanagari, % Main font file name (without extension)
+    ItalicFont = AdobeDevanagariItalic, % Italic font file name
+    BoldItalicFont = AdobeDevanagariBoldItalic, % Italic font file name
+    BoldFont = AdobeDevanagariBold % Bold font file name
+]{AdobeDevanagari}
+
+% Create a custom page style named 'alternating'
+\makepagestyle{alternating}
+\makeoddfoot{alternating}{}{}{{\footnotesize\thepage}}
+\makeevenfoot{alternating}{{\footnotesize\thepage}}{}{}
+
+% Set the custom page style for the document
+\pagestyle{alternating}
+
+\titleformat{\section}
+  {\ebgaramondscfont\large\bfseries\RaggedRight}
+  {}
+  {0pt}
+  {} % no \Needspace here
+
+\titlespacing*{\section}
+  {0pt}      % left margin
+  {1.2\baselineskip}  % space *before* the section title
+  {0.5\baselineskip}  % space *after* the section title
+
+% --- Reserve space before each \section heading ---
+\let\oldsection\section
+\renewcommand{\section}{\Needspace{3\baselineskip}\oldsection}
+
+
+
+% Further settings
+\usepackage{framed}
+\usepackage{graphics}
+\usepackage[cmyk]{xcolor}
+\selectcolormodel{cmyk}
+\usepackage{psvectorian}
+\usepackage{pgfornament}
+\usepackage{titling}
+\usepackage{soul} % For letterspacing
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%% Header styling %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% --- Frontmatter
+\makepagestyle{frontplain}
+\makeoddhead{frontplain}{}{}{}      % no headers
+\makeevenhead{frontplain}{}{}{}      % no headers
+\makeoddfoot{frontplain}{}{}{\scriptsize\thepage}
+\makeevenfoot{frontplain}{\scriptsize\thepage}{}{}
+
+% --- Mainmatter
+\makepagestyle{maindocpagestyle}
+\setlength{\headwidth}{\textwidth}
+\makerunningwidth{maindocpagestyle}{\headwidth}
+
+% 1. Set Even Head to use \leftmark (which we will define as Chapter below)
+\makeevenhead{maindocpagestyle}{{\scriptsize\color{headergray}\ebgaramondscfont\leftmark}}{}{}
+
+% 2. Set Odd Head to use \rightmark (which we will define as Section below)
+\makeoddhead{maindocpagestyle}{}{}{\scriptsize\color{headergray}\rightmark}
+
+\nouppercaseheads
+\makeoddfoot{maindocpagestyle}{}{}{\scriptsize\thepage}
+\makeevenfoot{maindocpagestyle}{\scriptsize\thepage}{}{}
+
+\makepsmarks{maindocpagestyle}{%
+  % 3. Define Chapter Mark: "Chapter [Number]" ONLY. 
+  % We use \markboth to set the Left mark. We ignore argument #1 (the title).
+  \renewcommand{\chaptermark}[1]{\markboth{Chapter~\thechapter}{}}
+  
+  % 4. Define Section Mark: Set to 'right' instead of 'both'
+  % This ensures it doesn't overwrite the Chapter on the left.
+  \createmark{section}{right}{nonumber}{}{}
+  
+  \createmark{subsection}{right}{nonumber}{}{}
+  \createmark{subsubsection}{right}{nonumber}{}{}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage{parskip} % Automatic paragraph skip
+\setlength{\parskip}{0.5em} % Adjust this value to control the paragraph spacing
+
+\linespread{1} % Set line spacing
+
+%% TODO
+
+% Define a new command for the subtitle
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\Large#1\end{center}
+    \vskip0.5em}
+}
+
+
+
+%% TODO 
+
+
+\newfontfamily\coverfont[
+    Path = assets/fonts/, % Path to the directory containing the font
+]{DidotBold.otf}
+
+\newfontfamily\AdobeDevanagariItalic[
+    Path = assets/fonts/, % Path to the directory containing the font
+]{AdobeDevanagariItalic.otf}
+
+\newfontfamily\avenirnextfont[
+    Path = assets/fonts/, % Path to the directory containing the font
+]{AvenirNextLTPro-Regular.otf}
+%
+
+
+\newfontfamily\avenirnextboldfont[
+    Path = assets/fonts/, % Path to the directory containing the font
+]{AvenirNextLTPro-Bold.otf}
+%
+
+\newfontfamily\ebgaramondfont{EB Garamond}[Ligatures=TeX, Scale=MatchLowercase]
+
+\newfontfamily\ebgaramondscfont[
+  Path=assets/fonts/,
+  Extension=.otf,
+  UprightFont=eb-garamond.smallcaps-12-regular
+]{EB Garamond SC}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%% Verse styling %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage{calc}
+\newlength{\versenumcol}\setlength{\versenumcol}{3.5em}
+
+
+% --- Verse + translation layout (compact, no stacked parskip) ----
+\usepackage{calc,xparse,ragged2e}
+
+% Spacing knobs
+\newlength{\VerseTopSkip} \setlength{\VerseTopSkip}{0.3\baselineskip}   % space before each Verse
+\newlength{\VerseBotSkip} \setlength{\VerseBotSkip}{0.3\baselineskip}  % after each Verse
+
+
+
+% Neutral grays in CMYK (K-only)
+\definecolor{versegray}{cmyk}{0,0,0,0.75}   % ~ dark gray
+\definecolor{headergray}{cmyk}{0,0,0,0.53}  % ~ medium gray
+
+
+\newcommand{\versenumstyle}[1]{\footnotesize(#1)}                  
+\newcommand{\verseelemstyle}[1]{{\scriptsize\itshape\color{versegray} #1}} \newcommand{\transstyle}[1]{\textbf{#1}}                    
+
+
+\NewDocumentCommand{\Verse}{O{} m m}{%
+  \Needspace{5\baselineskip}% adjust to typical height of one verse+translation
+  \par\addvspace{\VerseTopSkip}%
+  {%
+    \parskip=1pt
+    % --- Verse (tight line spacing) ---
+    {\begingroup
+      \linespread{0.7}\selectfont
+      \noindent\verseelemstyle{#2}\par
+    \endgroup}%
+    
+    % --- Translation (reset to normal line spacing) ---
+    {\begingroup
+      \linespread{1.0}\selectfont
+      \noindent\RaggedRight
+      \transstyle{#3}\,\versenumstyle{#1}\par
+    \endgroup}%
+  }%
+  \addvspace{\VerseBotSkip}%
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%% Chapter styling %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Define a new command for the ornament
+\newcommand{\ornament}{
+    \begin{adjustbox}{scale=0.665, right=7.41cm}
+        \includegraphics[page=1]{assets/arrow_ornament_bw.pdf}
+    \end{adjustbox}
+}
+
+% Chapter title styling
+\titlespacing*{\chapter}{0pt}{0em}{0em}  % Adjust vertical spacing for chapter title
+
+\titleformat{\chapter}[display]
+  {\normalsize\bfseries} % Format for the chapter number
+  {\ebgaramondscfont Chapter \thechapter}  % Use AvenirNext font for the chapter label
+  {-0.5em} % Space between label and title
+  {\fontsize{22pt}{22pt}\selectfont\bfseries} % Title text format
+
+% Define a new command for subtitle of chapter
+\newcommand{\chaptersubtitle}[1]{%
+  \textbf{\ebgaramondscfont\normalsize{#1}}\vspace{0.5em} \\
+  \ornament
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Adjust letter spacing (kerning)
+\newcommand{\tightletters}[1]{%
+  \begingroup%
+  \setlength{\fontdimen2\font}{0.5ex} % Adjust this value to compress the spacing
+
+  #1%
+
+  \endgroup%
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%% Custom ToC %%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% ===== Custom ToC line for "minor" chapters (Foreword, etc.) =====
+\makeatletter
+% Print a compact, regular-weight ToC line with dotted leaders
+\newcommand*\l@frontchapter[2]{%
+  \vspace{0.25\baselineskip}% tighter vertical spacing between minor entries
+  \@dottedtocline{0}{0pt}{0pt}{\normalfont #1}{\normalfont #2}%
+}
+\makeatother
+
+
+% ------- Compact, regular-style headings for UNNUMBERED chapters -------
+% (affects \chapter* only; numbered chapters keep your current style)
+\titleformat{name=\chapter,numberless}[display]
+  {\normalfont\ebgaramondfont\Large} % regular (not bold)
+  {}{-0.5em}{}
+\titlespacing*{name=\chapter,numberless}
+  {0pt}{1.5em}{0.8em} % less vertical space: before/after
+  
+% --- ToC: chapter entry on two lines (Title on line 1, "Subtitle" on line 2) ---
+% Works with memoir; no 'tocloft' needed.
+
+% Only chapters in the ToC
+\settocdepth{chapter}
+
+% Optional: avoid hyphenation in ToC
+\usepackage{hyphenat}
+\DeclareRobustCommand{\NoHyphens}[1]{\nohyphens{#1}}
+
+\makeatletter
+% Save the real \addcontentsline
+\let\BM@orig@addcontentsline\addcontentsline
+
+% Swallow the default \chapter ToC write, but remember the chapter title
+\pretocmd{\chapter}{%
+  \global\let\BM@chapTitle\@empty
+  % Temporarily redefine \addcontentsline during \chapter
+  \renewcommand{\addcontentsline}[3]{%
+    \def\BM@tmpa{##1}%
+    \ifx\BM@tmpa\toc % if writing to toc
+      \gdef\BM@chapTitle{\@currentlabelname}% remember the chapter title
+      % swallow (do not write the default ToC entry)
+    \else
+      \BM@orig@addcontentsline{##1}{##2}{##3}% pass through others
+    \fi
+  }%
+}{}{}
+
+% When the subtitle is given, write the SINGLE combined ToC entry
+\pretocmd{\chaptersubtitle}{%
+  % Fallback: if for some reason the title wasn't captured, use current label name
+  \ifx\BM@chapTitle\@empty \gdef\BM@chapTitle{\@currentlabelname}\fi
+  \BM@orig@addcontentsline{toc}{chapter}{%
+    \numberline{\thechapter}%
+    \NoHyphens{\BM@chapTitle}\\%
+    {\normalfont\NoHyphens{#1}}%
+  }%
+}{}{}
+\makeatother
+
+% ------- Minor chapters: compact heading + custom ToC line -------
+\makeatletter
+\newcommand{\chapter}[1]{%
+  \chapter*{#1}% (your numberless heading; your titlesec tweaks apply here)
+  \BM@orig@addcontentsline{toc}{frontchapter}{#1}% <-- use custom ToC type
+  \markboth{#1}{#1}%
+}
+\makeatother
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Define the title and subtitle with a larger font size
+\title{
+  \vspace{2cm}
+  \coverfont
+  \fontsize{35pt}{15pt}\selectfont
+  \bfseries
+  B\kern-0.07emh\kern-0.07ema\kern-0.07emg\kern-0.07ema\kern-0.07emv\kern-0.07ema\kern-0.07emd 
+  G\kern-0.07emī\kern-0.07emt\kern-0.07emā
+  \vspace{-0.5cm}
+
+}
+\author{}
+\date{} % This removes the date
+
+\subtitle{%
+  \AdobeDevanagariItalic\fontsize{20pt}{30pt}\selectfont Essentials\\[3cm] % <-- 2cm space below subtitle
+  {\avenirnextfont\fontsize{12pt}{20pt}\bfseries\selectfont Second Edition} % <-- Pocket Edition line
+}
+
+
+%% TODO 
+
+\aliaspagestyle{title}{empty}
+
+\begin{document}
+\include{frontmatter/00_dedication}
+\include{misc/blank_page}
+\include{frontmatter/0_invocations}
+\include{frontmatter/1_copyright}
+
+\maketitle
+
+\newpage
+\thispagestyle{empty} % Set the current page style to empty
+
+
+\frontmatter
+\pagestyle{frontplain} 
+\aliaspagestyle{chapter}{frontplain} % use frontplain at chapter openings in frontmatter
+
+\tableofcontents*
+
+% \include{frontmatter/2_preface_to_the_second_edition}
+% 
+% \include{frontmatter/3_foreword}
+% \include{frontmatter/4_the_seekers_journey}
+% \include{frontmatter/5_about_PV}
+% \include{frontmatter/6_about_this_book}
+% \include{frontmatter/7_introduction}
+
+\mainmatter     
+\pagestyle{maindocpagestyle}
+\aliaspagestyle{chapter}{alternating}
+\include{content/chapter_01}
+%\include{content/chapter_02}
+%\include{content/chapter_03}
+%\include{content/chapter_04}
+%\include{content/chapter_05}
+%\include{content/chapter_06}
+%\include{content/chapter_07}
+%\include{content/chapter_08}
+%\include{content/chapter_09}
+%\include{content/chapter_10}
+%\include{content/chapter_11}
+%\include{content/chapter_12}
+%\include{content/chapter_13}
+%\include{content/chapter_14}
+%\include{content/chapter_15}
+%\include{content/chapter_16}
+%\include{content/chapter_17}
+%\include{content/chapter_18}
+\include{misc/take_the_next_step}
+\include{misc/glossary}
+\include{misc/related_books}
+\include{misc/blank_page}
+\include{misc/blank_page}
+
+\end{document}

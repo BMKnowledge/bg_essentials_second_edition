@@ -1,0 +1,39 @@
+% EPUB-only macros for pandoc conversion (no Lua)
+% Requires: pandoc --from=latex+raw_tex
+
+% Helper: wrap content in raw HTML blocks that pandoc will pass through.
+% We use \begin{rawhtml}...\end{rawhtml} so it’s easy to read/maintain.
+
+\newcommand{\BeginVerse}[1]{%
+\begin{rawhtml}%
+<div class="verse" data-ref="#1">%
+  <span class="verse-ref">#1</span>%
+  <div class="sa">%
+\end{rawhtml}%
+}
+
+\newcommand{\MidVerse}{%
+\begin{rawhtml}% 
+  </div>%
+  <div class="en">%
+\end{rawhtml}%
+}
+
+\newcommand{\EndVerse}{%
+\begin{rawhtml}%
+  </div>%
+</div>%
+\end{rawhtml}%
+}
+
+% Override \Verse for EPUB output:
+% #1 = optional ref
+% #2 = Sanskrit/transliteration (contains \\ line breaks)
+% #3 = English translation
+\renewcommand{\Verse}[3][]{%
+  \BeginVerse{#1}%
+  #2%
+  \MidVerse%
+  #3%
+  \EndVerse%
+}
