@@ -103,7 +103,7 @@
     </navPoint>
     <navPoint id="navPoint-15">
       <navLabel>
-        <text>Arjuna-viṣāda-yoga</text>
+        <text>Chapter 1: Arjuna-viṣāda-yoga</text>
       </navLabel>
       <content src="text/ch008.xhtml#chap-arjuna-visada-yoga" />
       <navPoint id="navPoint-16">
@@ -139,7 +139,7 @@
     </navPoint>
     <navPoint id="navPoint-21">
       <navLabel>
-        <text>Sāṅkhya-yoga</text>
+        <text>Chapter 2: Sāṅkhya-yoga</text>
       </navLabel>
       <content src="text/ch009.xhtml#chap-sankhya-yoga" />
       <navPoint id="navPoint-22">
@@ -175,7 +175,7 @@
     </navPoint>
     <navPoint id="navPoint-27">
       <navLabel>
-        <text>Karma-yoga</text>
+        <text>Chapter 3: Karma-yoga</text>
       </navLabel>
       <content src="text/ch010.xhtml#chap-karma-yoga" />
       <navPoint id="navPoint-28">
@@ -211,7 +211,7 @@
     </navPoint>
     <navPoint id="navPoint-33">
       <navLabel>
-        <text>Jñāna-vibhāga-yoga</text>
+        <text>Chapter 4: Jñāna-vibhāga-yoga</text>
       </navLabel>
       <content src="text/ch011.xhtml#chap-jnana-vibhaga-yoga" />
       <navPoint id="navPoint-34">
@@ -259,7 +259,7 @@
     </navPoint>
     <navPoint id="navPoint-41">
       <navLabel>
-        <text>Karma-sannyāsa-yoga</text>
+        <text>Chapter 5: Karma-sannyāsa-yoga</text>
       </navLabel>
       <content src="text/ch012.xhtml#chap-karma-sannyasa-yoga" />
       <navPoint id="navPoint-42">
@@ -283,7 +283,7 @@
     </navPoint>
     <navPoint id="navPoint-45">
       <navLabel>
-        <text>Dhyāna-yoga</text>
+        <text>Chapter 6: Dhyāna-yoga</text>
       </navLabel>
       <content src="text/ch013.xhtml#chap-dhyana-yoga" />
       <navPoint id="navPoint-46">
@@ -331,7 +331,7 @@
     </navPoint>
     <navPoint id="navPoint-53">
       <navLabel>
-        <text>Jñāna-vijñāna-yoga</text>
+        <text>Chapter 7: Jñāna-vijñāna-yoga</text>
       </navLabel>
       <content src="text/ch014.xhtml#chap-jnana-vijnana-yoga" />
       <navPoint id="navPoint-54">
@@ -379,7 +379,7 @@
     </navPoint>
     <navPoint id="navPoint-61">
       <navLabel>
-        <text>Akṣara-brahma-yoga</text>
+        <text>Chapter 8: Akṣara-brahma-yoga</text>
       </navLabel>
       <content src="text/ch015.xhtml#chap-aksara-brahma-yoga" />
       <navPoint id="navPoint-62">
@@ -403,7 +403,7 @@
     </navPoint>
     <navPoint id="navPoint-65">
       <navLabel>
-        <text>Rāja-vidyā-guhya-yoga</text>
+        <text>Chapter 9: Rāja-vidyā-guhya-yoga</text>
       </navLabel>
       <content src="text/ch016.xhtml#chap-raja-vidya-guhya-yoga" />
       <navPoint id="navPoint-66">
@@ -457,7 +457,7 @@
     </navPoint>
     <navPoint id="navPoint-74">
       <navLabel>
-        <text>Vibhūti-yoga</text>
+        <text>Chapter 10: Vibhūti-yoga</text>
       </navLabel>
       <content src="text/ch017.xhtml#chap-vibhuti-yoga" />
       <navPoint id="navPoint-75">
@@ -487,7 +487,7 @@
     </navPoint>
     <navPoint id="navPoint-79">
       <navLabel>
-        <text>Viśvarūpa-darśana-yoga</text>
+        <text>Chapter 11: Viśvarūpa-darśana-yoga</text>
       </navLabel>
       <content src="text/ch018.xhtml#chap-visvarupa-darsana-yoga" />
       <navPoint id="navPoint-80">
@@ -541,7 +541,7 @@
     </navPoint>
     <navPoint id="navPoint-88">
       <navLabel>
-        <text>Bhakti-yoga</text>
+        <text>Chapter 12: Bhakti-yoga</text>
       </navLabel>
       <content src="text/ch019.xhtml#chap-bhakti-yoga" />
       <navPoint id="navPoint-89">
@@ -571,7 +571,7 @@
     </navPoint>
     <navPoint id="navPoint-93">
       <navLabel>
-        <text>Kṣetra-kṣetrajña-vibhāga-yoga</text>
+        <text>Chapter 13: Kṣetra-kṣetrajña-vibhāga-yoga</text>
       </navLabel>
       <content src="text/ch020.xhtml#chap-ksetra-ksetrajna-vibhaga-yoga" />
       <navPoint id="navPoint-94">
@@ -607,7 +607,7 @@
     </navPoint>
     <navPoint id="navPoint-99">
       <navLabel>
-        <text>Guṇa-traya-vibhāga-yoga</text>
+        <text>Chapter 14: Guṇa-traya-vibhāga-yoga</text>
       </navLabel>
       <content src="text/ch021.xhtml#chap-guna-traya-vibhaga-yoga" />
       <navPoint id="navPoint-100">
@@ -643,7 +643,7 @@
     </navPoint>
     <navPoint id="navPoint-105">
       <navLabel>
-        <text>Puruṣottama-yoga</text>
+        <text>Chapter 15: Puruṣottama-yoga</text>
       </navLabel>
       <content src="text/ch022.xhtml#chap-purusottama-yoga" />
       <navPoint id="navPoint-106">
@@ -673,7 +673,7 @@
     </navPoint>
     <navPoint id="navPoint-110">
       <navLabel>
-        <text>Daivāsura-sampad- vibhāga-yoga</text>
+        <text>Chapter 16: Daivāsura-sampad-vibhāga-yoga</text>
       </navLabel>
       <content src="text/ch023.xhtml#chap-daivasura-sampad-vibhaga-yoga" />
       <navPoint id="navPoint-111">
@@ -703,7 +703,7 @@
     </navPoint>
     <navPoint id="navPoint-115">
       <navLabel>
-        <text>Śraddhā-traya-vibhāga-yoga</text>
+        <text>Chapter 17: Śraddhā-traya-vibhāga-yoga</text>
       </navLabel>
       <content src="text/ch024.xhtml#chap-sraddha-traya-vibhaga-yoga" />
       <navPoint id="navPoint-116">
@@ -751,7 +751,7 @@
     </navPoint>
     <navPoint id="navPoint-123">
       <navLabel>
-        <text>Mokṣa-sannyāsa-yoga</text>
+        <text>Chapter 18: Mokṣa-sannyāsa-yoga</text>
       </navLabel>
       <content src="text/ch025.xhtml#chap-moksa-sannyasa-yoga" />
       <navPoint id="navPoint-124">
@@ -868,6 +868,24 @@
         </navLabel>
         <content src="text/ch025.xhtml#sec-verses-74-78-final-conclusion" />
       </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-143">
+      <navLabel>
+        <text>Take the Next Step</text>
+      </navLabel>
+      <content src="text/ch026.xhtml#chap-take-the-next-step" />
+    </navPoint>
+    <navPoint id="navPoint-144">
+      <navLabel>
+        <text>Glossary</text>
+      </navLabel>
+      <content src="text/ch027.xhtml#glossary" />
+    </navPoint>
+    <navPoint id="navPoint-145">
+      <navLabel>
+        <text>Related Books</text>
+      </navLabel>
+      <content src="text/ch028.xhtml#chap-related-books" />
     </navPoint>
   </navMap>
 </ncx>

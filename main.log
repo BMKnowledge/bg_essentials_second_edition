@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.14)  5 FEB 2026 14:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.14)  5 FEB 2026 17:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -364,7 +364,8 @@ Package tocbibind [2008/07/23] emulated by memoir.
 Package tocloft [2008/07/23] emulated by memoir.
 Package tocvsec2 [2008/07/23] emulated by memoir.
 Package verse [2008/07/23] emulated by memoir.
-) (./main.aux)
+)
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
@@ -381,7 +382,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
- (./frontmatter/00_dedication.tex
+(./frontmatter/00_dedication.tex
 ./frontmatter/00_dedication.tex:6: Undefined control sequence.
 l.6 \includegraphics
                     [width=0.9\textwidth]{assets/imgs/Guruji_cmyk.jpg}
@@ -986,9 +987,6 @@ l.16 {\hspace*{1em}Dhṛtarāṣṭ
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-
-
-[19]
 ./content/chapter_01.tex:19: Undefined control sequence.
 l.19 \enquote
              {This verse starts with the word \enquote{\textit{dharma-kṣet...
@@ -1034,6 +1032,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+
+[19]
 ./content/chapter_01.tex:21: Undefined control sequence.
 l.21 ...gs of this war is life, where the \enquote
                                                   {good} side fights with th...
@@ -1176,22 +1177,6 @@ Overfull \hbox (2.91692pt too wide) in paragraph at lines 40--44
 \OT1/cmr/m/n/12 vy^^Vu[]h^^Va drupada-putre[]a tava ^^Ssi[]ye[]a dh^^V^^Pmat^^Va O teacher, be-hold this mighty
  []
 
-
-
-
-./content/chapter_01.tex:44: LaTeX Error: Unicode character Ṣ (U+1E62)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44 
-     
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-[20]
 ./content/chapter_01.tex:45: Undefined control sequence.
 l.45 \Verse
            [1.4]
@@ -1201,6 +1186,22 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+
+
+./content/chapter_01.tex:49: LaTeX Error: Unicode character Ṣ (U+1E62)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[20]
 ./content/chapter_01.tex:50: Undefined control sequence.
 l.50 \Verse
            [1.5]
@@ -1451,9 +1452,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-
-[21]
 ./content/chapter_01.tex:97: Undefined control sequence.
 l.97 \enquote
              {Duryodhana represents this great pride that is born from the m...
@@ -1463,6 +1461,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+
+[21]
 ./content/chapter_01.tex:99: Undefined control sequence.
 l.99 \enquote
              {The army of the Pāṇḍavas was arrayed in a very special fo...
@@ -1544,22 +1545,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-
-
-./content/chapter_01.tex:109: LaTeX Error: Unicode character Ṣ (U+1E62)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 \enquote{D
-                uryodhana continues, \enquote{There are many more heroes who...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-[22]
 ./content/chapter_01.tex:109: Undefined control sequence.
 l.109 \enquote{Duryodhana continues, \enquote
                                              {There are many more heroes who...
@@ -1569,6 +1554,22 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+
+
+./content/chapter_01.tex:110: LaTeX Error: Unicode character Ṣ (U+1E62)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 
+      
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[22]
 ./content/chapter_01.tex:111: Undefined control sequence.
 l.111 \enquote
               {The Kauravas stand for this outside reality which is looking,...
@@ -3012,7 +3013,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.1 \chapter
-            {Sāṅkhya-yoga}\label{chap-sankhya-yoga}
+            {Chapter 2: Sāṅkhya-yoga}\label{chap-sankhya-yoga}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -3027,6 +3028,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 6.
+
+Underfull \vbox (badness 3746) has occurred while \output is active []
+
 
 
 [33]
@@ -3218,22 +3222,6 @@ l.44 hatvārtha-kāmāṁ
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-
-
-
-./content/chapter_02.tex:47: LaTeX Error: Unicode character Ṅ (U+1E44)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 
-     
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-[34]
 ./content/chapter_02.tex:48: Undefined control sequence.
 l.48 \Verse
            [2.6]
@@ -3243,6 +3231,22 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+
+
+./content/chapter_02.tex:48: LaTeX Error: Unicode character Ṅ (U+1E44)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 \Verse[
+            2.6]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[34]
 ./content/chapter_02.tex:55: Undefined control sequence.
 l.55 \Verse
            [2.7]
@@ -5956,6 +5960,9 @@ l.16 tat kiṁ karmaṇi ghore māṁ
                                       niyojayasi keśava}
 You may provide a definition with
 \DeclareUnicodeCharacter 
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -13766,9 +13773,6 @@ l.51 jīva-bhūtāṁ mahā-bāho yayedaṁ
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-
-
-[107]
 ./content/chapter_07.tex:54: Undefined control sequence.
 l.54 \Verse
            [7.6]
@@ -13791,6 +13795,9 @@ l.56 ahaṁ
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
+
+
+[107]
 ./content/chapter_07.tex:59: Undefined control sequence.
 l.59 \enquote
              {The whole universe comes out of Kṛṣṇa and disappears bac...
@@ -15549,22 +15556,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-
-
-./content/chapter_08.tex:41: LaTeX Error: Unicode character Ṣ (U+1E62)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.41 
-     
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-[118]
 ./content/chapter_08.tex:42: Undefined control sequence.
 l.42 \enquote
              {Arjuna didn’t really have a confused mind, but a mind that w...
@@ -15574,6 +15565,22 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+
+
+./content/chapter_08.tex:42: LaTeX Error: Unicode character Ṣ (U+1E62)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \enquote{A
+               rjuna didn’t really have a confused mind, but a mind that w...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[118]
 ./content/chapter_08.tex:44: Undefined control sequence.
 l.44 \enquote
              {This indestructible Self, which is above all the material natu...
@@ -16881,7 +16888,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.1 \chapter
-            {Rāja-vidyā-guhya-yoga}\label{chap-raja-vidya-guhya-yoga}
+            {Chapter 9: Rāja-vidyā-guhya-yoga}\label{chap-raja-vidya-guhya...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -16959,6 +16966,9 @@ l.19 jñānaṁ vijñāna-sahitaṁ
                                     yaj jñātvā mokṣyase ’śubhāt}
 You may provide a definition with
 \DeclareUnicodeCharacter 
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -19185,9 +19195,6 @@ l.17 yat te ’haṁ
                      prīyamāṇāya vakṣyāmi hita-kāmyayā}
 You may provide a definition with
 \DeclareUnicodeCharacter 
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -24451,9 +24458,6 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [173
 
@@ -24635,9 +24639,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-
-[174]
 ./content/chapter_12.tex:48: Undefined control sequence.
 l.48 \enquote
              {Beyond this energy is someone who controls all this energy. Th...
@@ -24647,6 +24648,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+
+[174]
 ./content/chapter_12.tex:50: Undefined control sequence.
 l.50 \enquote
              {You may take the path of \textit{tapasya}, letting go of the w...
@@ -25418,7 +25422,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.1 \chapter
-            {Kṣetra-kṣetrajña-vibhāga-yoga}\label{chap-ksetra-ksetrajn...
+            {Chapter 13: Kṣetra-kṣetrajña-vibhāga-yoga}\label{chap-kse...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -25431,7 +25435,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.1 \chapter
-            {Kṣetra-kṣetrajña-vibhāga-yoga}\label{chap-ksetra-ksetrajn...
+            {Chapter 13: Kṣetra-kṣetrajña-vibhāga-yoga}\label{chap-kse...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -25444,7 +25448,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.1 \chapter
-            {Kṣetra-kṣetrajña-vibhāga-yoga}\label{chap-ksetra-ksetrajn...
+            {Chapter 13: Kṣetra-kṣetrajña-vibhāga-yoga}\label{chap-kse...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -25825,7 +25829,13 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Overfull \vbox (0.84767pt too high) has occurred while \output is active []
+Class memoir Warning: The material used in the headers is too large
+(30.84766pt) for the given head height (14.5pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 54.
+
+
+Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
  [184]
 ./content/chapter_13.tex:55: Undefined control sequence.
@@ -26068,7 +26078,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Overfull \vbox (0.84767pt too high) has occurred while \output is active []
+Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
  [186]
 ./content/chapter_13.tex:84: Undefined control sequence.
@@ -26477,7 +26487,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Overfull \vbox (0.84767pt too high) has occurred while \output is active []
+Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
  [188]
 ./content/chapter_13.tex:129: Undefined control sequence.
@@ -26719,7 +26729,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Overfull \vbox (0.84767pt too high) has occurred while \output is active []
+Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
  [190]
 ./content/chapter_13.tex:162: Undefined control sequence.
@@ -27048,7 +27058,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Overfull \vbox (0.84767pt too high) has occurred while \output is active []
+Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
  [192]
 ./content/chapter_13.tex:215: Undefined control sequence.
@@ -27272,7 +27282,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.1 \chapter
-            {Guṇa-traya-vibhāga-yoga}\label{chap-guna-traya-vibhaga-yoga}
+            {Chapter 14: Guṇa-traya-vibhāga-yoga}\label{chap-guna-traya-v...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -27285,12 +27295,12 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.1 \chapter
-            {Guṇa-traya-vibhāga-yoga}\label{chap-guna-traya-vibhaga-yoga}
+            {Chapter 14: Guṇa-traya-vibhāga-yoga}\label{chap-guna-traya-v...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Overfull \vbox (0.84767pt too high) has occurred while \output is active []
+Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
  [194]
 ./content/chapter_14.tex:15: Undefined control sequence.
@@ -28416,7 +28426,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.1 \chapter
-            {Puruṣottama-yoga}\label{chap-purusottama-yoga}
+            {Chapter 15: Puruṣottama-yoga}\label{chap-purusottama-yoga}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -28477,6 +28487,9 @@ You may provide a definition with
 Overfull \hbox (6.70012pt too wide) in paragraph at lines 16--22
 \OT1/cmr/m/n/12 They speak of an im-per-ish-able A^^Ssvattha tree hav-ing roots above and branches
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -29477,7 +29490,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.1 \chapter
-            {Daivāsura-sampad-\\vibhāga-yoga}\label{chap-daivasura-sampad-...
+            {Chapter 16: Daivāsura-sampad-vibhāga-yoga}\label{chap-daivasu...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -29601,9 +29614,6 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [213
 
@@ -29692,12 +29702,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-
-
-Overfull \vbox (14.49998pt too high) has occurred while \output is active []
-
- [214]
 ./content/chapter_16.tex:41: Undefined control sequence.
 l.41 \enquote
              {A \textit{bhakta} is humble! Humility is the greatest treasure...
@@ -29707,6 +29711,12 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+ [214]
 ./content/chapter_16.tex:43: Undefined control sequence.
 l.43 \enquote
              {Whatever path you go on which is good, which leads you to God-...
@@ -29848,9 +29858,6 @@ l.57 aparaspara-sambhūtaṁ
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-
-
-[215]
 ./content/chapter_16.tex:60: Undefined control sequence.
 l.60 \Verse
            [16.9]
@@ -29873,6 +29880,9 @@ l.61 {etāṁ
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
+
+
+[215]
 ./content/chapter_16.tex:65: Undefined control sequence.
 l.65 \Verse
            [16.10]
@@ -30089,12 +30099,6 @@ Overfull \hbox (9.44592pt too wide) in paragraph at lines 94--98
 \OT1/cmr/m/n/12 m^^Vam ^^Vatma-para-dehe[]u pradvi[]anto 'bhyas^^Vuyak^^Va[] Over-come with ego, power,
  []
 
-
-
-
-Overfull \vbox (14.49998pt too high) has occurred while \output is active []
-
- [216]
 ./content/chapter_16.tex:99: Undefined control sequence.
 l.99 \Verse
            [16.19]
@@ -30143,6 +30147,12 @@ l.102 ...emonic beings in this \textit{saṁsāra}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
+
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+ [216]
 ./content/chapter_16.tex:104: Undefined control sequence.
 l.104 \Verse
             [16.20]
@@ -30241,9 +30251,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-
-[217]
 ./content/chapter_16.tex:117: Undefined control sequence.
 l.117 \enquote
               {Of course, the Love of God awakens in everybody’s life once...
@@ -30262,6 +30269,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+
+[217]
 ./content/chapter_16.tex:119: Undefined control sequence.
 l.119 \enquote
               {That’s how people get into habits, putting themselves into ...
@@ -30350,12 +30360,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-
-
-Overfull \vbox (14.49998pt too high) has occurred while \output is active []
-
- [218]
 ./content/chapter_16.tex:132: Undefined control sequence.
 l.132 \enquote
               {These three qualities---desire, anger and greed---are due to ...
@@ -30365,6 +30369,12 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+ [218]
 ./content/chapter_16.tex:136: Undefined control sequence.
 l.136 \Verse
             [16.22]
@@ -36617,29 +36627,165 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-)
-
-Class memoir Warning: The material used in the headers is too large
-(28.99998pt) for the given head height (14.5pt), it is recommended to
-either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 37.
+) (./misc/take_the_next_step.tex
 
 
-
-
-/Users/sahadev/CORE/Knowledge/PUBLICATIONS/EPUB_BG_Essentials_2nd_Edition/main.tex:37: LaTeX Error: Unicode character Ṣ (U+1E62)
+./misc/take_the_next_step.tex:1: LaTeX Error: Unicode character Ṣ (U+1E62)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 \end{document}
-                   
+l.1 \chapter
+            *{Take the Next Step}\label{chap-take-the-next-step}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 [258]
+
+[259
+
+]
+./misc/take_the_next_step.tex:46: Undefined control sequence.
+l.46 \noindent {\avenirnextboldfont
+                                   \large{Take the Next Step}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) (./misc/glossary.tex
+
+
+./misc/glossary.tex:1: LaTeX Error: Unicode character Ṣ (U+1E62)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \chapter
+            *{Glossary}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[260]
+./misc/glossary.tex:10: Undefined control sequence.
+l.10     \includegraphics
+                         [width=0.5\linewidth]{assets/imgs/qr_glossary.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./misc/glossary.tex:10: Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.10     \includegraphics[width=0.5\linewidth]
+                                              {assets/imgs/qr_glossary.png}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./misc/glossary.tex:10: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.10     \includegraphics[width=0.5\linewidth]
+                                              {assets/imgs/qr_glossary.png}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./misc/glossary.tex:10: Missing $ inserted.
+<inserted text> 
+                $
+l.10 ...phics[width=0.5\linewidth]{assets/imgs/qr_
+                                                  glossary.png}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./misc/glossary.tex:10: Extra }, or forgotten $.
+l.10 ....5\linewidth]{assets/imgs/qr_glossary.png}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./misc/glossary.tex:11: LaTeX Error: Command \end{center} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \end{center}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./misc/glossary.tex:11: Missing $ inserted.
+<inserted text> 
+                $
+l.11 \end{center}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./misc/glossary.tex:11: Missing } inserted.
+<inserted text> 
+                }
+l.11 \end{center}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+) (./misc/related_books.tex
+
+[261
+
+]
+
+[262
+
+]
+Underfull \vbox (badness 1215) has occurred while \output is active []
+
+
+
+[263])
+
+Class memoir Warning: The material used in the headers is too large
+(30.84766pt) for the given head height (14.5pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 40.
+
+
+
+
+/Users/sahadev/CORE/Knowledge/PUBLICATIONS/EPUB_BG_Essentials_2nd_Edition/main.tex:40: LaTeX Error: Unicode character Ṣ (U+1E62)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 \end{document}
+                   
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[264]
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
@@ -36654,18 +36800,18 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 5552 strings out of 473190
- 93060 string characters out of 5715800
+ 5571 strings out of 473190
+ 93575 string characters out of 5715800
  516638 words of memory out of 5000000
- 28713 multiletter control sequences out of 15000+600000
+ 28725 multiletter control sequences out of 15000+600000
  565787 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,13n,93p,2010b,285s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,13n,93p,2010b,291s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (258 pages, 782703 bytes).
+Output written on main.pdf (264 pages, 789474 bytes).
 PDF statistics:
- 893 PDF objects out of 1000 (max. 8388607)
- 604 compressed objects within 7 object streams
+ 912 PDF objects out of 1000 (max. 8388607)
+ 617 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

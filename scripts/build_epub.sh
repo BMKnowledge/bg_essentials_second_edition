@@ -58,6 +58,7 @@ pandoc --from=latex --to=epub3 "$BUILD_DIR/main.flat.tex" -o "$OUTPUT_PATH" \
 
 echo "==> Successfully created $OUTPUT_PATH"
 
+
 # 4) Post-process nav.xhtml to remove landmarks nav
 TMP_DIR="$BUILD_DIR/epub_tmp"
 rm -rf "$TMP_DIR"

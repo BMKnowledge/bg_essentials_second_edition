@@ -11,7 +11,7 @@
     <dc:subject id="subject-2">Vedānta</dc:subject>
     <dc:subject id="subject-3">Bhakti</dc:subject>
     <dc:rights>© 2026 Bhakti Event GmbH. All rights reserved.</dc:rights>
-    <meta property="dcterms:modified">2026-02-05T14:07:24Z</meta>
+    <meta property="dcterms:modified">2026-02-05T16:08:59Z</meta>
     <meta property="schema:accessMode">textual</meta>
     <meta property="schema:accessModeSufficient">textual</meta>
     <meta property="schema:accessibilityFeature">alternativeText</meta>
@@ -52,7 +52,11 @@
     <item id="ch023_xhtml" href="text/ch023.xhtml" media-type="application/xhtml+xml" />
     <item id="ch024_xhtml" href="text/ch024.xhtml" media-type="application/xhtml+xml" />
     <item id="ch025_xhtml" href="text/ch025.xhtml" media-type="application/xhtml+xml" />
-    <item properties="cover-image" id="file1_png" href="media/file1.png" media-type="image/png" />
+    <item id="ch026_xhtml" href="text/ch026.xhtml" media-type="application/xhtml+xml" />
+    <item id="ch027_xhtml" href="text/ch027.xhtml" media-type="application/xhtml+xml" />
+    <item id="ch028_xhtml" href="text/ch028.xhtml" media-type="application/xhtml+xml" />
+    <item properties="cover-image" id="file2_png" href="media/file2.png" media-type="image/png" />
+    <item id="file1_svg" href="media/file1.svg" media-type="image/svg+xml" />
     <item id="file0_jpg" href="media/file0.jpg" media-type="image/jpeg" />
   </manifest>
   <spine toc="ncx">
@@ -84,6 +88,9 @@
     <itemref idref="ch023_xhtml" />
     <itemref idref="ch024_xhtml" />
     <itemref idref="ch025_xhtml" />
+    <itemref idref="ch026_xhtml" />
+    <itemref idref="ch027_xhtml" />
+    <itemref idref="ch028_xhtml" />
   </spine>
   <guide>
     <reference type="toc" title="Bhagavad Gītā Essentials Second Edition" href="nav.xhtml" />

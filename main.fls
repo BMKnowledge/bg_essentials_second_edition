@@ -57,9 +57,6 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/textcase/textcase.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/textcase/textcase.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/textcase/textcase.sty
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./main.aux
-INPUT ./main.aux
-INPUT main.aux
 OUTPUT main.aux
 INPUT ./frontmatter/00_dedication.tex
 INPUT ./frontmatter/00_dedication.tex
@@ -161,6 +158,15 @@ INPUT content/chapter_17.tex
 INPUT ./content/chapter_18.tex
 INPUT ./content/chapter_18.tex
 INPUT content/chapter_18.tex
+INPUT ./misc/take_the_next_step.tex
+INPUT ./misc/take_the_next_step.tex
+INPUT misc/take_the_next_step.tex
+INPUT ./misc/glossary.tex
+INPUT ./misc/glossary.tex
+INPUT misc/glossary.tex
+INPUT ./misc/related_books.tex
+INPUT ./misc/related_books.tex
+INPUT misc/related_books.tex
 OUTPUT main.toc
 INPUT main.aux
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
