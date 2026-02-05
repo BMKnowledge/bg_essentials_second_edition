@@ -12,65 +12,65 @@
 \contentsline {section}{\numberline {6.4}The Lord takes the Lead}{16}{}%
 \contentsline {section}{\numberline {6.5}Your Part of the Story}{17}{}%
 \contentsline {chapter}{Contents}{17}{}%
-\contentsline {chapter}{\chapternumberline {7}Arjuna-viṣāda-yoga}{23}{}%
-\contentsline {section}{\numberline {7.1}Verse 1: Dhṛtarāṣṭra's Inquiry}{23}{}%
-\contentsline {section}{\numberline {7.2}Verses 2-13: The Warriors are Introduced}{24}{}%
-\contentsline {section}{\numberline {7.3}Verses 14-20: Kṛṣṇa is Introduced; The Conches are Blown}{28}{}%
-\contentsline {section}{\numberline {7.4}Verses 21-25: Between the Two Armies}{31}{}%
-\contentsline {section}{\numberline {7.5}Verses 26-47: Arjuna Refuses to Fight}{32}{}%
-\contentsline {chapter}{\chapternumberline {8}Sāṅkhya-yoga}{39}{}%
-\contentsline {section}{\numberline {8.1}Verses 1-9: Arjuna Seeks Refuge in Kṛṣṇa as the Guru}{40}{}%
-\contentsline {section}{\numberline {8.2}Verses 10-30: The Eternal Nature of the Soul}{44}{}%
-\contentsline {section}{\numberline {8.3}Verses 31-38: The Duty of a Warrior}{49}{}%
-\contentsline {section}{\numberline {8.4}Verses 39-53: The Introduction of Karma-yoga}{52}{}%
-\contentsline {section}{\numberline {8.5}Verses 54-72: The Qualities of a Realized Person}{56}{}%
-\contentsline {chapter}{\chapternumberline {9}Karma-yoga}{63}{}%
-\contentsline {section}{\numberline {9.1}Verses 1-2: Arjuna's Question}{64}{}%
-\contentsline {section}{\numberline {9.2}Verses 3-16: The Inescapable Nature of Action}{65}{}%
-\contentsline {section}{\numberline {9.3}Verses 17-26: The Responsibility of the Wise}{69}{}%
-\contentsline {section}{\numberline {9.4}Verses 27-35: Transcending the Guṇas and Karma}{73}{}%
-\contentsline {section}{\numberline {9.5}Verses 36-43: Desire as the Great Enemy of the Wise}{76}{}%
-\contentsline {chapter}{\chapternumberline {10}Jñāna-vibhāga-yoga}{81}{}%
-\contentsline {section}{\numberline {10.1}Verses 1-6: The Revival of Ancient Wisdom}{83}{}%
-\contentsline {section}{\numberline {10.2}Verses 7-8: Kṛṣṇa Declares Himself as the Avatāra of the Age}{85}{}%
-\contentsline {section}{\numberline {10.3}Verses 9-15: How Surrender Leads to Freedom}{87}{}%
-\contentsline {section}{\numberline {10.4}Verses 16-23: Defining Action and Inaction}{89}{}%
-\contentsline {section}{\numberline {10.5}Verses 24-33: The Different Types of Yajña}{92}{}%
-\contentsline {section}{\numberline {10.6}Verse 34: The Importance of the Guru}{95}{}%
-\contentsline {section}{\numberline {10.7}Verses 35-42: The Fruit of Karma-yoga Is Realized Knowledge}{96}{}%
-\contentsline {chapter}{\chapternumberline {11}Karma-sannyāsa-yoga}{99}{}%
-\contentsline {section}{\numberline {11.1}Verses 8-17: The Self is Untouched by Action}{103}{}%
-\contentsline {section}{\numberline {11.2}Verses 18-26: The State of Equanimity}{107}{}%
-\contentsline {section}{\numberline {11.3}Verses 27-29: Introducing Yoga Practice}{111}{}%
-\contentsline {chapter}{\chapternumberline {12}Dhyāna-yoga}{113}{}%
-\contentsline {section}{\numberline {12.1}Verses 1-4: The True Renunciate}{113}{}%
-\contentsline {section}{\numberline {12.2}Verses 5-9: The Mind is Our Best Friend or Our Worst Enemy}{115}{}%
-\contentsline {section}{\numberline {12.3}Verses 10-17: The Practice of Meditation}{117}{}%
-\contentsline {section}{\numberline {12.4}Verses 18-32: The Goal of Meditation}{119}{}%
-\contentsline {section}{\numberline {12.5}Verses 33-36: Arjuna's Doubt}{123}{}%
-\contentsline {section}{\numberline {12.6}Verses 37-46: The Fate of the Failed Yogī}{125}{}%
-\contentsline {section}{\numberline {12.7}Verse 47: The Highest of All Yogīs}{127}{}%
-\contentsline {chapter}{\chapternumberline {13}Jñāna-vijñāna-yoga}{129}{}%
-\contentsline {section}{\numberline {13.1}Verses 1-3: The Rarity of Knowing Kṛṣṇa}{130}{}%
-\contentsline {section}{\numberline {13.2}Verses 4-11: The Higher and Lower Natures of God}{132}{}%
-\contentsline {section}{\numberline {13.3}Verses 7-12: Kṛṣṇa's Transcendence and Immanence}{134}{}%
-\contentsline {section}{\numberline {13.4}Verses 13-15: Surrender Allows Us to Cross Over Māyā}{136}{}%
-\contentsline {section}{\numberline {13.5}Verses 16-22: Four Categories of Devotees}{137}{}%
-\contentsline {section}{\numberline {13.6}Verse 23: What You Worship Determines Your Destination}{140}{}%
-\contentsline {section}{\numberline {13.7}Verses 24-30: Perceiving the Truth of Kṛṣṇa}{140}{}%
-\contentsline {chapter}{\chapternumberline {14}Akṣara-brahma-yoga}{145}{}%
-\contentsline {section}{\numberline {14.1}Verses 1-4: Kṛṣṇa Defines Different Terms}{146}{}%
-\contentsline {section}{\numberline {14.2}Verses 5-16: Fixing the Mind on Kṛṣṇa at Death}{148}{}%
-\contentsline {section}{\numberline {14.3}Verses 17-28: Breaking Free of Brahmā's Creation}{152}{}%
-\contentsline {chapter}{\chapternumberline {15}Rāja-vidyā-guhya-yoga}{157}{}%
-\contentsline {section}{\numberline {15.1}Verses 1-3: Knowledge of Bhakti is the Highest}{158}{}%
-\contentsline {section}{\numberline {15.2}Verses 4-10: Kṛṣṇa's Relationship to the World}{160}{}%
-\contentsline {section}{\numberline {15.3}Verses 11-15: Recognizing and Worshiping the Lord}{164}{}%
-\contentsline {section}{\numberline {15.4}Verses 16-19: The Immanence of Kṛṣṇa in the World}{166}{}%
-\contentsline {section}{\numberline {15.5}Verses 20-25: The Fate of Those Who Worship the Lesser Gods}{168}{}%
-\contentsline {section}{\numberline {15.6}Verse 26: Kṛṣṇa Only Wants the Love of the Devotee}{170}{}%
-\contentsline {section}{\numberline {15.7}Verses 27-33: The Power of Bhakti}{171}{}%
-\contentsline {section}{\numberline {15.8}Verse 34: Devotion Takes Us to the Goal}{174}{}%
+\contentsline {chapter}{\chapternumberline {7}Arjuna-viṣāda-yoga}{19}{}%
+\contentsline {section}{\numberline {7.1}Verse 1: Dhṛtarāṣṭra's Inquiry}{19}{}%
+\contentsline {section}{\numberline {7.2}Verses 2-13: The Warriors are Introduced}{20}{}%
+\contentsline {section}{\numberline {7.3}Verses 14-20: Kṛṣṇa is Introduced; The Conches are Blown}{24}{}%
+\contentsline {section}{\numberline {7.4}Verses 21-25: Between the Two Armies}{27}{}%
+\contentsline {section}{\numberline {7.5}Verses 26-47: Arjuna Refuses to Fight}{28}{}%
+\contentsline {chapter}{\chapternumberline {8}Sāṅkhya-yoga}{35}{}%
+\contentsline {section}{\numberline {8.1}Verses 1-9: Arjuna Seeks Refuge in Kṛṣṇa as the Guru}{36}{}%
+\contentsline {section}{\numberline {8.2}Verses 10-30: The Eternal Nature of the Soul}{40}{}%
+\contentsline {section}{\numberline {8.3}Verses 31-38: The Duty of a Warrior}{45}{}%
+\contentsline {section}{\numberline {8.4}Verses 39-53: The Introduction of Karma-yoga}{48}{}%
+\contentsline {section}{\numberline {8.5}Verses 54-72: The Qualities of a Realized Person}{52}{}%
+\contentsline {chapter}{\chapternumberline {9}Karma-yoga}{59}{}%
+\contentsline {section}{\numberline {9.1}Verses 1-2: Arjuna's Question}{60}{}%
+\contentsline {section}{\numberline {9.2}Verses 3-16: The Inescapable Nature of Action}{61}{}%
+\contentsline {section}{\numberline {9.3}Verses 17-26: The Responsibility of the Wise}{65}{}%
+\contentsline {section}{\numberline {9.4}Verses 27-35: Transcending the Guṇas and Karma}{69}{}%
+\contentsline {section}{\numberline {9.5}Verses 36-43: Desire as the Great Enemy of the Wise}{72}{}%
+\contentsline {chapter}{\chapternumberline {10}Jñāna-vibhāga-yoga}{77}{}%
+\contentsline {section}{\numberline {10.1}Verses 1-6: The Revival of Ancient Wisdom}{79}{}%
+\contentsline {section}{\numberline {10.2}Verses 7-8: Kṛṣṇa Declares Himself as the Avatāra of the Age}{81}{}%
+\contentsline {section}{\numberline {10.3}Verses 9-15: How Surrender Leads to Freedom}{83}{}%
+\contentsline {section}{\numberline {10.4}Verses 16-23: Defining Action and Inaction}{85}{}%
+\contentsline {section}{\numberline {10.5}Verses 24-33: The Different Types of Yajña}{89}{}%
+\contentsline {section}{\numberline {10.6}Verse 34: The Importance of the Guru}{92}{}%
+\contentsline {section}{\numberline {10.7}Verses 35-42: The Fruit of Karma-yoga Is Realized Knowledge}{93}{}%
+\contentsline {chapter}{\chapternumberline {11}Karma-sannyāsa-yoga}{97}{}%
+\contentsline {section}{\numberline {11.1}Verses 8-17: The Self is Untouched by Action}{101}{}%
+\contentsline {section}{\numberline {11.2}Verses 18-26: The State of Equanimity}{105}{}%
+\contentsline {section}{\numberline {11.3}Verses 27-29: Introducing Yoga Practice}{109}{}%
+\contentsline {chapter}{\chapternumberline {12}Dhyāna-yoga}{111}{}%
+\contentsline {section}{\numberline {12.1}Verses 1-4: The True Renunciate}{111}{}%
+\contentsline {section}{\numberline {12.2}Verses 5-9: The Mind is Our Best Friend or Our Worst Enemy}{113}{}%
+\contentsline {section}{\numberline {12.3}Verses 10-17: The Practice of Meditation}{115}{}%
+\contentsline {section}{\numberline {12.4}Verses 18-32: The Goal of Meditation}{117}{}%
+\contentsline {section}{\numberline {12.5}Verses 33-36: Arjuna's Doubt}{121}{}%
+\contentsline {section}{\numberline {12.6}Verses 37-46: The Fate of the Failed Yogī}{123}{}%
+\contentsline {section}{\numberline {12.7}Verse 47: The Highest of All Yogīs}{125}{}%
+\contentsline {chapter}{\chapternumberline {13}Jñāna-vijñāna-yoga}{127}{}%
+\contentsline {section}{\numberline {13.1}Verses 1-3: The Rarity of Knowing Kṛṣṇa}{128}{}%
+\contentsline {section}{\numberline {13.2}Verses 4-6: The Higher and Lower Natures of God}{130}{}%
+\contentsline {section}{\numberline {13.3}Verses 7-12: Kṛṣṇa's Transcendence and Immanence}{132}{}%
+\contentsline {section}{\numberline {13.4}Verses 13-15: Surrender Allows Us to Cross Over Māyā}{134}{}%
+\contentsline {section}{\numberline {13.5}Verses 16-22: Four Categories of Devotees}{135}{}%
+\contentsline {section}{\numberline {13.6}Verse 23: What You Worship Determines Your Destination}{138}{}%
+\contentsline {section}{\numberline {13.7}Verses 24-30: Perceiving the Truth of Kṛṣṇa}{138}{}%
+\contentsline {chapter}{\chapternumberline {14}Akṣara-brahma-yoga}{143}{}%
+\contentsline {section}{\numberline {14.1}Verses 1-4: Kṛṣṇa Defines Different Terms}{144}{}%
+\contentsline {section}{\numberline {14.2}Verses 5-16: Fixing the Mind on Kṛṣṇa at Death}{146}{}%
+\contentsline {section}{\numberline {14.3}Verses 17-28: Breaking Free of Brahmā's Creation}{150}{}%
+\contentsline {chapter}{\chapternumberline {15}Rāja-vidyā-guhya-yoga}{155}{}%
+\contentsline {section}{\numberline {15.1}Verses 1-3: Knowledge of Bhakti is the Highest}{156}{}%
+\contentsline {section}{\numberline {15.2}Verses 4-10: Kṛṣṇa's Relationship to the World}{158}{}%
+\contentsline {section}{\numberline {15.3}Verses 11-15: Recognizing and Worshiping the Lord}{162}{}%
+\contentsline {section}{\numberline {15.4}Verses 16-19: The Immanence of Kṛṣṇa in the World}{164}{}%
+\contentsline {section}{\numberline {15.5}Verses 20-25: The Fate of Those Who Worship the Lesser Gods}{166}{}%
+\contentsline {section}{\numberline {15.6}Verse 26: Kṛṣṇa Only Wants the Love of the Devotee}{168}{}%
+\contentsline {section}{\numberline {15.7}Verses 27-33: The Power of Bhakti}{169}{}%
+\contentsline {section}{\numberline {15.8}Verse 34: Devotion Takes Us to the Goal}{172}{}%
 \contentsline {chapter}{\chapternumberline {16}Vibhūti-yoga}{175}{}%
 \contentsline {section}{\numberline {16.1}Verses 1-7: Kṛṣṇa is the Origin of All}{175}{}%
 \contentsline {section}{\numberline {16.2}Verses 8-11: Kṛṣṇa Gives Knowledge to His Devotees}{179}{}%
@@ -92,9 +92,10 @@
 \contentsline {section}{\numberline {18.4}Verses 13-20: The Qualities of a Devotee Who is Dear to Kṛṣṇa}{219}{}%
 \contentsline {chapter}{\chapternumberline {19}Kṣetra-kṣetrajña-vibhāga-yoga}{223}{}%
 \contentsline {section}{\numberline {19.1}Verses 1-7: The Field and Its Knower}{224}{}%
-\contentsline {section}{\numberline {19.2}Verses 13-19: The Highest Object of Knowledge}{228}{}%
-\contentsline {section}{\numberline {19.3}Verses 20-24: The Self Within Material Nature}{230}{}%
-\contentsline {section}{\numberline {19.4}Verses 25-35: Different Ways to Perceive the Supersoul}{233}{}%
+\contentsline {section}{\numberline {19.2}Verses 8-12: Kṛṣṇa Describes True Knowledge}{226}{}%
+\contentsline {section}{\numberline {19.3}Verses 13-19: The Highest Object of Knowledge}{228}{}%
+\contentsline {section}{\numberline {19.4}Verses 20-24: The Self Within Material Nature}{231}{}%
+\contentsline {section}{\numberline {19.5}Verses 25-35: Different Ways to Perceive the Supersoul}{233}{}%
 \contentsline {chapter}{\chapternumberline {20}Guṇa-traya-vibhāga-yoga}{237}{}%
 \contentsline {section}{\numberline {20.1}Verses 1-4: Kṛṣṇa Gives Life to This Material World}{237}{}%
 \contentsline {section}{\numberline {20.2}Verses 5-18: How the Guṇas Influence Our Experience}{239}{}%

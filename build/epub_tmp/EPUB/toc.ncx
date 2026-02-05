@@ -342,7 +342,7 @@
       </navPoint>
       <navPoint id="navPoint-55">
         <navLabel>
-          <text>Verses 4-11: The Higher and Lower Natures of God</text>
+          <text>Verses 4-6: The Higher and Lower Natures of God</text>
         </navLabel>
         <content src="text/ch014.xhtml#sec-verses-4-11-the-higher-and-lower-natures-of-god" />
       </navPoint>
@@ -582,281 +582,287 @@
       </navPoint>
       <navPoint id="navPoint-95">
         <navLabel>
+          <text>Verses 8-12: Kṛṣṇa Describes True Knowledge</text>
+        </navLabel>
+        <content src="text/ch020.xhtml#sec-verses-8-12-krishna-describes-true-knowledge" />
+      </navPoint>
+      <navPoint id="navPoint-96">
+        <navLabel>
           <text>Verses 13-19: The Highest Object of Knowledge</text>
         </navLabel>
         <content src="text/ch020.xhtml#sec-verses-13-19-the-highest-object-of-knowledge" />
       </navPoint>
-      <navPoint id="navPoint-96">
+      <navPoint id="navPoint-97">
         <navLabel>
           <text>Verses 20-24: The Self Within Material Nature</text>
         </navLabel>
         <content src="text/ch020.xhtml#sec-verses-20-24-the-self-within-material-nature" />
       </navPoint>
-      <navPoint id="navPoint-97">
+      <navPoint id="navPoint-98">
         <navLabel>
           <text>Verses 25-35: Different Ways to Perceive the Supersoul</text>
         </navLabel>
         <content src="text/ch020.xhtml#sec-verses-25-35-different-ways-to-perceive-the-supersoul" />
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint-98">
+    <navPoint id="navPoint-99">
       <navLabel>
         <text>Guṇa-traya-vibhāga-yoga</text>
       </navLabel>
       <content src="text/ch021.xhtml#chap-guna-traya-vibhaga-yoga" />
-      <navPoint id="navPoint-99">
+      <navPoint id="navPoint-100">
         <navLabel>
           <text>Verses 1-4: Kṛṣṇa Gives Life to This Material World</text>
         </navLabel>
         <content src="text/ch021.xhtml#sec-verses-1-4-krsna-gives-life-to-this-material-world" />
       </navPoint>
-      <navPoint id="navPoint-100">
+      <navPoint id="navPoint-101">
         <navLabel>
           <text>Verses 5-18: How the Guṇas Influence Our Experience</text>
         </navLabel>
         <content src="text/ch021.xhtml#sec-verses-5-18-how-the-gunas-influence-our-experience" />
       </navPoint>
-      <navPoint id="navPoint-101">
+      <navPoint id="navPoint-102">
         <navLabel>
           <text>Verses 19-20: Transcending the Guṇas</text>
         </navLabel>
         <content src="text/ch021.xhtml#sec-verses-19-20-transcending-the-gunas" />
       </navPoint>
-      <navPoint id="navPoint-102">
+      <navPoint id="navPoint-103">
         <navLabel>
           <text>Verses 21-25: Qualities of Those Above the Guṇas</text>
         </navLabel>
         <content src="text/ch021.xhtml#sec-verses-21-25-qualities-of-those-above-the-gunas" />
       </navPoint>
-      <navPoint id="navPoint-103">
+      <navPoint id="navPoint-104">
         <navLabel>
           <text>Verses 26-27: By Devotion One Rises Above the Guṇas</text>
         </navLabel>
         <content src="text/ch021.xhtml#sec-verses-26-27-by-devotion-one-rises-above-the-gunas" />
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint-104">
+    <navPoint id="navPoint-105">
       <navLabel>
         <text>Puruṣottama-yoga</text>
       </navLabel>
       <content src="text/ch022.xhtml#chap-purusottama-yoga" />
-      <navPoint id="navPoint-105">
+      <navPoint id="navPoint-106">
         <navLabel>
           <text>Verses 1-4: The Tree of Life</text>
         </navLabel>
         <content src="text/ch022.xhtml#sec-verses-1-4-the-tree-of-life" />
       </navPoint>
-      <navPoint id="navPoint-106">
+      <navPoint id="navPoint-107">
         <navLabel>
           <text>Verses 5-6: Reaching the Highest Realm</text>
         </navLabel>
         <content src="text/ch022.xhtml#sec-verses-5-6-reaching-the-highest-realm" />
       </navPoint>
-      <navPoint id="navPoint-107">
+      <navPoint id="navPoint-108">
         <navLabel>
           <text>Verses 7-15: The Soul Is an Eternal Fragment of Kṛṣṇa</text>
         </navLabel>
         <content src="text/ch022.xhtml#sec-verses-7-15-the-soul-is-an-eternal-fragment-of-krsna" />
       </navPoint>
-      <navPoint id="navPoint-108">
+      <navPoint id="navPoint-109">
         <navLabel>
           <text>Verses 16-20: Kṛṣṇa is the Puruṣottama Beyond the Self</text>
         </navLabel>
         <content src="text/ch022.xhtml#sec-verses-16-20-krsna-is-the-purusottama-beyond-the-self" />
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint-109">
+    <navPoint id="navPoint-110">
       <navLabel>
         <text>Daivāsura-sampad- vibhāga-yoga</text>
       </navLabel>
       <content src="text/ch023.xhtml#chap-daivasura-sampad-vibhaga-yoga" />
-      <navPoint id="navPoint-110">
+      <navPoint id="navPoint-111">
         <navLabel>
           <text>Verses 1-6: Qualities of the Righteous</text>
         </navLabel>
         <content src="text/ch023.xhtml#sec-verses-1-6-qualities-of-the-righteous" />
       </navPoint>
-      <navPoint id="navPoint-111">
+      <navPoint id="navPoint-112">
         <navLabel>
           <text>Verses 7-20: Qualities of the Unrighteous</text>
         </navLabel>
         <content src="text/ch023.xhtml#sec-verses-7-20-qualities-of-the-unrighteous" />
       </navPoint>
-      <navPoint id="navPoint-112">
+      <navPoint id="navPoint-113">
         <navLabel>
           <text>Verse 21: The Three Gateways to Hell</text>
         </navLabel>
         <content src="text/ch023.xhtml#sec-verse-21-the-three-gateways-to-hell" />
       </navPoint>
-      <navPoint id="navPoint-113">
+      <navPoint id="navPoint-114">
         <navLabel>
           <text>Verses 22-24: The Importance of Scripture</text>
         </navLabel>
         <content src="text/ch023.xhtml#sec-verses-22-24-the-importance-of-scripture" />
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint-114">
+    <navPoint id="navPoint-115">
       <navLabel>
         <text>Śraddhā-traya-vibhāga-yoga</text>
       </navLabel>
       <content src="text/ch024.xhtml#chap-sraddha-traya-vibhaga-yoga" />
-      <navPoint id="navPoint-115">
+      <navPoint id="navPoint-116">
         <navLabel>
           <text>Verses 1-6: The Faith and the Guṇas</text>
         </navLabel>
         <content src="text/ch024.xhtml#sec-verses-1-6-the-faith-and-the-gunas" />
       </navPoint>
-      <navPoint id="navPoint-116">
+      <navPoint id="navPoint-117">
         <navLabel>
           <text>Verses 7-10: Types of Food and the Guṇas</text>
         </navLabel>
         <content src="text/ch024.xhtml#sec-verses-7-10-types-of-food-and-the-gunas" />
       </navPoint>
-      <navPoint id="navPoint-117">
+      <navPoint id="navPoint-118">
         <navLabel>
           <text>Verses 11-13: Types of Sacrifice and the Guṇas</text>
         </navLabel>
         <content src="text/ch024.xhtml#sec-verses-11-13-types-of-sacrifice-and-the-gunas" />
       </navPoint>
-      <navPoint id="navPoint-118">
+      <navPoint id="navPoint-119">
         <navLabel>
           <text>Verses 14-19: Types of Austerity and the Guṇas</text>
         </navLabel>
         <content src="text/ch024.xhtml#sec-verses-14-19-types-of-austerity-and-the-gunas" />
       </navPoint>
-      <navPoint id="navPoint-119">
+      <navPoint id="navPoint-120">
         <navLabel>
           <text>Verses 20-22: Types of Charity and the Guṇas</text>
         </navLabel>
         <content src="text/ch024.xhtml#sec-verses-20-22-types-of-charity-and-the-gunas" />
       </navPoint>
-      <navPoint id="navPoint-120">
+      <navPoint id="navPoint-121">
         <navLabel>
           <text>Verses 23-27: The Sacred Mantra OṀ TAT SAT</text>
         </navLabel>
         <content src="text/ch024.xhtml#sec-verses-23-27-the-sacred-mantra-om-tat-sat" />
       </navPoint>
-      <navPoint id="navPoint-121">
+      <navPoint id="navPoint-122">
         <navLabel>
           <text>Verse 28: Action Without Faith is Useless</text>
         </navLabel>
         <content src="text/ch024.xhtml#sec-verse-28-action-without-faith-is-useless" />
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint-122">
+    <navPoint id="navPoint-123">
       <navLabel>
         <text>Mokṣa-sannyāsa-yoga</text>
       </navLabel>
       <content src="text/ch025.xhtml#chap-moksa-sannyasa-yoga" />
-      <navPoint id="navPoint-123">
+      <navPoint id="navPoint-124">
         <navLabel>
           <text>Verses 1-6: Sannyāsa or Tyāga, Which Is Better?</text>
         </navLabel>
         <content src="text/ch025.xhtml#sec-verses-1-6-sannyasa-or-tyaga-which-is-better" />
       </navPoint>
-      <navPoint id="navPoint-124">
+      <navPoint id="navPoint-125">
         <navLabel>
           <text>Verses 7-12: Different Kinds of Renunciation</text>
         </navLabel>
         <content src="text/ch025.xhtml#sec-verses-7-12-different-kinds-of-renunciation" />
       </navPoint>
-      <navPoint id="navPoint-125">
+      <navPoint id="navPoint-126">
         <navLabel>
           <text>Verses 13-19: The Five Kinds of Action</text>
         </navLabel>
         <content src="text/ch025.xhtml#sec-verses-13-19-the-five-kinds-of-action" />
       </navPoint>
-      <navPoint id="navPoint-126">
+      <navPoint id="navPoint-127">
         <navLabel>
           <text>Verses 20-22: Knowledge and the Guṇas</text>
         </navLabel>
         <content src="text/ch025.xhtml#sec-verses-20-22-knowledge-and-the-gunas" />
       </navPoint>
-      <navPoint id="navPoint-127">
+      <navPoint id="navPoint-128">
         <navLabel>
           <text>Verses 23-25: Action and the Guṇas</text>
         </navLabel>
         <content src="text/ch025.xhtml#sec-verses-23-25-action-and-the-gunas" />
       </navPoint>
-      <navPoint id="navPoint-128">
+      <navPoint id="navPoint-129">
         <navLabel>
           <text>Verses 26-28: The Performer of Action and the Guṇas</text>
         </navLabel>
         <content src="text/ch025.xhtml#sec-verses-26-28-the-performer-of-action-and-the-gunas" />
       </navPoint>
-      <navPoint id="navPoint-129">
+      <navPoint id="navPoint-130">
         <navLabel>
           <text>Verses 29-32: Intelligence and the Guṇas</text>
         </navLabel>
         <content src="text/ch025.xhtml#sec-verses-29-32-intelligence-and-the-gunas" />
       </navPoint>
-      <navPoint id="navPoint-130">
+      <navPoint id="navPoint-131">
         <navLabel>
           <text>Verses 33-35: Determination and the Guṇas</text>
         </navLabel>
         <content src="text/ch025.xhtml#sec-verses-33-35-determination-and-the-gunas" />
       </navPoint>
-      <navPoint id="navPoint-131">
+      <navPoint id="navPoint-132">
         <navLabel>
           <text>Verses 36-40: Happiness and the Guṇas</text>
         </navLabel>
         <content src="text/ch025.xhtml#sec-verses-36-40-happiness-and-the-gunas" />
       </navPoint>
-      <navPoint id="navPoint-132">
+      <navPoint id="navPoint-133">
         <navLabel>
           <text>Verses 41-44: The Four Varṇas</text>
         </navLabel>
         <content src="text/ch025.xhtml#sec-verses-41-44-the-four-varnas" />
       </navPoint>
-      <navPoint id="navPoint-133">
+      <navPoint id="navPoint-134">
         <navLabel>
           <text>Verses 45-49: Final Instructions About Karma-yoga</text>
         </navLabel>
         <content src="text/ch025.xhtml#sec-verses-45-49-final-instructions-about-karma-yoga" />
       </navPoint>
-      <navPoint id="navPoint-134">
+      <navPoint id="navPoint-135">
         <navLabel>
           <text>Verses 50-53: Final Instructions About Jñāna-yoga</text>
         </navLabel>
         <content src="text/ch025.xhtml#sec-verses-50-53-final-instructions-about-jnana-yoga" />
       </navPoint>
-      <navPoint id="navPoint-135">
+      <navPoint id="navPoint-136">
         <navLabel>
           <text>Verses 54-57: Realizing Pure Bhakti</text>
         </navLabel>
         <content src="text/ch025.xhtml#sec-verses-54-57-realizing-pure-bhakti" />
       </navPoint>
-      <navPoint id="navPoint-136">
+      <navPoint id="navPoint-137">
         <navLabel>
           <text>Verses 58-63: Act as You See Fit</text>
         </navLabel>
         <content src="text/ch025.xhtml#sec-verses-58-63-act-as-you-see-fit" />
       </navPoint>
-      <navPoint id="navPoint-137">
+      <navPoint id="navPoint-138">
         <navLabel>
           <text>Verses 64-65: Kṛṣṇa’s Eternal Promise</text>
         </navLabel>
         <content src="text/ch025.xhtml#sec-verses-64-65-krsna-s-eternal-promise" />
       </navPoint>
-      <navPoint id="navPoint-138">
+      <navPoint id="navPoint-139">
         <navLabel>
           <text>Verse 66: Complete Surrender to God</text>
         </navLabel>
         <content src="text/ch025.xhtml#sec-verse-66-complete-surrender-to-god" />
       </navPoint>
-      <navPoint id="navPoint-139">
+      <navPoint id="navPoint-140">
         <navLabel>
           <text>Verses 67-71: Spreading the Bhagavad Gītā</text>
         </navLabel>
         <content src="text/ch025.xhtml#sec-verses-67-71-spreading-the-bhagavad-gita" />
       </navPoint>
-      <navPoint id="navPoint-140">
+      <navPoint id="navPoint-141">
         <navLabel>
           <text>Verses 72-73: Arjuna’s Delusion is Overcome</text>
         </navLabel>
         <content src="text/ch025.xhtml#sec-verses-72-73-arjuna-s-delusion-is-overcome" />
       </navPoint>
-      <navPoint id="navPoint-141">
+      <navPoint id="navPoint-142">
         <navLabel>
           <text>Verses 74-78: Final Conclusion</text>
         </navLabel>

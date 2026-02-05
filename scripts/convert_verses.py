@@ -2,22 +2,14 @@
 """
 convert_verses.py
 
-Convert custom LaTeX \Verse[...] {SA} {EN} blocks into a Pandoc-friendly
-\begin{verse}...\end{verse} structure suitable for EPUB conversion.
+Robust converter for \Verse[ref]{SA}{EN} blocks, including nested braces in EN
+(e.g., footnotes containing \textit{...}).
 
-Changes implemented:
-1) Verse number is NOT a separate line; it is appended to the END of the translation in parentheses, e.g. "... (1.12)".
-2) If the English block begins with a speaker line like "Bhagavān Kṛṣṇa said:" (or "Arjuna said:", etc.),
-   we force a line break after "... said:" so it becomes:
-      Bhagavān Kṛṣṇa said:
-      <rest of translation...>
-3) Leading \hspace*{...} in the English block is converted into an explicit indentation marker,
-   so you still get a visible indent in EPUB (Pandoc ignores LaTeX hspace in many cases).
-
-Notes:
-- Handles \Verse[ref]{sa}{en} and \Verse{sa}{en} (ref optional).
-- SA lines split on \\ and wrapped as \textit{...}\\
-- EN is kept as a single paragraph but may include ONE forced linebreak after "... said:".
+Features:
+1) Append verse ref to end of translation: "... (2.39)"
+2) If EN begins with "X said:" or "X says:", force a line break after ":".
+3) Leading \hspace*{...} in EN becomes \quad for visible indent in EPUB.
+4) Extract \footnote{...} inside EN (supports nested braces) and emit AFTER the verse env.
 """
 
 from __future__ import annotations
@@ -28,94 +20,135 @@ import sys
 from pathlib import Path
 from typing import Iterable, List, Optional, Tuple
 
-
-VERSE_RE = re.compile(
-    r"""
-    \\Verse
-    (?:\[(?P<ref>[^\]]*)\])?            # optional [ref]
-    \s*
-    \{(?P<sa>(?:[^{}]|\{[^{}]*\})*)\}   # {sa} (1-level brace tolerance)
-    \s*
-    \{(?P<en>(?:[^{}]|\{[^{}]*\})*)\}   # {en}
-    """,
-    re.VERBOSE | re.DOTALL,
-)
+# ------------ small regex helpers (safe) ------------
 
 HSPACE_CMD_RE = re.compile(r"""\\hspace\*?\{[^}]*\}""", re.DOTALL)
-
-# Detect a leading hspace (possibly preceded by whitespace/newlines)
 LEADING_HSPACE_RE = re.compile(r"""^\s*\\hspace\*?\{[^}]*\}\s*""", re.DOTALL)
 
-# Speaker-line detection: "... said:" / "... says:" (covers most of your cases)
 SPEAKER_LINE_RE = re.compile(
     r"""^(?P<who>.+?)\s+(?P<verb>said|says)\s*:\s+(?P<rest>.+)$""",
     re.IGNORECASE | re.DOTALL,
 )
 
-# What we use for an EPUB-safe "indent" at the start of the English block.
-# \quad is typically respected by Pandoc->EPUB (unlike \hspace*).
 INDENT_LATEX = r"\quad "
-
-
-def had_leading_hspace(s: str) -> bool:
-    return bool(LEADING_HSPACE_RE.search(s))
 
 
 def strip_all_hspace(s: str) -> str:
     return HSPACE_CMD_RE.sub("", s)
 
 
+def had_leading_hspace(s: str) -> bool:
+    return bool(LEADING_HSPACE_RE.search(s))
+
+
+# ------------ brace-aware parsing ------------
+
+def parse_optional_bracket(s: str, i: int) -> Tuple[Optional[str], int]:
+    """If s[i] == '[', parse up to matching ']' (no nesting)."""
+    if i >= len(s) or s[i] != "[":
+        return None, i
+    j = s.find("]", i + 1)
+    if j == -1:
+        raise ValueError("Unclosed [ref] in \\Verse")
+    return s[i + 1 : j], j + 1
+
+
+def parse_braced_arg(s: str, i: int) -> Tuple[str, int]:
+    """
+    Parse a LaTeX braced argument starting at s[i] == '{', supporting nested braces.
+    Returns (content_inside_braces, next_index_after_closing_brace).
+    """
+    if i >= len(s) or s[i] != "{":
+        raise ValueError(f"Expected '{{' at position {i}")
+
+    depth = 0
+    j = i
+    while j < len(s):
+        ch = s[j]
+        if ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth == 0:
+                # content is between i+1 and j-1
+                return s[i + 1 : j], j + 1
+        j += 1
+
+    raise ValueError("Unclosed {arg} while parsing \\Verse")
+
+
+def skip_ws(s: str, i: int) -> int:
+    while i < len(s) and s[i].isspace():
+        i += 1
+    return i
+
+
+# ------------ verse formatting helpers ------------
+
 def split_latex_lines(sa: str) -> List[str]:
-    """Split Sanskrit block on LaTeX line breaks (\\) while being robust to whitespace."""
     parts = re.split(r"\s*\\\\\s*", sa.strip())
     return [p.strip() for p in parts if p.strip()]
 
 
 def sa_to_verse_body(sa: str) -> str:
-    """Wrap each Sanskrit line in \textit{...} and join with \\."""
     sa = strip_all_hspace(sa)
     lines = split_latex_lines(sa)
     wrapped = [rf"\textit{{{line}}}" for line in lines]
     return " \\\\\n".join(wrapped)
 
 
+def extract_footnotes_brace_aware(en: str) -> Tuple[str, List[str]]:
+    """
+    Extract all \footnote{...} occurrences from EN, supporting nested braces.
+    Returns (en_without_footnotes, notes_list).
+    """
+    notes: List[str] = []
+    out: List[str] = []
+    i = 0
+    while i < len(en):
+        if en.startswith(r"\footnote", i):
+            k = i + len(r"\footnote")
+            k = skip_ws(en, k)
+            if k < len(en) and en[k] == "{":
+                note, k2 = parse_braced_arg(en, k)
+                notes.append(note.strip())
+                i = k2
+                continue
+        out.append(en[i])
+        i += 1
+
+    cleaned = "".join(out)
+    cleaned = re.sub(r"\s{2,}", " ", cleaned)
+    return cleaned, notes
+
+
 def normalize_english(en: str) -> str:
-    """
-    - Preserve whether there was a leading \hspace*{...} to re-express as \quad.
-    - Remove all \hspace commands (Pandoc often ignores them).
-    - Convert LaTeX line breaks (\\) to spaces.
-    - Collapse whitespace.
-    - If it looks like "X said: Y", force a line break after the colon.
-    """
     indent = INDENT_LATEX if had_leading_hspace(en) else ""
 
-    en = LEADING_HSPACE_RE.sub("", en)   # remove the leading hspace command
-    en = strip_all_hspace(en)            # remove any other hspace occurrences
+    en = LEADING_HSPACE_RE.sub("", en)
+    en = strip_all_hspace(en)
 
-    # Turn LaTeX linebreaks into spaces for now
+    # Turn LaTeX linebreaks into spaces (we will add our own linebreak if needed)
     en = re.sub(r"\s*\\\\\s*", " ", en)
-
-    # Collapse whitespace
     en = re.sub(r"\s+", " ", en).strip()
 
-    # Force "Speaker said:" onto its own line (only when there's actual text after it)
+    # Force speaker line break after "said:" / "says:"
     m = SPEAKER_LINE_RE.match(en)
     if m:
         who = m.group("who").strip()
         verb = m.group("verb")
         rest = m.group("rest").strip()
-        # Use an explicit line break Pandoc respects well inside verse -> blockquote
         en = rf"{who} {verb}:\linebreak {rest}"
 
     return indent + en
 
 
 def append_ref_to_translation(en_body: str, ref: str) -> str:
-    """Append (ref) to end, unless it already appears to end with a ref-like parenthetical."""
     ref = ref.strip()
     if not ref:
         return en_body
 
+    # If it already ends with a ref-like (...) don’t double-append
     if re.search(r"\(\s*[\d]+(?:\.[\d]+)?(?:[–-][\d]+(?:\.[\d]+)?)?\s*\)\s*$", en_body):
         return en_body
 
@@ -125,6 +158,8 @@ def append_ref_to_translation(en_body: str, ref: str) -> str:
 def format_verse_block(ref: Optional[str], sa: str, en: str) -> str:
     ref = (ref or "").strip()
     sa_body = sa_to_verse_body(sa)
+
+    # KEEP footnotes inline (do NOT extract)
     en_body = normalize_english(en)
     en_body = append_ref_to_translation(en_body, ref)
 
@@ -138,18 +173,52 @@ def format_verse_block(ref: Optional[str], sa: str, en: str) -> str:
         r"\par" "\n"
     )
 
+# ------------ main conversion (scan, no Verse regex) ------------
 
 def convert_content(tex: str) -> Tuple[str, int]:
-    """Convert all \Verse occurrences in a .tex string. Returns (new_text, count_converted)."""
-    count = 0
+    """
+    Scan through tex and convert all \Verse blocks using brace-aware parsing.
+    """
+    out: List[str] = []
+    i = 0
+    n = 0
+    while i < len(tex):
+        if tex.startswith(r"\Verse", i):
+            j = i + len(r"\Verse")
+            j = skip_ws(tex, j)
 
-    def _repl(m: re.Match) -> str:
-        nonlocal count
-        count += 1
-        return format_verse_block(m.group("ref"), m.group("sa"), m.group("en"))
+            ref = None
+            if j < len(tex) and tex[j] == "[":
+                ref, j = parse_optional_bracket(tex, j)
+                j = skip_ws(tex, j)
 
-    new_tex = VERSE_RE.sub(_repl, tex)
-    return new_tex, count
+            # Parse {SA}{EN}
+            if j >= len(tex) or tex[j] != "{":
+                # Not a real Verse invocation; copy literally
+                out.append(tex[i])
+                i += 1
+                continue
+
+            sa, j = parse_braced_arg(tex, j)
+            j = skip_ws(tex, j)
+
+            if j >= len(tex) or tex[j] != "{":
+                # malformed; copy literally
+                out.append(tex[i])
+                i += 1
+                continue
+
+            en, j = parse_braced_arg(tex, j)
+
+            out.append(format_verse_block(ref, sa, en))
+            i = j
+            n += 1
+            continue
+
+        out.append(tex[i])
+        i += 1
+
+    return "".join(out), n
 
 
 def iter_tex_files(inputs: List[Path]) -> Iterable[Path]:
@@ -165,11 +234,7 @@ def main() -> int:
     ap.add_argument("inputs", nargs="+", help="One or more .tex files and/or directories containing .tex files")
     ap.add_argument("-o", "--outdir", required=True, help="Output directory for converted .tex files")
     ap.add_argument("--suffix", default=".epub.tex", help="Suffix to append to output filenames (default: .epub.tex)")
-    ap.add_argument(
-        "--inplace",
-        action="store_true",
-        help="Overwrite input files (dangerous; use git). Ignores --outdir/--suffix.",
-    )
+    ap.add_argument("--inplace", action="store_true", help="Overwrite input files (dangerous; use git).")
     args = ap.parse_args()
 
     in_paths = [Path(x) for x in args.inputs]

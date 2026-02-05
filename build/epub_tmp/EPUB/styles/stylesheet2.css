@@ -93,8 +93,8 @@ table th p {
 /* Verse blockquote container */
 blockquote {
   margin: 1.1em 0;
-  padding-left: 2em; /* soft indent */
-  padding-right: 2em; /* soft indent */
+  padding-left: 1em; /* soft indent */
+  padding-right: 1em; /* soft indent */
   border: none !important; /* no left rule */
 }
 

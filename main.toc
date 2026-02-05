@@ -52,7 +52,7 @@
 \contentsline {section}{\numberline {12.7}Verse 47: The Highest of All Yogīs}{104}{}%
 \contentsline {chapter}{\chapternumberline {13}Jñāna-vijñāna-yoga}{105}{}%
 \contentsline {section}{\numberline {13.1}Verses 1-3: The Rarity of Knowing Kṛṣṇa}{106}{}%
-\contentsline {section}{\numberline {13.2}Verses 4-11: The Higher and Lower Natures of God}{107}{}%
+\contentsline {section}{\numberline {13.2}Verses 4-6: The Higher and Lower Natures of God}{107}{}%
 \contentsline {section}{\numberline {13.3}Verses 7-12: Kṛṣṇa's Transcendence and Immanence}{109}{}%
 \contentsline {section}{\numberline {13.4}Verses 13-15: Surrender Allows Us to Cross Over Māyā}{110}{}%
 \contentsline {section}{\numberline {13.5}Verses 16-22: Four Categories of Devotees}{111}{}%
@@ -92,9 +92,10 @@
 \contentsline {section}{\numberline {18.4}Verses 13-20: The Qualities of a Devotee Who is Dear to Kṛṣṇa}{178}{}%
 \contentsline {chapter}{\chapternumberline {19}Kṣetra-kṣetrajña-vibhāga-yoga}{183}{}%
 \contentsline {section}{\numberline {19.1}Verses 1-7: The Field and Its Knower}{184}{}%
-\contentsline {section}{\numberline {19.2}Verses 13-19: The Highest Object of Knowledge}{187}{}%
-\contentsline {section}{\numberline {19.3}Verses 20-24: The Self Within Material Nature}{189}{}%
-\contentsline {section}{\numberline {19.4}Verses 25-35: Different Ways to Perceive the Supersoul}{191}{}%
+\contentsline {section}{\numberline {19.2}Verses 8-12: Kṛṣṇa Describes True Knowledge}{186}{}%
+\contentsline {section}{\numberline {19.3}Verses 13-19: The Highest Object of Knowledge}{187}{}%
+\contentsline {section}{\numberline {19.4}Verses 20-24: The Self Within Material Nature}{189}{}%
+\contentsline {section}{\numberline {19.5}Verses 25-35: Different Ways to Perceive the Supersoul}{192}{}%
 \contentsline {chapter}{\chapternumberline {20}Guṇa-traya-vibhāga-yoga}{195}{}%
 \contentsline {section}{\numberline {20.1}Verses 1-4: Kṛṣṇa Gives Life to This Material World}{195}{}%
 \contentsline {section}{\numberline {20.2}Verses 5-18: How the Guṇas Influence Our Experience}{197}{}%
