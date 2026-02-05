@@ -39,13 +39,11 @@ python3 scripts/convert_verses.py "$BUILD_DIR/main.flat.tex" --inplace -o "$BUIL
 # 3) Build EPUB (no raw_tex needed now)
 pandoc --from=latex --to=epub3 "$BUILD_DIR/main.flat.tex" -o "$OUTPUT_PATH" \
   --toc \
-  --metadata=title:"Brahmacarya" \
-  --metadata=subtitle:"A Treatise on the Renunciant Order of the Hari Bhakta Sampradāya" \
+  --metadata=title:"Bhagavad Gītā Essentials Second Edition" \
   --metadata=lang:en \
-  --metadata=date:"January 8, 2026" \
+  --metadata=date:"February 5, 2026" \
   --metadata=author:"Bhakti Marga Publications" \
   --metadata=rights:"© 2026 Bhakti Event GmbH. All rights reserved." \
-  --metadata=description:"This work presents Tādātmya Vedānta, the philosophy of the Hari Bhakta Sampradāya, founded by Paramahamsa Vishwananda. It explores the building blocks of reality and their connection, the ultimate pinnacle of spiritual attainment, as well as the path to reach it. Both a philosophical treatise and devotional offering, it is an invitation to Just Love." \
   --metadata=subject:"Hinduism" \
   --metadata=subject:"Vedānta" \
   --metadata=subject:"Bhakti" \

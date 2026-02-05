@@ -2,17 +2,16 @@
 <package version="3.0" xmlns="http://www.idpf.org/2007/opf" xml:lang="en" unique-identifier="epub-id-1" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
     <dc:identifier id="epub-id-1">urn:isbn:YOUR-ISBN-13-HERE</dc:identifier>
-    <dc:title id="epub-title-1">Brahmacarya</dc:title>
-    <dc:date id="epub-date">2026-01-08</dc:date>
+    <dc:title id="epub-title-1">Bhagavad Gītā Essentials Second Edition</dc:title>
+    <dc:date id="epub-date">2026-02-05</dc:date>
     <dc:language>en</dc:language>
     <dc:creator id="epub-creator-1">Bhakti Marga Publications</dc:creator>
     <meta refines="#epub-creator-1" property="role" scheme="marc:relators">aut</meta>
     <dc:subject id="subject-1">Hinduism</dc:subject>
     <dc:subject id="subject-2">Vedānta</dc:subject>
     <dc:subject id="subject-3">Bhakti</dc:subject>
-    <dc:description>This work presents Tādātmya Vedānta, the philosophy of the Hari Bhakta Sampradāya, founded by Paramahamsa Vishwananda. It explores the building blocks of reality and their connection, the ultimate pinnacle of spiritual attainment, as well as the path to reach it. Both a philosophical treatise and devotional offering, it is an invitation to Just Love.</dc:description>
     <dc:rights>© 2026 Bhakti Event GmbH. All rights reserved.</dc:rights>
-    <meta property="dcterms:modified">2026-02-05T10:29:51Z</meta>
+    <meta property="dcterms:modified">2026-02-05T14:07:24Z</meta>
     <meta property="schema:accessMode">textual</meta>
     <meta property="schema:accessModeSufficient">textual</meta>
     <meta property="schema:accessibilityFeature">alternativeText</meta>
@@ -87,7 +86,7 @@
     <itemref idref="ch025_xhtml" />
   </spine>
   <guide>
-    <reference type="toc" title="Brahmacarya" href="nav.xhtml" />
+    <reference type="toc" title="Bhagavad Gītā Essentials Second Edition" href="nav.xhtml" />
     <reference type="cover" title="Cover" href="text/cover.xhtml" />
   </guide>
 </package>

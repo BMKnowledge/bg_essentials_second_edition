@@ -72,7 +72,7 @@
 \contentsline {section}{\numberline {15.7}Verses 27-33: The Power of Bhakti}{140}{}%
 \contentsline {section}{\numberline {15.8}Verse 34: Devotion Takes Us to the Goal}{142}{}%
 \contentsline {chapter}{\chapternumberline {16}Vibhūti-yoga}{145}{}%
-\contentsline {section}{\numberline {16.1}Verses 1-7: Kṛṣṇa is the Origin of All}{145}{}%
+\contentsline {section}{\numberline {16.1}Verses 1-7: Kṛṣṇa is the Origin of All}{146}{}%
 \contentsline {section}{\numberline {16.2}Verses 8-11: Kṛṣṇa Gives Knowledge to His Devotees}{148}{}%
 \contentsline {section}{\numberline {16.3}Verses 12-18: Arjuna Accepts Kṛṣṇa's Divinity}{150}{}%
 \contentsline {section}{\numberline {16.4}Verses 19-42: Kṛṣṇa Describes His Glories}{151}{}%
@@ -97,7 +97,7 @@
 \contentsline {section}{\numberline {19.4}Verses 20-24: The Self Within Material Nature}{189}{}%
 \contentsline {section}{\numberline {19.5}Verses 25-35: Different Ways to Perceive the Supersoul}{192}{}%
 \contentsline {chapter}{\chapternumberline {20}Guṇa-traya-vibhāga-yoga}{195}{}%
-\contentsline {section}{\numberline {20.1}Verses 1-4: Kṛṣṇa Gives Life to This Material World}{195}{}%
+\contentsline {section}{\numberline {20.1}Verses 1-4: Kṛṣṇa Gives Life to This Material World}{196}{}%
 \contentsline {section}{\numberline {20.2}Verses 5-18: How the Guṇas Influence Our Experience}{197}{}%
 \contentsline {section}{\numberline {20.3}Verses 19-20: Transcending the Guṇas}{200}{}%
 \contentsline {section}{\numberline {20.4}Verses 21-25: Qualities of Those Above the Guṇas}{201}{}%
@@ -108,7 +108,7 @@
 \contentsline {section}{\numberline {21.3}Verses 7-15: The Soul Is an Eternal Fragment of Kṛṣṇa}{208}{}%
 \contentsline {section}{\numberline {21.4}Verses 16-20: Kṛṣṇa is the Puruṣottama Beyond the Self}{210}{}%
 \contentsline {chapter}{\chapternumberline {22}Daivāsura-sampad-\\vibhāga-yoga}{213}{}%
-\contentsline {section}{\numberline {22.1}Verses 1-6: Qualities of the Righteous}{213}{}%
+\contentsline {section}{\numberline {22.1}Verses 1-6: Qualities of the Righteous}{214}{}%
 \contentsline {section}{\numberline {22.2}Verses 7-20: Qualities of the Unrighteous}{215}{}%
 \contentsline {section}{\numberline {22.3}Verse 21: The Three Gateways to Hell}{218}{}%
 \contentsline {section}{\numberline {22.4}Verses 22-24: The Importance of Scripture}{219}{}%

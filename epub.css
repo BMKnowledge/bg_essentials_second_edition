@@ -212,3 +212,23 @@ caption {
 p {
   margin: 0.65em 0;
 }
+
+/* Make the chapter block act like a flexible stack */
+section.level1 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Visually move the first paragraph (your CHAPTER 3 line) above the h1 */
+section.level1 > p:first-of-type {
+  order: -2;
+  margin: 0 0 0.3em 0;
+  text-transform: uppercase;
+}
+
+/* Chapter title */
+section.level1 > h1 {
+  order: -1;
+  margin-top: 0;
+  margin-bottom: -0.5em; /* 🔑 controls title → subtitle distance */
+}

@@ -8,20 +8,20 @@
     <meta name="cover" content="front_cover_png" />
   </head>
   <docTitle>
-    <text>Brahmacarya</text>
+    <text>Bhagavad Gītā Essentials Second Edition</text>
   </docTitle>
   <navMap>
     <navPoint id="navPoint-0">
       <navLabel>
-        <text>Brahmacarya</text>
+        <text>Bhagavad Gītā Essentials Second Edition</text>
       </navLabel>
       <content src="text/title_page.xhtml" />
     </navPoint>
     <navPoint id="navPoint-1">
       <navLabel>
-        <text>Brahmacarya</text>
+        <text>Bhagavad Gītā Essentials Second Edition</text>
       </navLabel>
-      <content src="text/ch001.xhtml#brahmacarya" />
+      <content src="text/ch001.xhtml#bhagavad-gītā-essentials-second-edition" />
     </navPoint>
     <navPoint id="navPoint-2">
       <navLabel>
