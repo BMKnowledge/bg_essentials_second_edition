@@ -57,6 +57,9 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/textcase/textcase.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/textcase/textcase.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/textcase/textcase.sty
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT ./main.aux
+INPUT ./main.aux
+INPUT main.aux
 OUTPUT main.aux
 INPUT ./frontmatter/00_dedication.tex
 INPUT ./frontmatter/00_dedication.tex

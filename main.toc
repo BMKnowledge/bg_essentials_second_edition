@@ -4,9 +4,9 @@
 \contentsline {chapter}{\chapternumberline {4}About Paramahamsa Vishwananda}{9}{}%
 \contentsline {chapter}{\chapternumberline {5}About This Bhagavad Gītā}{11}{}%
 \contentsline {section}{\numberline {5.1}How to Savor this Bhagavad Gītā}{12}{}%
-\contentsline {section}{\numberline {5.2}Special Note from Paramahamsa \\ Vishwananda}{12}{}%
+\contentsline {section}{\numberline {5.2}Special Note from Paramahamsa Vishwananda}{12}{}%
 \contentsline {chapter}{\chapternumberline {6}Introduction}{13}{}%
-\contentsline {section}{\numberline {6.1}Philosophical Foundations of the \\ Bhagavad Gītā}{13}{}%
+\contentsline {section}{\numberline {6.1}Philosophical Foundations of the Bhagavad Gītā}{13}{}%
 \contentsline {section}{\numberline {6.2}God in the Gītā}{14}{}%
 \contentsline {section}{\numberline {6.3}The War to Restore Righteousness}{15}{}%
 \contentsline {section}{\numberline {6.4}The Lord takes the Lead}{16}{}%
@@ -39,9 +39,10 @@
 \contentsline {section}{\numberline {10.6}Verse 34: The Importance of the Guru}{77}{}%
 \contentsline {section}{\numberline {10.7}Verses 35-42: The Fruit of Karma-yoga Is Realized Knowledge}{78}{}%
 \contentsline {chapter}{\chapternumberline {11}Chapter 5: Karma-sannyāsa-yoga}{81}{}%
-\contentsline {section}{\numberline {11.1}Verses 8-17: The Self is Untouched by Action}{84}{}%
-\contentsline {section}{\numberline {11.2}Verses 18-26: The State of Equanimity}{87}{}%
-\contentsline {section}{\numberline {11.3}Verses 27-29: Introducing Yoga Practice}{91}{}%
+\contentsline {section}{\numberline {11.1}Verses 1-7: Jñāna-yoga and Karma-yoga Are Ultimately the Same}{81}{}%
+\contentsline {section}{\numberline {11.2}Verses 8-17: The Self is Untouched by Action}{85}{}%
+\contentsline {section}{\numberline {11.3}Verses 18-26: The State of Equanimity}{88}{}%
+\contentsline {section}{\numberline {11.4}Verses 27-29: Introducing Yoga Practice}{92}{}%
 \contentsline {chapter}{\chapternumberline {12}Chapter 6: Dhyāna-yoga}{93}{}%
 \contentsline {section}{\numberline {12.1}Verses 1-4: The True Renunciate}{94}{}%
 \contentsline {section}{\numberline {12.2}Verses 5-9: The Mind is Our Best Friend or Our Worst Enemy}{95}{}%

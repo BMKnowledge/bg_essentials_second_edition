@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1770307637.50353 "/Users/sahadev/CORE/Knowledge/PUBLICATIONS/EPUB_BG_Essentials_2nd_Edition/main.tex" "main.pdf" "main" 1770307640.87387 2
+["pdflatex"] 1770379146.73904 "/Users/sahadev/CORE/Knowledge/PUBLICATIONS/EPUB_BG_Essentials_2nd_Edition/main.tex" "main.pdf" "main" 1770379150.25635 2
   "/Users/sahadev/CORE/Knowledge/PUBLICATIONS/EPUB_BG_Essentials_2nd_Edition/main.tex" 1770300603.40317 1230 db0cbd88d7c5b9faf8bfcb7f34a68374 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -61,7 +61,7 @@
   "content/chapter_02.tex" 1770307235.79899 42021 5786f26d87236bfb4092be1093d73356 ""
   "content/chapter_03.tex" 1770307235.79894 33991 b680c586a1d68dcd75378b871cbaaa5a ""
   "content/chapter_04.tex" 1770307235.79898 34474 ae64e604b919f7aa28e29c9d40d62ebc ""
-  "content/chapter_05.tex" 1770307235.79894 28070 f7d4a79f9ff3309958a24466bf5d6695 ""
+  "content/chapter_05.tex" 1770373695.67385 28145 894a9afdfaa99754cf88ab904c9d391d ""
   "content/chapter_06.tex" 1770307246.15861 29537 5f04cb6c50a8e8290f9d7439b21fd7cb ""
   "content/chapter_07.tex" 1770307327.06254 29434 0bdf3025a86997b40e00888428d22e83 ""
   "content/chapter_08.tex" 1770307327.05674 24790 087ca60558174b7f21014fed26324f1d ""
@@ -81,12 +81,12 @@
   "frontmatter/3_foreword.tex" 1770125326.48937 1636 dd0471cad9793aab89dfaeb7b841f77b ""
   "frontmatter/4_the_seekers_journey.tex" 1770125326.48949 1205 384edf3309be9a8ac3ffda23457e85a0 ""
   "frontmatter/5_about_PV.tex" 1770125326.48965 2521 506ad67a72889e769f1ed845d0655251 ""
-  "frontmatter/6_about_this_book.tex" 1770125326.48919 3720 15e787a4b244511bdeba8847dadc5cb8 ""
-  "frontmatter/7_introduction.tex" 1770125326.49 10311 fc95075c4665ef99b32ee5876ee7f5bc ""
-  "main.aux" 1770307639.56098 38971 2009f1aeff072f35d99881af4cc9dad1 "pdflatex"
+  "frontmatter/6_about_this_book.tex" 1770379126.43097 3717 c40b361374a3599d84ca42adc2f52e81 ""
+  "frontmatter/7_introduction.tex" 1770379146.53723 10308 0e48de8b5d6da9ffec0dd9d999df5c34 ""
+  "main.aux" 1770379148.94847 39118 ccdc708c199d631867815aae7fc374a6 "pdflatex"
   "main.tex" 1770300603.40317 1230 db0cbd88d7c5b9faf8bfcb7f34a68374 ""
-  "main.toc" 1770307639.5638 13415 ed0a834df142cdcf4f6ac1f02b47ef4e "pdflatex"
-  "misc/glossary.tex" 1770307633.26867 386 71a0da3fdd527d5c35a8cc7e5f52eba4 ""
+  "main.toc" 1770379148.95142 13525 b3d714cafbc18b1a64c893c2416d4794 "pdflatex"
+  "misc/glossary.tex" 1770307669.13755 386 9fd2f2adabd5f464ad8a4b266bd1e902 ""
   "misc/related_books.tex" 1770125278.73492 1335 a007e304206ec3b8e734e30b5d5559a3 ""
   "misc/take_the_next_step.tex" 1770300739.74378 3009 c013db0ed74b5817beb931fb166b8669 ""
   (generated)
