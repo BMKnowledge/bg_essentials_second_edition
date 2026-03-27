@@ -41,7 +41,7 @@ pandoc --from=latex --to=epub3 "$BUILD_DIR/main.flat.tex" -o "$OUTPUT_PATH" \
   --toc \
   --metadata=title:"Bhagavad Gītā Essentials Second Edition" \
   --metadata=lang:en \
-  --metadata=date:"February 5, 2026" \
+  --metadata=date:"March 20, 2026" \
   --metadata=author:"Bhakti Marga Publications" \
   --metadata=rights:"© 2026 Bhakti Event GmbH. All rights reserved." \
   --metadata=subject:"Hinduism" \

@@ -110,7 +110,7 @@
 \contentsline {chapter}{\chapternumberline {22}Chapter 16: Daivāsura-sampad-vibhāga-yoga}{259}{}%
 \contentsline {section}{\numberline {22.1}Verses 1-6: Qualities of the Righteous}{259}{}%
 \contentsline {section}{\numberline {22.2}Verses 7-20: Qualities of the Unrighteous}{262}{}%
-\contentsline {section}{\numberline {22.3}Verse 21: The Three Gateways to Hell}{265}{}%
+\contentsline {section}{\numberline {22.3}Verse 21: The Three Gateways to hell}{265}{}%
 \contentsline {section}{\numberline {22.4}Verses 22-24: The Importance of Scripture}{266}{}%
 \contentsline {chapter}{\chapternumberline {23}Chapter 17: Śraddhā-traya-vibhāga-yoga}{269}{}%
 \contentsline {section}{\numberline {23.1}Verses 1-6: The Faith and the Guṇas}{270}{}%

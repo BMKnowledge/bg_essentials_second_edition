@@ -109,6 +109,8 @@ blockquote > p:first-child {
 blockquote > p:first-child em {
   display: block;
   font-style: italic;
+  font-size: 0.75em;
+
   line-height: 1.25; /* tight stacking */
   margin: 0;
   padding: 0;
