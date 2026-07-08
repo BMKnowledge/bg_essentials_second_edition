@@ -57,6 +57,9 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/textcase/textcase.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/textcase/textcase.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/textcase/textcase.sty
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT ./main.flat.aux
+INPUT ./main.flat.aux
+INPUT main.flat.aux
 OUTPUT main.flat.aux
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm

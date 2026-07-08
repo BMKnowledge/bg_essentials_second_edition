@@ -13,7 +13,9 @@
 set -euo pipefail
 
 BUILD_DIR="build"
-OUTPUT_FILE="bg_essentials.epub"
+
+TIMESTAMP="$(date '+%y%m%d%H%M')"
+OUTPUT_FILE="bg_essentials_${TIMESTAMP}.epub"
 OUTPUT_PATH="$BUILD_DIR/$OUTPUT_FILE"
 
 mkdir -p "$BUILD_DIR"
@@ -81,6 +83,32 @@ rm "$BUILD_DIR/tmp.zip"
 
 # Remove the landmarks nav block (naive but usually sufficient)
 perl -0pi -e 's|<nav[^>]*epub:type="landmarks"[\s\S]*?</nav>||' "$TMP_DIR/EPUB/nav.xhtml"
+
+# Indent the verse speaker lines by 1em (styled via .uvaca / .said in epub.css).
+# The verse converter strips the print \hspace*{1em}, so we re-apply it here as a
+# CSS class, on two lines per speaker verse:
+#   - Sanskrit: an <em> line that ENDS in "uvāca" (mid-verse occurrences such as
+#     "tam uvāca hṛṣīkeśaḥ" do not end the line and are left untouched).
+#   - English:  the translation <p> that OPENS with "X said:" followed by a
+#     <br/>. The converter emits exactly one <br/> per translation (right after
+#     "said:"), so this is unambiguous; we wrap that line in a block <span> and
+#     drop the now-redundant <br/> so it renders like the Sanskrit line above it.
+python3 - "$TMP_DIR/EPUB/text" <<'PY'
+import sys, re, pathlib
+textdir = pathlib.Path(sys.argv[1])
+uvaca = re.compile(r'<em>([^<]*\buvāca)\s*</em>')
+said = re.compile(r'(<p>)([^<]*\b(?:said|says):)\s*<br\s*/>\s*')
+uv_total = sd_total = 0
+for f in sorted(textdir.glob("*.xhtml")):
+    s = f.read_text(encoding="utf-8")
+    s, n1 = uvaca.subn(r'<em class="uvaca">\1</em>', s)
+    s, n2 = said.subn(r'\1<span class="said">\2</span>', s)
+    if n1 or n2:
+        f.write_text(s, encoding="utf-8")
+    uv_total += n1
+    sd_total += n2
+print(f"    speaker lines indented: {uv_total} Sanskrit (uvāca), {sd_total} English (said:)")
+PY
 
 # Give the two untitled frontmatter chapters (\chapter{} in 00_dedication.tex and
 # 0_invocations.tex -> ch001/ch002) their TOC labels. Empty TOC anchors are an

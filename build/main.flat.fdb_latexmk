@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1783516282.58004 "/Users/sahadev/CORE/Knowledge/PUBLICATIONS/EPUB_BG_Essentials_2nd_Edition/build/main.flat.tex" "main.flat.pdf" "main.flat" 1783516286.39965 2
-  "/Users/sahadev/CORE/Knowledge/PUBLICATIONS/EPUB_BG_Essentials_2nd_Edition/build/main.flat.tex" 1783516276.96218 621303 e83c8dcdc2a0222840ec9920bb698dd9 ""
+["pdflatex"] 1783520390.48033 "/Users/sahadev/CORE/Knowledge/PUBLICATIONS/EPUB_BG_Essentials_2nd_Edition/build/main.flat.tex" "main.flat.pdf" "main.flat" 1783520394.81926 2
+  "/Users/sahadev/CORE/Knowledge/PUBLICATIONS/EPUB_BG_Essentials_2nd_Edition/build/main.flat.tex" 1783520383.96969 621303 e8f4b4185e05281b38880f7e11c04b58 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm" 1136768653 1532 9162035f4e7176612125649e348e2195 ""
@@ -58,9 +58,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1747210133 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1747210038 3345738 22920a884f0c204feb2431a99acd1281 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "main.flat.aux" 1783516285.24803 39576 f968fcb9a6a4dceff7a93e32c19bb0e7 "pdflatex"
-  "main.flat.tex" 1783516276.96218 621303 e83c8dcdc2a0222840ec9920bb698dd9 ""
-  "main.flat.toc" 1783516285.25152 13688 31de621261a7714cb10019d22be7e583 "pdflatex"
+  "main.flat.aux" 1783520393.53215 39576 f968fcb9a6a4dceff7a93e32c19bb0e7 "pdflatex"
+  "main.flat.tex" 1783520383.96969 621303 e8f4b4185e05281b38880f7e11c04b58 ""
+  "main.flat.toc" 1783520393.53796 13688 31de621261a7714cb10019d22be7e583 "pdflatex"
   (generated)
   "main.flat.aux"
   "main.flat.log"

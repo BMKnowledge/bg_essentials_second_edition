@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.14)  8 JUL 2026 15:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.14)  8 JUL 2026 16:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -364,8 +364,7 @@ Package tocbibind [2008/07/23] emulated by memoir.
 Package tocloft [2008/07/23] emulated by memoir.
 Package tocvsec2 [2008/07/23] emulated by memoir.
 Package verse [2008/07/23] emulated by memoir.
-)
-No file main.flat.aux.
+) (./main.flat.aux)
 \openout1 = `main.flat.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
@@ -382,9 +381,10 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
+
 /Users/sahadev/CORE/Knowledge/PUBLICATIONS/EPUB_BG_Essentials_2nd_Edition/build/main.flat.tex:13: Undefined control sequence.
 l.13 \includegraphics
-                     [width=0.9\textwidth]{assets/imgs/Guruji_cmyk.jpg}
+                     [width=0.9\textwidth]{assets/imgs/Guruji_epub.jpg}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -395,7 +395,7 @@ and I'll forget about whatever was undefined.
 <to be read again> 
                    ]
 l.13 \includegraphics[width=0.9\textwidth]
-                                          {assets/imgs/Guruji_cmyk.jpg}
+                                          {assets/imgs/Guruji_epub.jpg}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -404,7 +404,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.13 \includegraphics[width=0.9\textwidth]
-                                          {assets/imgs/Guruji_cmyk.jpg}
+                                          {assets/imgs/Guruji_epub.jpg}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -416,7 +416,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 <inserted text> 
                 $
 l.13 ...s[width=0.9\textwidth]{assets/imgs/Guruji_
-                                                  cmyk.jpg}
+                                                  epub.jpg}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -427,7 +427,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 13.
 /Users/sahadev/CORE/Knowledge/PUBLICATIONS/EPUB_BG_Essentials_2nd_Edition/build/main.flat.tex:13: Extra }, or forgotten $.
-l.13 ....9\textwidth]{assets/imgs/Guruji_cmyk.jpg}
+l.13 ....9\textwidth]{assets/imgs/Guruji_epub.jpg}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -32214,15 +32214,15 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 5400 strings out of 473190
- 89016 string characters out of 5715800
+ 5403 strings out of 473190
+ 89070 string characters out of 5715800
  515648 words of memory out of 5000000
- 28642 multiletter control sequences out of 15000+600000
+ 28643 multiletter control sequences out of 15000+600000
  566140 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,14n,93p,1989b,472s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.flat.pdf (326 pages, 815401 bytes).
+Output written on main.flat.pdf (326 pages, 815246 bytes).
 PDF statistics:
  1112 PDF objects out of 1200 (max. 8388607)
  754 compressed objects within 8 object streams

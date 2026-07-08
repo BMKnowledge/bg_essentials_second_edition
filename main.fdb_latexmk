@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1783512805.39887 "/Users/sahadev/CORE/Knowledge/PUBLICATIONS/EPUB_BG_Essentials_2nd_Edition/main.tex" "main.pdf" "main" 1783512809.00506 2
+["pdflatex"] 1783520889.36944 "/Users/sahadev/CORE/Knowledge/PUBLICATIONS/EPUB_BG_Essentials_2nd_Edition/main.tex" "main.pdf" "main" 1783520892.98856 2
   "/Users/sahadev/CORE/Knowledge/PUBLICATIONS/EPUB_BG_Essentials_2nd_Edition/main.tex" 1770300603.40317 1230 db0cbd88d7c5b9faf8bfcb7f34a68374 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -81,13 +81,13 @@
   "frontmatter/3_foreword.tex" 1770125326.48937 1636 dd0471cad9793aab89dfaeb7b841f77b ""
   "frontmatter/4_the_seekers_journey.tex" 1770125326.48949 1205 384edf3309be9a8ac3ffda23457e85a0 ""
   "frontmatter/5_about_PV.tex" 1783504268.78134 2523 bdd79a90a5d8786c2deae8f22431ee8b ""
-  "frontmatter/6_about_this_book.tex" 1770379126.43097 3717 c40b361374a3599d84ca42adc2f52e81 ""
+  "frontmatter/6_about_this_book.tex" 1783515115.56841 3735 232bd7c047061d83fa96671fe3392205 ""
   "frontmatter/7_introduction.tex" 1783504282.92622 10313 b255fbe81981263464718226a46ad81c ""
-  "main.aux" 1783512807.57798 39560 5eadd878181946e811c74cb7a92e885a "pdflatex"
+  "main.aux" 1783520891.58725 39560 5eadd878181946e811c74cb7a92e885a "pdflatex"
   "main.tex" 1770300603.40317 1230 db0cbd88d7c5b9faf8bfcb7f34a68374 ""
-  "main.toc" 1783512807.58137 13681 ea4448a25fac6d38470c6d481193bc71 "pdflatex"
+  "main.toc" 1783520891.59005 13681 ea4448a25fac6d38470c6d481193bc71 "pdflatex"
   "misc/glossary.tex" 1770307669.13755 386 9fd2f2adabd5f464ad8a4b266bd1e902 ""
-  "misc/related_books.tex" 1783504528.34804 1336 7b0272b8a40b35ac1eb985dd0ec26e04 ""
+  "misc/related_books.tex" 1783520884.7524 1316 f59ab8081ec4e9c10b0bb125ce4321bd ""
   "misc/take_the_next_step.tex" 1783504286.03982 3011 c643f9f26f3e3e0a9cacdb5b0afb8d45 ""
   (generated)
   "main.aux"

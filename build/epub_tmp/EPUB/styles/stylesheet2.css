@@ -109,7 +109,7 @@ blockquote > p:first-child {
 blockquote > p:first-child em {
   display: block;
   font-style: italic;
-  font-size: 0.7em;
+  font-size: 0.9em;
 
   line-height: 1.25; /* tight stacking */
   margin: 0;
@@ -127,6 +127,23 @@ blockquote > p:nth-child(2) {
   padding: 0;
   font-weight: bold;
   line-height: 1.35;
+}
+
+/* Speaker lines inside a verse, indented 1em to match the print layout:
+   - Sanskrit attribution, e.g. "śrī-bhagavān uvāca" / "sañjaya uvāca" (.uvaca)
+   - English attribution,  e.g. "Bhagavān Kṛṣṇa said:" / "Arjuna said:" (.said)
+   Print indents these via \hspace; the verse converter strips it, so
+   build_epub.sh re-tags the lines and we restore the indent here. The Sanskrit
+   line is already display:block (rule above); the English span is made a block
+   so it sits on its own indented line above the translation. */
+blockquote > p:first-child em.uvaca,
+em.uvaca {
+  margin-left: 1em;
+}
+blockquote > p span.said,
+span.said {
+  display: block;
+  margin-left: 1em;
 }
 
 /* Lists (Kindle-friendly) */
