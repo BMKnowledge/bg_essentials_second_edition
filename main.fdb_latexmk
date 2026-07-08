@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1774609693.57779 "/Users/sahadev/CORE/Knowledge/PUBLICATIONS/EPUB_BG_Essentials_2nd_Edition/main.tex" "main.pdf" "main" 1774609696.88217 2
+["pdflatex"] 1774618210.05889 "/Users/sahadev/CORE/Knowledge/PUBLICATIONS/EPUB_BG_Essentials_2nd_Edition/main.tex" "main.pdf" "main" 1774618213.4313 2
   "/Users/sahadev/CORE/Knowledge/PUBLICATIONS/EPUB_BG_Essentials_2nd_Edition/main.tex" 1770300603.40317 1230 db0cbd88d7c5b9faf8bfcb7f34a68374 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -71,7 +71,7 @@
   "content/chapter_12.tex" 1774609652.82356 20493 f90ddf4e33ef9d271f113ecf2ba3ea7d ""
   "content/chapter_13.tex" 1774609660.07726 29108 b6479c332a58735a475f52ff7c07f8cb ""
   "content/chapter_14.tex" 1774609667.19057 22099 39594ec07df9bdfd597f28a6681336ff ""
-  "content/chapter_15.tex" 1774609671.6367 18783 465663b0ff29b74bf694edb20d377b5d ""
+  "content/chapter_15.tex" 1774618205.95035 18789 0aeaf39f3093d1e40833306f47f04f11 ""
   "content/chapter_16.tex" 1774609676.99829 18032 699c23f8f1a29624c2a00b3b4ddb0755 ""
   "content/chapter_17.tex" 1774609682.52136 30755 ccbca91a8c707feef8f42be0c2a27a33 ""
   "content/chapter_18.tex" 1774609689.73113 61640 34ec6272bc77a86ee31e255e984ed3ee ""
@@ -83,9 +83,9 @@
   "frontmatter/5_about_PV.tex" 1770125326.48965 2521 506ad67a72889e769f1ed845d0655251 ""
   "frontmatter/6_about_this_book.tex" 1770379126.43097 3717 c40b361374a3599d84ca42adc2f52e81 ""
   "frontmatter/7_introduction.tex" 1770890414.04135 10307 4096e1ce086b7649c10f48ce2a88dc94 ""
-  "main.aux" 1774609695.56727 39560 cde74a8efaa10cb5163fa8f3a736469f "pdflatex"
+  "main.aux" 1774618212.075 39560 5eadd878181946e811c74cb7a92e885a "pdflatex"
   "main.tex" 1770300603.40317 1230 db0cbd88d7c5b9faf8bfcb7f34a68374 ""
-  "main.toc" 1774609695.57059 13681 bcad72fbef48a84f63422917cb42dce6 "pdflatex"
+  "main.toc" 1774618212.07865 13681 ea4448a25fac6d38470c6d481193bc71 "pdflatex"
   "misc/glossary.tex" 1770307669.13755 386 9fd2f2adabd5f464ad8a4b266bd1e902 ""
   "misc/related_books.tex" 1770125278.73492 1335 a007e304206ec3b8e734e30b5d5559a3 ""
   "misc/take_the_next_step.tex" 1770805515.88983 3008 6be22d999c45e5c103762fdd44568f52 ""

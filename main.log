@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.14)  27 MAR 2026 12:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.14)  27 MAR 2026 14:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -28628,19 +28628,6 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./content/chapter_15.tex:18: LaTeX Error: Unicode character ṁ (U+1E41)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 ūrdhva-mūlam adhaḥ-śākham aśvatthaṁ
-                                                  prāhur avyayam \\
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
 ./content/chapter_15.tex:19: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
@@ -28648,26 +28635,39 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.19 chandāṁ
-               si yasya parṇāni yas taṁ veda sa veda-vit}
+l.19 aśvatthaṁ
+                  prāhur avyayam \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./content/chapter_15.tex:19: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:20: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.19 chandāṁsi yasya parṇāni yas taṁ
-                                             veda sa veda-vit}
+l.20 chandāṁ
+               si yasya parṇāni \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Overfull \hbox (6.70012pt too wide) in paragraph at lines 16--22
+./content/chapter_15.tex:21: LaTeX Error: Unicode character ṁ (U+1E41)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 yas taṁ
+               veda sa veda-vit}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (6.70012pt too wide) in paragraph at lines 16--24
 \OT1/cmr/m/n/12 They speak of an im-per-ish-able A^^Ssvattha tree hav-ing roots above and branches
  []
 
@@ -28677,8 +28677,8 @@ Underfull \vbox (badness 6792) has occurred while \output is active []
 
 
 [209]
-./content/chapter_15.tex:23: Undefined control sequence.
-l.23 \Verse
+./content/chapter_15.tex:25: Undefined control sequence.
+l.25 \Verse
            [15.2]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -28687,20 +28687,20 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./content/chapter_15.tex:24: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:26: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 {adhaś cordhvaṁ
+l.26 {adhaś cordhvaṁ
                         prasṛtās tasya \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-./content/chapter_15.tex:30: Undefined control sequence.
-l.30 \Verse
+./content/chapter_15.tex:32: Undefined control sequence.
+l.32 \Verse
            [15.3–4]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -28709,91 +28709,73 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./content/chapter_15.tex:33: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:35: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 aśvattham enaṁ
+l.35 aśvattham enaṁ
                        suvirūḍha-mūlam \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./content/chapter_15.tex:35: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:37: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 tataḥ padaṁ
+l.37 tataḥ padaṁ
                      tat parimārgitavyaṁ \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./content/chapter_15.tex:35: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:37: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 tataḥ padaṁ tat parimārgitavyaṁ
+l.37 tataḥ padaṁ tat parimārgitavyaṁ
                                             \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./content/chapter_15.tex:37: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:39: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 tam eva cādyaṁ
+l.39 tam eva cādyaṁ
                        puruṣaṁ prapadye \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./content/chapter_15.tex:37: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:39: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 tam eva cādyaṁ puruṣaṁ
+l.39 tam eva cādyaṁ puruṣaṁ
                                    prapadye \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-./content/chapter_15.tex:39: Undefined control sequence.
-l.39 ..., one does not return, declaring, \enquote
+./content/chapter_15.tex:41: Undefined control sequence.
+l.41 ..., one does not return, declaring, \enquote
                                                   {I surrender to the primor...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./content/chapter_15.tex:41: Undefined control sequence.
-l.41 \enquote
-             {Here Bhagavān says that as long as this tree of creation whic...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./content/chapter_15.tex:41: Undefined control sequence.
-l.41 ...emain blind. Bhagavān is saying, \enquote
-                                                  {Awake!}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -28802,7 +28784,7 @@ and I'll forget about whatever was undefined.
 
 ./content/chapter_15.tex:43: Undefined control sequence.
 l.43 \enquote
-             {If we dwell only in the outside world, it is useless; it doesn...
+             {Here Bhagavān says that as long as this tree of creation whic...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -28810,7 +28792,25 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ./content/chapter_15.tex:43: Undefined control sequence.
-l.43 ...hen, it’s over! Bhagavān said, \enquote
+l.43 ...emain blind. Bhagavān is saying, \enquote
+                                                  {Awake!}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./content/chapter_15.tex:45: Undefined control sequence.
+l.45 \enquote
+             {If we dwell only in the outside world, it is useless; it doesn...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./content/chapter_15.tex:45: Undefined control sequence.
+l.45 ...hen, it’s over! Bhagavān said, \enquote
                                                   {Find eternal happiness!} ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -28821,14 +28821,14 @@ and I'll forget about whatever was undefined.
 
 
 
-./content/chapter_15.tex:44: LaTeX Error: Unicode character Ṣ (U+1E62)
+./content/chapter_15.tex:46: LaTeX Error: Unicode character Ṣ (U+1E62)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 
+l.46 
      
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -28837,18 +28837,9 @@ You may provide a definition with
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
  [210]
-./content/chapter_15.tex:45: Undefined control sequence.
-l.45 \enquote
-             {Through dispassion one advances toward God-realization. These ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 ./content/chapter_15.tex:47: Undefined control sequence.
 l.47 \enquote
-             {The human being varies. You see this in your life: when you’...
+             {Through dispassion one advances toward God-realization. These ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -28857,6 +28848,15 @@ and I'll forget about whatever was undefined.
 
 ./content/chapter_15.tex:49: Undefined control sequence.
 l.49 \enquote
+             {The human being varies. You see this in your life: when you’...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./content/chapter_15.tex:51: Undefined control sequence.
+l.51 \enquote
              {Bhagavān doesn’t tell you that you should not live your lif...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -28864,8 +28864,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./content/chapter_15.tex:54: Undefined control sequence.
-l.54 \Verse
+./content/chapter_15.tex:56: Undefined control sequence.
+l.56 \Verse
            [15.5]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -28874,27 +28874,27 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./content/chapter_15.tex:57: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:59: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 dvandvair vimuktāḥ sukha-duḥkha-saṁ
+l.59 dvandvair vimuktāḥ sukha-duḥkha-saṁ
                                                jñair \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./content/chapter_15.tex:58: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:60: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58 gacchanty amūḍhāḥ padam avyayaṁ
+l.60 gacchanty amūḍhāḥ padam avyayaṁ
                                              tat}
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -28902,8 +28902,8 @@ You may provide a definition with
 
 
 [211]
-./content/chapter_15.tex:61: Undefined control sequence.
-l.61 \Verse
+./content/chapter_15.tex:63: Undefined control sequence.
+l.63 \Verse
            [15.6]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -28912,20 +28912,20 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./content/chapter_15.tex:63: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:65: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.63 yad gatvā na nivartante tad dhāma paramaṁ
+l.65 yad gatvā na nivartante tad dhāma paramaṁ
                                                    mama}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-./content/chapter_15.tex:66: Undefined control sequence.
-l.66 \enquote
+./content/chapter_15.tex:68: Undefined control sequence.
+l.68 \enquote
              {To be free from this \textit{aparā-prakṛti}, this lower nat...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -28933,8 +28933,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./content/chapter_15.tex:66: Undefined control sequence.
-l.66 ...m all kinds of desires, free from \enquote
+./content/chapter_15.tex:68: Undefined control sequence.
+l.68 ...m all kinds of desires, free from \enquote
                                                   {the duality of joy and gr...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -28942,8 +28942,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./content/chapter_15.tex:68: Undefined control sequence.
-l.68 \enquote
+./content/chapter_15.tex:70: Undefined control sequence.
+l.70 \enquote
              {When a \textit{sādhu}, a saint, touches someone, they are tra...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -28951,8 +28951,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./content/chapter_15.tex:72: Undefined control sequence.
-l.72 \Verse
+./content/chapter_15.tex:74: Undefined control sequence.
+l.74 \Verse
            [15.7]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -28961,20 +28961,20 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./content/chapter_15.tex:73: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:75: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.73 {mamaivāṁ
+l.75 {mamaivāṁ
                  śo jīva-loke jīva-bhūtaḥ sanātanaḥ \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-./content/chapter_15.tex:77: Undefined control sequence.
-l.77 \Verse
+./content/chapter_15.tex:79: Undefined control sequence.
+l.79 \Verse
            [15.8]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -28983,33 +28983,33 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./content/chapter_15.tex:78: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:80: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.78 {śarīraṁ
+l.80 {śarīraṁ
                   yad avāpnoti yac cāpy utkrāmatīśvaraḥ \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./content/chapter_15.tex:79: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:81: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 gṛhītvaitāni saṁ
+l.81 gṛhītvaitāni saṁ
                            yāti vāyur gandhān ivāśayāt}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-./content/chapter_15.tex:82: Undefined control sequence.
-l.82 \Verse
+./content/chapter_15.tex:84: Undefined control sequence.
+l.84 \Verse
            [15.9]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -29018,59 +29018,59 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./content/chapter_15.tex:83: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:85: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 {śrotraṁ
+l.85 {śrotraṁ
                  cakṣuḥ sparśanaṁ ca rasanaṁ ghrāṇam eva ca \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./content/chapter_15.tex:83: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:85: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 {śrotraṁ cakṣuḥ sparśanaṁ
+l.85 {śrotraṁ cakṣuḥ sparśanaṁ
                                          ca rasanaṁ ghrāṇam eva ca \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./content/chapter_15.tex:83: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:85: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 ...raṁ cakṣuḥ sparśanaṁ ca rasanaṁ
+l.85 ...raṁ cakṣuḥ sparśanaṁ ca rasanaṁ
                                                    ghrāṇam eva ca \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./content/chapter_15.tex:84: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:86: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.84 adhiṣṭhāya manaś cāyaṁ
+l.86 adhiṣṭhāya manaś cāyaṁ
                                      viṣayān upasevate}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-./content/chapter_15.tex:87: Undefined control sequence.
-l.87 \Verse
+./content/chapter_15.tex:89: Undefined control sequence.
+l.89 \Verse
            [15.10]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -29079,40 +29079,40 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./content/chapter_15.tex:88: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:90: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88 {utkrāmantaṁ
+l.90 {utkrāmantaṁ
                      sthitaṁ vāpi bhuñjānaṁ vā guṇānvitam \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./content/chapter_15.tex:88: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:90: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88 {utkrāmantaṁ sthitaṁ
+l.90 {utkrāmantaṁ sthitaṁ
                                vāpi bhuñjānaṁ vā guṇānvitam \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./content/chapter_15.tex:88: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:90: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88 {utkrāmantaṁ sthitaṁ vāpi bhuñjānaṁ
+l.90 {utkrāmantaṁ sthitaṁ vāpi bhuñjānaṁ
                                                    vā guṇānvitam \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -29120,14 +29120,14 @@ You may provide a definition with
 
 
 
-./content/chapter_15.tex:91: LaTeX Error: Unicode character Ṣ (U+1E62)
+./content/chapter_15.tex:93: LaTeX Error: Unicode character Ṣ (U+1E62)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91 
+l.93 
      
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -29136,8 +29136,8 @@ You may provide a definition with
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
  [212]
-./content/chapter_15.tex:92: Undefined control sequence.
-l.92 \Verse
+./content/chapter_15.tex:94: Undefined control sequence.
+l.94 \Verse
            [15.11]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -29146,33 +29146,33 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./content/chapter_15.tex:93: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:95: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.93 {yatanto yoginaś cainaṁ
+l.95 {yatanto yoginaś cainaṁ
                                 paśyanty ātmany avasthitam \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./content/chapter_15.tex:94: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:96: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94 yatanto ’py akṛtātmāno nainaṁ
+l.96 yatanto ’py akṛtātmāno nainaṁ
                                            paśyanty acetasaḥ}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-./content/chapter_15.tex:97: Undefined control sequence.
-l.97 \Verse
+./content/chapter_15.tex:99: Undefined control sequence.
+l.99 \Verse
            [15.12]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -29181,20 +29181,20 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./content/chapter_15.tex:98: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:100: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98 {yad āditya-gataṁ
-                          tejo jagad bhāsayate ’khilam \\
+l.100 {yad āditya-gataṁ
+                           tejo jagad bhāsayate ’khilam \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-./content/chapter_15.tex:102: Undefined control sequence.
-l.102 \Verse
+./content/chapter_15.tex:104: Undefined control sequence.
+l.104 \Verse
             [15.13]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -29202,8 +29202,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./content/chapter_15.tex:107: Undefined control sequence.
-l.107 \Verse
+./content/chapter_15.tex:109: Undefined control sequence.
+l.109 \Verse
             [15.14]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -29212,46 +29212,46 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./content/chapter_15.tex:108: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:110: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108 {ahaṁ
+l.110 {ahaṁ
               vaiśvānaro bhūtvā prāṇināṁ deham āśritaḥ \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./content/chapter_15.tex:108: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:110: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108 {ahaṁ vaiśvānaro bhūtvā prāṇināṁ
+l.110 {ahaṁ vaiśvānaro bhūtvā prāṇināṁ
                                                    deham āśritaḥ \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./content/chapter_15.tex:109: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:111: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 prāṇāpāna-samāyuktaḥ pacāmy annaṁ
+l.111 prāṇāpāna-samāyuktaḥ pacāmy annaṁ
                                                    catur-vidham}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-./content/chapter_15.tex:112: Undefined control sequence.
-l.112 \Verse
+./content/chapter_15.tex:114: Undefined control sequence.
+l.114 \Verse
             [15.15]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -29260,33 +29260,33 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./content/chapter_15.tex:113: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:115: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.113 {sarvasya cāhaṁ
+l.115 {sarvasya cāhaṁ
                          hṛdi sanniviṣṭo\\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./content/chapter_15.tex:114: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:116: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114  mattaḥ smṛtir jñānam apohanaṁ
+l.116  mattaḥ smṛtir jñānam apohanaṁ
                                              ca \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-./content/chapter_15.tex:119: Undefined control sequence.
-l.119 \enquote
+./content/chapter_15.tex:121: Undefined control sequence.
+l.121 \enquote
               {Kṛṣṇa is saying that it is Him who gives the energy to ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -29294,18 +29294,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./content/chapter_15.tex:119: Undefined control sequence.
-l.119 ...g is possible. You are thinking, \enquote
-                                                  {I am doing this, I am doi...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 ./content/chapter_15.tex:121: Undefined control sequence.
-l.121 \enquote
-              {When you are so attached to your pride and ego, you are drain...
+l.121 ...g is possible. You are thinking, \enquote
+                                                  {I am doing this, I am doi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -29314,7 +29305,7 @@ and I'll forget about whatever was undefined.
 
 ./content/chapter_15.tex:123: Undefined control sequence.
 l.123 \enquote
-              {The realized ones perceive only the Divine. Everywhere they l...
+              {When you are so attached to your pride and ego, you are drain...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -29322,43 +29313,46 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+Underfull \vbox (badness 1231) has occurred while \output is active []
 
 
-./content/chapter_15.tex:123: LaTeX Error: Unicode character Ṛ (U+1E5A)
+
+
+./content/chapter_15.tex:124: LaTeX Error: Unicode character Ṛ (U+1E5A)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.123 \enquote{T
-                he realized ones perceive only the Divine. Everywhere they l...
+l.124 
+      
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./content/chapter_15.tex:123: LaTeX Error: Unicode character Ṣ (U+1E62)
+./content/chapter_15.tex:124: LaTeX Error: Unicode character Ṣ (U+1E62)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.123 \enquote{T
-                he realized ones perceive only the Divine. Everywhere they l...
+l.124 
+      
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./content/chapter_15.tex:123: LaTeX Error: Unicode character Ṇ (U+1E46)
+./content/chapter_15.tex:124: LaTeX Error: Unicode character Ṇ (U+1E46)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.123 \enquote{T
-                he realized ones perceive only the Divine. Everywhere they l...
+l.124 
+      
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -29368,7 +29362,7 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
  [213]
 ./content/chapter_15.tex:125: Undefined control sequence.
 l.125 \enquote
-              {But the ignorant are not drawn toward spirituality; they are ...
+              {The realized ones perceive only the Divine. Everywhere they l...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -29377,7 +29371,7 @@ and I'll forget about whatever was undefined.
 
 ./content/chapter_15.tex:127: Undefined control sequence.
 l.127 \enquote
-              {They perceive that this happiness reflecting from you is not ...
+              {But the ignorant are not drawn toward spirituality; they are ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -29386,7 +29380,7 @@ and I'll forget about whatever was undefined.
 
 ./content/chapter_15.tex:129: Undefined control sequence.
 l.129 \enquote
-              {The ultimate aim of all the knowledge, the rituals, the worsh...
+              {They perceive that this happiness reflecting from you is not ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -29395,6 +29389,15 @@ and I'll forget about whatever was undefined.
 
 ./content/chapter_15.tex:131: Undefined control sequence.
 l.131 \enquote
+              {The ultimate aim of all the knowledge, the rituals, the worsh...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./content/chapter_15.tex:133: Undefined control sequence.
+l.133 \enquote
               {People can read the \textit{Vedas} they can chant many \texti...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -29402,8 +29405,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./content/chapter_15.tex:136: Undefined control sequence.
-l.136 \Verse
+./content/chapter_15.tex:138: Undefined control sequence.
+l.138 \Verse
             [15.16]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -29412,16 +29415,19 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-./content/chapter_15.tex:140: LaTeX Error: Unicode character Ṣ (U+1E62)
+
+
+./content/chapter_15.tex:142: LaTeX Error: Unicode character Ṣ (U+1E62)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.140 
+l.142 
       
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -29430,8 +29436,8 @@ You may provide a definition with
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
  [214]
-./content/chapter_15.tex:141: Undefined control sequence.
-l.141 \Verse
+./content/chapter_15.tex:143: Undefined control sequence.
+l.143 \Verse
             [15.17]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -29439,8 +29445,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./content/chapter_15.tex:146: Undefined control sequence.
-l.146 \Verse
+./content/chapter_15.tex:148: Undefined control sequence.
+l.148 \Verse
             [15.18]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -29448,8 +29454,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./content/chapter_15.tex:151: Undefined control sequence.
-l.151 \Verse
+./content/chapter_15.tex:153: Undefined control sequence.
+l.153 \Verse
             [15.19]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -29458,20 +29464,20 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./content/chapter_15.tex:153: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:155: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.153 sa sarva-vid bhajati māṁ
+l.155 sa sarva-vid bhajati māṁ
                                   sarva-bhāvena bhārata}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-./content/chapter_15.tex:156: Undefined control sequence.
-l.156 \Verse
+./content/chapter_15.tex:158: Undefined control sequence.
+l.158 \Verse
             [15.20]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -29480,52 +29486,34 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./content/chapter_15.tex:157: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:159: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.157 {iti guhyatamaṁ
+l.159 {iti guhyatamaṁ
                         śāstram idam uktaṁ mayānagha \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./content/chapter_15.tex:157: LaTeX Error: Unicode character ṁ (U+1E41)
+./content/chapter_15.tex:159: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.157 {iti guhyatamaṁ śāstram idam uktaṁ
+l.159 {iti guhyatamaṁ śāstram idam uktaṁ
                                                mayānagha \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-./content/chapter_15.tex:161: Undefined control sequence.
-l.161 \enquote
-              {Whoever rises above the threefold universe, the three \textit...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 ./content/chapter_15.tex:163: Undefined control sequence.
 l.163 \enquote
-              {He who is unaffected, unchanged, who controls and rules over ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./content/chapter_15.tex:163: Undefined control sequence.
-l.163 ...y enjoy life---this you can call \enquote
-                                                  {enjoying life}! When you ...
+              {Whoever rises above the threefold universe, the three \textit...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -29534,7 +29522,7 @@ and I'll forget about whatever was undefined.
 
 ./content/chapter_15.tex:165: Undefined control sequence.
 l.165 \enquote
-              {The \textit{guṇas} and the mode of \textit{prakṛti} are p...
+              {He who is unaffected, unchanged, who controls and rules over ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -29542,17 +29530,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ./content/chapter_15.tex:165: Undefined control sequence.
-l.165 ...ents has an end. Bhagavān says, \enquote
-                                                  {I transcend the perishabl...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./content/chapter_15.tex:165: Undefined control sequence.
-l.165 ...oesn’t say just this! He says, \enquote
-                                                  {I am higher than the impe...
+l.165 ...y enjoy life---this you can call \enquote
+                                                  {enjoying life}! When you ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -29619,7 +29598,25 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
  [215]
 ./content/chapter_15.tex:167: Undefined control sequence.
 l.167 \enquote
-              {The soul is the controlled, God is the controller, and the bo...
+              {The \textit{guṇas} and the mode of \textit{prakṛti} are p...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./content/chapter_15.tex:167: Undefined control sequence.
+l.167 ...ents has an end. Bhagavān says, \enquote
+                                                  {I transcend the perishabl...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./content/chapter_15.tex:167: Undefined control sequence.
+l.167 ...oesn’t say just this! He says, \enquote
+                                                  {I am higher than the impe...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -29628,16 +29625,7 @@ and I'll forget about whatever was undefined.
 
 ./content/chapter_15.tex:169: Undefined control sequence.
 l.169 \enquote
-              {The \textit{bhakta} who recognizes the Lord to be the Almight...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./content/chapter_15.tex:169: Undefined control sequence.
-l.169 ... Lord, and the eyes see only the \enquote
-                                                  {good} the Lord in everyth...
+              {The soul is the controlled, God is the controller, and the bo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -29646,6 +29634,24 @@ and I'll forget about whatever was undefined.
 
 ./content/chapter_15.tex:171: Undefined control sequence.
 l.171 \enquote
+              {The \textit{bhakta} who recognizes the Lord to be the Almight...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./content/chapter_15.tex:171: Undefined control sequence.
+l.171 ... Lord, and the eyes see only the \enquote
+                                                  {good} the Lord in everyth...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./content/chapter_15.tex:173: Undefined control sequence.
+l.173 \enquote
               {Here Bhagavān says that whoever has surrendered perceives Hi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -37109,7 +37115,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  85i,13n,93p,2009b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (270 pages, 793489 bytes).
+Output written on main.pdf (270 pages, 793439 bytes).
 PDF statistics:
  931 PDF objects out of 1000 (max. 8388607)
  630 compressed objects within 7 object streams

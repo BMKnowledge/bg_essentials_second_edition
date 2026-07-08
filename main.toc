@@ -109,7 +109,7 @@
 \contentsline {section}{\numberline {23.1}Verses 1-4: The Tree of Life}{210}{}%
 \contentsline {section}{\numberline {23.2}Verses 5-6: Reaching the Highest Realm}{211}{}%
 \contentsline {section}{\numberline {23.3}Verses 7-15: The Soul Is an Eternal Fragment of Kṛṣṇa}{212}{}%
-\contentsline {section}{\numberline {23.4}Verses 16-20: Kṛṣṇa Is the Puruṣottama Beyond the Self}{214}{}%
+\contentsline {section}{\numberline {23.4}Verses 16-20: Kṛṣṇa Is the Puruṣottama Beyond the Self}{215}{}%
 \contentsline {chapter}{\chapternumberline {24}Chapter 16: \\Daivāsura-sampad-vibhāga-yoga}{217}{}%
 \contentsline {section}{\numberline {24.1}Verses 1-6: Qualities of the Righteous}{218}{}%
 \contentsline {section}{\numberline {24.2}Verses 7-20: Qualities of the Unrighteous}{219}{}%
