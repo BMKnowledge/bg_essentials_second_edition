@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
   <head>
-    <meta name="dtb:uid" content="urn:isbn:YOUR-ISBN-13-HERE" />
+    <meta name="dtb:uid" content="urn:uuid:36878984-4bbb-4719-88d1-3ebbc63c1bb2" />
     <meta name="dtb:depth" content="1" />
     <meta name="dtb:totalPageCount" content="0" />
     <meta name="dtb:maxPageNumber" content="0" />
-    <meta name="cover" content="front_cover_png" />
+    <meta name="cover" content="front_cover_epub_jpg" />
   </head>
   <docTitle>
     <text>Bhagavad Gītā Essentials Second Edition</text>
@@ -19,13 +19,13 @@
     </navPoint>
     <navPoint id="navPoint-1">
       <navLabel>
-        <text></text>
+        <text>Dedication</text>
       </navLabel>
       <content src="text/ch001.xhtml#section" />
     </navPoint>
     <navPoint id="navPoint-2">
       <navLabel>
-        <text></text>
+        <text>Invocations</text>
       </navLabel>
       <content src="text/ch002.xhtml#section-1" />
     </navPoint>

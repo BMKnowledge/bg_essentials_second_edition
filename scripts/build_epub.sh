@@ -36,7 +36,19 @@ latexpand main.tex > "$BUILD_DIR/main.flat.tex"
 # This modifies ONLY the build artifact (safe).
 python3 scripts/convert_verses.py "$BUILD_DIR/main.flat.tex" --inplace -o "$BUILD_DIR"
 
+# 2b) EPUB-only asset swaps (print keeps the CMYK original):
+#     Apple Books requires RGB images; CMYK JPEGs also render broken on Kindle.
+#     Guruji_epub.jpg is an RGB, web-sized derivative of Guruji_cmyk.jpg.
+perl -pi -e 's|assets/imgs/Guruji_cmyk\.jpg|assets/imgs/Guruji_epub.jpg|g' "$BUILD_DIR/main.flat.tex"
+
+# Store identifier: replace with the real ISBN (urn:isbn:978...) once assigned.
+# Apple Books and KDP both accept a UUID for books without an ISBN.
+BOOK_IDENTIFIER="urn:uuid:36878984-4bbb-4719-88d1-3ebbc63c1bb2"
+
 # 3) Build EPUB (no raw_tex needed now)
+#    Cover: Apple Books requires >= 1400 px on the shorter side; front_cover_epub.jpg
+#    is 1400x2441 (upscaled from the 984px master — replace with a native hi-res
+#    export when available).
 pandoc --from=latex --to=epub3 "$BUILD_DIR/main.flat.tex" -o "$OUTPUT_PATH" \
   --toc \
   --metadata=title:"Bhagavad Gītā Essentials Second Edition" \
@@ -47,10 +59,9 @@ pandoc --from=latex --to=epub3 "$BUILD_DIR/main.flat.tex" -o "$OUTPUT_PATH" \
   --metadata=subject:"Hinduism" \
   --metadata=subject:"Vedānta" \
   --metadata=subject:"Bhakti" \
-  --metadata=identifier:"urn:isbn:YOUR-ISBN-13-HERE" \
+  --metadata=identifier:"$BOOK_IDENTIFIER" \
   --resource-path=.:./assets/imgs:./assets/fonts \
-  --epub-cover-image=./assets/imgs/front_cover.png \
-  --metadata=cover-image:front_cover.png \
+  --epub-cover-image=./assets/imgs/front_cover_epub.jpg \
   --top-level-division=chapter \
   --split-level=1 \
   --css=default.css \
@@ -71,10 +82,19 @@ rm "$BUILD_DIR/tmp.zip"
 # Remove the landmarks nav block (naive but usually sufficient)
 perl -0pi -e 's|<nav[^>]*epub:type="landmarks"[\s\S]*?</nav>||' "$TMP_DIR/EPUB/nav.xhtml"
 
-# Rebuild epub
+# Give the two untitled frontmatter chapters (\chapter{} in 00_dedication.tex and
+# 0_invocations.tex -> ch001/ch002) their TOC labels. Empty TOC anchors are an
+# epubcheck ERROR (RSC-005) and Apple Books rejects EPUBs that fail epubcheck.
+perl -0pi -e 's|(<a href="text/ch001\.xhtml#[^"]*") */>|$1>Dedication</a>|; s|(<a href="text/ch002\.xhtml#[^"]*") */>|$1>Invocations</a>|' "$TMP_DIR/EPUB/nav.xhtml"
+perl -0pi -e 's|<text></text>(\s*</navLabel>\s*<content src="text/ch001\.xhtml)|<text>Dedication</text>$1|; s|<text></text>(\s*</navLabel>\s*<content src="text/ch002\.xhtml)|<text>Invocations</text>$1|' "$TMP_DIR/EPUB/toc.ncx"
+
+# Rebuild epub from scratch: the OCF spec requires `mimetype` to be the FIRST
+# zip entry and STORED (uncompressed) — hence -X0 for it, then the rest.
+rm -f "$OUTPUT_PATH"
 (
   cd "$TMP_DIR"
-  zip -Xr "../$OUTPUT_FILE" mimetype META-INF EPUB
+  zip -X0 "../$OUTPUT_FILE" mimetype
+  zip -Xr9 "../$OUTPUT_FILE" META-INF EPUB
 )
 
 echo "==> Done"
