@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.14)  8 JUL 2026 16:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.14)  8 JUL 2026 16:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -779,27 +779,33 @@ You may provide a definition with
 
 [3
 
-]) (./frontmatter/2_preface_to_the_second_edition.tex
+]) (./frontmatter/1_copyright.tex
 
 [4
 
-]) (./frontmatter/3_foreword.tex
+]) (./frontmatter/2_preface_to_the_second_edition.tex
 
-[5]
+[5{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
 [6
 
-]) (./frontmatter/4_the_seekers_journey.tex
+]) (./frontmatter/3_foreword.tex
 
 [7]
 
 [8
 
-]) (./frontmatter/5_about_PV.tex
+]) (./frontmatter/4_the_seekers_journey.tex
 
 [9]
 
 [10
+
+]) (./frontmatter/5_about_PV.tex
+
+[11]
+
+[12
 
 ]
 
@@ -830,7 +836,7 @@ or  <return>  to continue without it.
 
 
 
-[11]
+[13]
 ./frontmatter/5_about_PV.tex:17: Undefined control sequence.
 l.17 ...wide organization, Bhakti Marga---\enquote
                                                   {the path of devotion.}
@@ -899,9 +905,9 @@ my insertion and my current dilemma will both disappear.
 
 ) (./frontmatter/6_about_this_book.tex
 
-[12]
+[14]
 
-[13
+[15
 
 ]
 ./frontmatter/6_about_this_book.tex:38: Undefined control sequence.
@@ -924,20 +930,20 @@ and I'll forget about whatever was undefined.
 
 ) (./frontmatter/7_introduction.tex
 
-[14]
+[16]
 
-[15
+[17
 
 ]
 
-[16]
+[18]
 Overfull \hbox (17.07912pt too wide) in paragraph at lines 29--30
 \OT1/cmr/m/n/12 The \OT1/cmr/m/it/12 Bha-gavad G^^V^^Pt^^Va \OT1/cmr/m/n/12 is part of a much larger scrip-ture known as the \OT1/cmr/m/it/12 Mah^^Vabh^^Varata
  []
 
 
 
-[17]
+[19]
 ./frontmatter/7_introduction.tex:51: Undefined control sequence.
 l.51 ...’s grace, Arjuna is given these \enquote
                                                   {eyes to see} in Chapter 11.
@@ -952,13 +958,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[18])
+[20])
 No file main.toc.
 (./content/chapter_01.tex
 
-[19]
+[21]
 
-[20
+[22
 
 ]
 ./content/chapter_01.tex:12: Undefined control sequence.
@@ -1024,7 +1030,7 @@ You may provide a definition with
 
 
 
-[21]
+[23]
 ./content/chapter_01.tex:19: Undefined control sequence.
 l.19 \enquote
              {This verse starts with the word \enquote{\textit{dharma-kṣet...
@@ -1230,7 +1236,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [22]
+ [24]
 ./content/chapter_01.tex:45: Undefined control sequence.
 l.45 \Verse
            [1.4]
@@ -1492,7 +1498,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[23]
+[25]
 ./content/chapter_01.tex:97: Undefined control sequence.
 l.97 \enquote
              {Duryodhana represents this great pride that is born from the m...
@@ -1601,7 +1607,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [24]
+ [26]
 ./content/chapter_01.tex:109: Undefined control sequence.
 l.109 \enquote{Duryodhana continues, \enquote
                                              {There are many more heroes who...
@@ -1765,7 +1771,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [25]
+ [27]
 ./content/chapter_01.tex:136: Undefined control sequence.
 l.136 \Verse
             [1.19]
@@ -1895,7 +1901,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [26]
+ [28]
 
 
 ./content/chapter_01.tex:157: LaTeX Error: Unicode character Ṛ (U+1E5A)
@@ -1939,7 +1945,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [27]
+ [29]
 ./content/chapter_01.tex:160: Undefined control sequence.
 l.160 \Verse
             [1.21–22]
@@ -2123,7 +2129,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [28]
+ [30]
 ./content/chapter_01.tex:187: Undefined control sequence.
 l.187 \Verse
             [1.26–27]
@@ -2410,7 +2416,7 @@ You may provide a definition with
 
 
 
-[29]
+[31]
 ./content/chapter_01.tex:229: Undefined control sequence.
 l.229 \Verse
             [1.35]
@@ -2643,6 +2649,25 @@ l.263 patanti pitaro hy eṣāṁ
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
+
+
+
+./content/chapter_01.tex:265: LaTeX Error: Unicode character Ṣ (U+1E62)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 
+      
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+ [32]
 ./content/chapter_01.tex:266: Undefined control sequence.
 l.266 \Verse
             [1.43]
@@ -2665,25 +2690,6 @@ l.267 {doṣair etaiḥ kula-ghnānāṁ
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-
-
-
-./content/chapter_01.tex:270: LaTeX Error: Unicode character Ṣ (U+1E62)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.270 
-      
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-Overfull \vbox (14.49998pt too high) has occurred while \output is active []
-
- [30]
 ./content/chapter_01.tex:271: Undefined control sequence.
 l.271 \Verse
             [1.44]
@@ -2937,7 +2943,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[31]
+[33]
 ./content/chapter_01.tex:300: Undefined control sequence.
 l.300 \enquote
               {In his confusion, Arjuna tries to find all kinds of excuses n...
@@ -3019,6 +3025,25 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+
+
+./content/chapter_01.tex:309: LaTeX Error: Unicode character Ṣ (U+1E62)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.309 
+      
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+ [34]
 ./content/chapter_01.tex:310: Undefined control sequence.
 l.310 \enquote
               {At the beginning of your spiritual path, it’s not easy. You...
@@ -3048,27 +3073,9 @@ and I'll forget about whatever was undefined.
 
 ) (./content/chapter_02.tex
 
+[35]
 
-./content/chapter_02.tex:1: LaTeX Error: Unicode character Ṣ (U+1E62)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \chapter
-            {Chapter 2: \\Sāṅkhya-yoga}\label{chap-sankhya-yoga}
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-Overfull \vbox (14.49998pt too high) has occurred while \output is active []
-
- [32]
-
-[33]
-
-[34
+[36
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -3077,7 +3084,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 6.
 
 
-[35]
+[37]
 ./content/chapter_02.tex:15: Undefined control sequence.
 l.15 \Verse
            [2.1]
@@ -3284,7 +3291,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [36]
+ [38]
 ./content/chapter_02.tex:48: Undefined control sequence.
 l.48 \Verse
            [2.6]
@@ -3515,7 +3522,7 @@ l.81
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[37]
+[39]
 ./content/chapter_02.tex:82: Undefined control sequence.
 l.82 \enquote
              {How can Kṛṣṇa tell something to Arjuna, if Arjuna doesn�...
@@ -3597,7 +3604,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [38]
+ [40]
 ./content/chapter_02.tex:99: Undefined control sequence.
 l.99 \Verse
            [2.10]
@@ -3876,7 +3883,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[39]
+[41]
 ./content/chapter_02.tex:146: Undefined control sequence.
 l.146 \Verse
             [2.19]
@@ -4266,7 +4273,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [40]
+ [42]
 ./content/chapter_02.tex:190: Undefined control sequence.
 l.190 \Verse
             [2.27]
@@ -4415,7 +4422,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[41]
+[43]
 ./content/chapter_02.tex:220: Undefined control sequence.
 l.220 \enquote
               {[Kṛṣṇa says,] \enquote{There was never a time when I di...
@@ -4509,7 +4516,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [42]
+ [44]
 ./content/chapter_02.tex:241: Undefined control sequence.
 l.241 \Verse
             [2.32]
@@ -4810,7 +4817,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[43]
+[45]
 ./content/chapter_02.tex:278: Undefined control sequence.
 l.278 \enquote
               {If you are looking at the soul only from the point of view of...
@@ -4936,7 +4943,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [44]
+ [46]
 ./content/chapter_02.tex:291: Undefined control sequence.
 l.291 \Verse
             [2.40]
@@ -5106,7 +5113,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[45]
+[47]
 ./content/chapter_02.tex:323: Undefined control sequence.
 l.323 \Verse
             [2.47]
@@ -5301,7 +5308,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [46]
+ [48]
 ./content/chapter_02.tex:360: Undefined control sequence.
 l.360 \enquote
               {Realized souls are not attached to anything. Even if they do ...
@@ -5383,7 +5390,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[47]
+[49]
 ./content/chapter_02.tex:377: Undefined control sequence.
 l.377 \Verse
             [2.55]
@@ -5552,7 +5559,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [48]
+ [50]
 
 ./content/chapter_02.tex:415: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
@@ -5788,7 +5795,7 @@ You may provide a definition with
 
 
 
-[49]
+[51]
 ./content/chapter_02.tex:461: Undefined control sequence.
 l.461 \Verse
             [2.71]
@@ -5941,7 +5948,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [50]
+ [52]
 ./content/chapter_02.tex:483: Undefined control sequence.
 l.483 \enquote
               {Those who have realized God, they reflect a different light. ...
@@ -5989,9 +5996,9 @@ and I'll forget about whatever was undefined.
 
 ) (./content/chapter_03.tex
 
-[51]
+[53]
 
-[52
+[54
 
 ]
 ./content/chapter_03.tex:13: Undefined control sequence.
@@ -6031,7 +6038,7 @@ You may provide a definition with
 
 
 
-[53]
+[55]
 ./content/chapter_03.tex:20: Undefined control sequence.
 l.20 \Verse
            [3.2]
@@ -6135,7 +6142,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [54]
+ [56]
 ./content/chapter_03.tex:40: Undefined control sequence.
 l.40 \Verse
            [3.3]
@@ -6318,7 +6325,7 @@ You may provide a definition with
 
 
 
-[55]
+[57]
 ./content/chapter_03.tex:77: Undefined control sequence.
 l.77 \Verse
            [3.10]
@@ -6567,7 +6574,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [56]
+ [58]
 ./content/chapter_03.tex:116: Undefined control sequence.
 l.116 \enquote
               {You can’t stop the senses. You can’t stop the natural ten...
@@ -6615,7 +6622,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[57]
+[59]
 ./content/chapter_03.tex:123: Undefined control sequence.
 l.123 \Verse
             [3.17]
@@ -6766,7 +6773,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [58]
+ [60]
 ./content/chapter_03.tex:153: Undefined control sequence.
 l.153 \Verse
             [3.23]
@@ -6923,7 +6930,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[59]
+[61]
 ./content/chapter_03.tex:178: Undefined control sequence.
 l.178 \enquote
               {Great heroes and great saints reached perfection during their...
@@ -7028,7 +7035,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [60]
+ [62]
 ./content/chapter_03.tex:194: Undefined control sequence.
 l.194 \Verse
             [3.27]
@@ -7212,7 +7219,7 @@ l.238
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[61]
+[63]
 ./content/chapter_03.tex:239: Undefined control sequence.
 l.239 \enquote
               {Lord Kṛṣṇa says that you just need to have faith and tr...
@@ -7335,7 +7342,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [62]
+ [64]
 ./content/chapter_03.tex:249: Undefined control sequence.
 l.249 \enquote
               {Each one is right where one has to be. Learn to accept this! ...
@@ -7430,7 +7437,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [63]
+ [65]
 ./content/chapter_03.tex:273: Undefined control sequence.
 l.273 \Verse
             [3.39]
@@ -7644,7 +7651,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [64]
+ [66]
 ./content/chapter_03.tex:302: Undefined control sequence.
 l.302 \enquote
               {When anger arises in the heart of man, it deprives him of his...
@@ -7713,7 +7720,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [65]
+ [67]
 ./content/chapter_03.tex:310: Undefined control sequence.
 l.310 ...uote{Kṛṣṇa says to Arjuna, \enquote
                                                   {Be knowledgeable about th...
@@ -7746,16 +7753,16 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [66]
+ [68]
 
-[67
+[69
 
 ]
 
 
 Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
- [68]
+ [70]
 ./content/chapter_04.tex:14: Undefined control sequence.
 l.14 \Verse
            [4.1]
@@ -8116,7 +8123,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[69]
+[71]
 ./content/chapter_04.tex:52: Undefined control sequence.
 l.52 \enquote
              {When you are in tune with the Divine, the Divine reveals to yo...
@@ -8233,7 +8240,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
- [70]
+ [72]
 ./content/chapter_04.tex:72: Undefined control sequence.
 l.72 \enquote
              {People can’t understand the Ultimate, God Himself, the Lord ...
@@ -8386,7 +8393,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [71]
+ [73]
 ./content/chapter_04.tex:82: Undefined control sequence.
 l.82 \enquote
              {Even being the Lord of the whole universe, He humbles Himself ...
@@ -8585,7 +8592,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
- [72]
+ [74]
 
 ./content/chapter_04.tex:111: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
@@ -8736,7 +8743,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[73]
+[75]
 ./content/chapter_04.tex:133: Undefined control sequence.
 l.133 \Verse
             [4.17]
@@ -8931,7 +8938,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
- [74]
+ [76]
 ./content/chapter_04.tex:170: Undefined control sequence.
 l.170 \enquote
               {If you perform \enquote{inaction} without the direction and s...
@@ -8988,7 +8995,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[75]
+[77]
 ./content/chapter_04.tex:180: Undefined control sequence.
 l.180 \enquote
               {The wise people perform all their duties in a renounced way. ...
@@ -9039,7 +9046,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
- [76]
+ [78]
 ./content/chapter_04.tex:187: Undefined control sequence.
 l.187 \Verse
             [4.24]
@@ -9247,7 +9254,7 @@ You may provide a definition with
 
 Overfull \vbox (0.84767pt too high) has occurred while \output is active []
 
- [77]
+ [79]
 ./content/chapter_04.tex:227: Undefined control sequence.
 l.227 \Verse
             [4.32]
@@ -9386,7 +9393,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
- [78]
+ [80]
 ./content/chapter_04.tex:248: Undefined control sequence.
 l.248 \Verse
             [4.34]
@@ -9483,7 +9490,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[79]
+[81]
 ./content/chapter_04.tex:266: Undefined control sequence.
 l.266 \Verse
             [4.35]
@@ -9873,7 +9880,7 @@ You may provide a definition with
 
 Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
- [80]
+ [82]
 ./content/chapter_04.tex:306: Undefined control sequence.
 l.306 \enquote
               {The Truth about the soul is deeply mysterious because it cann...
@@ -9978,9 +9985,9 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [81]
+ [83]
 
-[82
+[84
 
 ]
 ./content/chapter_05.tex:13: Undefined control sequence.
@@ -10068,7 +10075,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[83]
+[85]
 ./content/chapter_05.tex:27: Undefined control sequence.
 l.27 \Verse
            [5.3]
@@ -10221,7 +10228,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [84]
+ [86]
 ./content/chapter_05.tex:54: Undefined control sequence.
 l.54 \enquote
              {Here the Lord says that both \textit{yogas} will bring you to ...
@@ -10326,12 +10333,12 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (15.34767pt too high) has occurred while \output is active []
 
- [85]
+ [87]
 
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [86]
+ [88]
 ./content/chapter_05.tex:67: Undefined control sequence.
 l.67 \Verse
            [5.8–9]
@@ -10597,7 +10604,7 @@ You may provide a definition with
 
 
 
-[87]
+[89]
 ./content/chapter_05.tex:110: Undefined control sequence.
 l.110 \Verse
             [5.17]
@@ -10688,7 +10695,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [88]
+ [90]
 ./content/chapter_05.tex:123: Undefined control sequence.
 l.123 ...s His instrument. Even the small \enquote
                                                   {I} which is aware of God,...
@@ -10763,7 +10770,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[89]
+[91]
 ./content/chapter_05.tex:133: Undefined control sequence.
 l.133 ...en people think that God is only \enquote
                                                   {good} and doesn’t have ...
@@ -10884,7 +10891,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [90]
+ [92]
 
 ./content/chapter_05.tex:152: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
@@ -11099,7 +11106,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[91]
+[93]
 ./content/chapter_05.tex:190: Undefined control sequence.
 l.190 \enquote
               {The sages, the \textit{sādhus}, the saints, perceive only th...
@@ -11204,7 +11211,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [92]
+ [94]
 ./content/chapter_05.tex:200: Undefined control sequence.
 l.200 \enquote
               {God is the supreme light of all lights. The whole universe is...
@@ -11304,7 +11311,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[93]
+[95]
 ./content/chapter_05.tex:215: Undefined control sequence.
 l.215 \Verse
             [5.29]
@@ -11411,7 +11418,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [94]
+ [96]
 ./content/chapter_06.tex:14: Undefined control sequence.
 l.14 \Verse
            [6.1]
@@ -11452,7 +11459,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[95
+[97
 
 ]
 ./content/chapter_06.tex:21: Undefined control sequence.
@@ -11596,7 +11603,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [96]
+ [98]
 ./content/chapter_06.tex:49: Undefined control sequence.
 l.49 \Verse
            [6.6]
@@ -11692,7 +11699,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [97]
+ [99]
 ./content/chapter_06.tex:76: Undefined control sequence.
 l.76 \enquote
              {True \textit{yogīs} are here on Earth to love: they always st...
@@ -11831,7 +11838,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [98]
+ [100]
 ./content/chapter_06.tex:96: Undefined control sequence.
 l.96 \Verse
            [6.13–14]
@@ -12054,7 +12061,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[99]
+[101]
 ./content/chapter_06.tex:127: Undefined control sequence.
 l.127 \Verse
             [6.18]
@@ -12331,7 +12338,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [100]
+ [102]
 ./content/chapter_06.tex:163: Undefined control sequence.
 l.163 \Verse
             [6.25]
@@ -12689,7 +12696,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[101]
+[103]
 ./content/chapter_06.tex:205: Undefined control sequence.
 l.205 \enquote
               {When through deep meditation, one has perceived the true real...
@@ -12815,7 +12822,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [102]
+ [104]
 ./content/chapter_06.tex:220: Undefined control sequence.
 l.220 \Verse
             [6.34]
@@ -13026,7 +13033,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[103]
+[105]
 ./content/chapter_06.tex:245: Undefined control sequence.
 l.245 \Verse
             [6.37]
@@ -13220,7 +13227,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [104]
+ [106]
 ./content/chapter_06.tex:274: Undefined control sequence.
 l.274 \Verse
             [6.42]
@@ -13408,7 +13415,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[105]
+[107]
 ./content/chapter_06.tex:305: Undefined control sequence.
 l.305 \enquote
               {In this life, through \textit{sādhana}, through following th...
@@ -13489,7 +13496,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [106]
+ [108]
 
 ./content/chapter_07.tex:6: LaTeX Error: Unicode character Ṛ (U+1E5A)
                not set up for use with LaTeX.
@@ -13531,7 +13538,7 @@ You may provide a definition with
 
 
 
-[107
+[109
 
 ]
 ./content/chapter_07.tex:16: Undefined control sequence.
@@ -13781,7 +13788,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
- [108]
+ [110]
 ./content/chapter_07.tex:39: Undefined control sequence.
 l.39 \enquote
              {Some devotees have the grace of becoming true \textit{Vaiṣ�...
@@ -13916,7 +13923,7 @@ You may provide a definition with
 
 
 
-[109]
+[111]
 ./content/chapter_07.tex:54: Undefined control sequence.
 l.54 \Verse
            [7.6]
@@ -14025,7 +14032,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
- [110]
+ [112]
 ./content/chapter_07.tex:70: Undefined control sequence.
 l.70 \Verse
            [7.7]
@@ -14339,7 +14346,7 @@ l.105
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[111]
+[113]
 ./content/chapter_07.tex:106: Undefined control sequence.
 l.106 \enquote
               {\enquote{But I am not in them, they are in Me.} Do you unders...
@@ -14500,7 +14507,7 @@ You may provide a definition with
 
 Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
- [112]
+ [114]
 ./content/chapter_07.tex:127: Undefined control sequence.
 l.127 \enquote
               {The one who is full of sorrow, who is deluded by the glamour ...
@@ -14591,7 +14598,7 @@ Underfull \vbox (badness 1960) has occurred while \output is active []
 
 
 
-[113]
+[115]
 
 ./content/chapter_07.tex:141: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
@@ -14852,7 +14859,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
- [114]
+ [116]
 ./content/chapter_07.tex:177: Undefined control sequence.
 l.177 \enquote
               {The third kind of devotees, \enquote{\textit{arthārthī},} a...
@@ -14909,7 +14916,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[115]
+[117]
 ./content/chapter_07.tex:185: Undefined control sequence.
 l.185 \Verse
             [7.23]
@@ -15060,7 +15067,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
- [116]
+ [118]
 
 ./content/chapter_07.tex:207: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
@@ -15352,7 +15359,7 @@ l.236
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[117]
+[119]
 ./content/chapter_07.tex:237: Undefined control sequence.
 l.237 \enquote
               {Here Bhagavān Kṛṣṇa is saying, \enquote{I am the Lord ...
@@ -15430,9 +15437,9 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
- [118]
+ [120]
 
-[119
+[121
 
 ]
 ./content/chapter_08.tex:14: Undefined control sequence.
@@ -15724,7 +15731,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [120]
+ [122]
 ./content/chapter_08.tex:44: Undefined control sequence.
 l.44 \enquote
              {This indestructible Self, which is above all the material natu...
@@ -15843,7 +15850,7 @@ l.55
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[121]
+[123]
 ./content/chapter_08.tex:56: Undefined control sequence.
 l.56 \enquote
              {When the mind unites with the heart, something else comes out....
@@ -16046,7 +16053,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [122]
+ [124]
 ./content/chapter_08.tex:82: Undefined control sequence.
 l.82 \Verse
            [8.9–10]
@@ -16393,7 +16400,7 @@ l.116
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[123]
+[125]
 ./content/chapter_08.tex:117: Undefined control sequence.
 l.117 \Verse
             [8.16]
@@ -16568,7 +16575,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [124]
+ [126]
 ./content/chapter_08.tex:132: Undefined control sequence.
 l.132 \enquote
               {He reveals Himself to the one who aims for Self-realization, ...
@@ -16644,7 +16651,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[125]
+[127]
 ./content/chapter_08.tex:145: Undefined control sequence.
 l.145 \Verse
             [8.18]
@@ -16879,7 +16886,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [126]
+ [128]
 ./content/chapter_08.tex:185: Undefined control sequence.
 l.185 \Verse
             [8.26]
@@ -16984,7 +16991,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[127]
+[129]
 ./content/chapter_08.tex:208: Undefined control sequence.
 l.208 \enquote
               {The ones who are constantly immersed in His Love, the Divine ...
@@ -17048,7 +17055,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [128]
+ [130]
 
 ./content/chapter_09.tex:10: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
@@ -17128,7 +17135,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[129
+[131
 
 ]
 ./content/chapter_09.tex:23: Undefined control sequence.
@@ -17259,7 +17266,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [130]
+ [132]
 ./content/chapter_09.tex:39: Undefined control sequence.
 l.39 \enquote
              {Kṛṣṇa says, \enquote{What I am asking of you is not diff...
@@ -17394,7 +17401,7 @@ l.56
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[131]
+[133]
 ./content/chapter_09.tex:57: Undefined control sequence.
 l.57 \Verse
            [9.6]
@@ -17572,7 +17579,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [132]
+ [134]
 ./content/chapter_09.tex:88: Undefined control sequence.
 l.88 \enquote
              {The ego, the pride, the big \enquote{I, I, I} are just like cl...
@@ -17686,7 +17693,7 @@ l.99
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[133]
+[135]
 ./content/chapter_09.tex:100: Undefined control sequence.
 l.100 \enquote
               {If people have not reached this state of realization in their...
@@ -17746,7 +17753,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [134]
+ [136]
 
 
 ./content/chapter_09.tex:106: LaTeX Error: Unicode character Ṛ (U+1E5A)
@@ -17787,7 +17794,7 @@ l.106 \newpage
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[135]
+[137]
 ./content/chapter_09.tex:110: Undefined control sequence.
 l.110 \Verse
             [9.11]
@@ -18030,7 +18037,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [136]
+ [138]
 ./content/chapter_09.tex:141: Undefined control sequence.
 l.141 \enquote
               {Bhagavān says that the great souls adore Him with a single-p...
@@ -18123,7 +18130,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [137]
+ [139]
 ./content/chapter_09.tex:154: Undefined control sequence.
 l.154 \Verse
             [9.17]
@@ -18388,7 +18395,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [138]
+ [140]
 ./content/chapter_09.tex:176: Undefined control sequence.
 l.176 ...ate from Him alone and He is the \enquote
                                                   {eternal resting place,} s...
@@ -18543,7 +18550,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [139]
+ [141]
 ./content/chapter_09.tex:198: Undefined control sequence.
 l.198 \Verse
             [9.22]
@@ -18719,7 +18726,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [140]
+ [142]
 ./content/chapter_09.tex:220: Undefined control sequence.
 l.220 \enquote
               {People often work with the lower frequencies of nature as the...
@@ -18898,7 +18905,7 @@ l.236
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[141]
+[143]
 ./content/chapter_09.tex:237: Undefined control sequence.
 l.237 \enquote
               {That intensity of faith and worship, that intensity of Love a...
@@ -18962,7 +18969,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [142]
+ [144]
 ./content/chapter_09.tex:255: Undefined control sequence.
 l.255 \Verse
             [9.29]
@@ -19163,7 +19170,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[143]
+[145]
 ./content/chapter_09.tex:284: Undefined control sequence.
 l.284 \enquote
               {At night, before sleeping, close your eyes, think of Nārāya...
@@ -19267,7 +19274,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [144]
+ [146]
 ./content/chapter_09.tex:303: Undefined control sequence.
 l.303 \enquote
               {Here He says to Arjuna, \enquote{Focus your mind on Me, be de...
@@ -19297,9 +19304,9 @@ and I'll forget about whatever was undefined.
 
 ) (./content/chapter_10.tex
 
-[145]
+[147]
 
-[146
+[148
 
 ]
 
@@ -19381,7 +19388,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[147]
+[149]
 ./content/chapter_10.tex:21: Undefined control sequence.
 l.21 \Verse
            [10.2]
@@ -19649,7 +19656,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [148]
+ [150]
 ./content/chapter_10.tex:51: Undefined control sequence.
 l.51 \enquote
              {He assumes various aspects, various forms, as desired by His d...
@@ -19718,7 +19725,7 @@ l.57 \newpage
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[149]
+[151]
 ./content/chapter_10.tex:60: Undefined control sequence.
 l.60 \Verse
            [10.8]
@@ -19935,7 +19942,7 @@ Overfull \hbox (22.56245pt too wide) in paragraph at lines 82--83
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [150]
+ [152]
 ./content/chapter_10.tex:84: Undefined control sequence.
 l.84 \enquote
              {There are saints who don’t speak one word. But the \textit{b...
@@ -19986,7 +19993,7 @@ l.86 \newpage
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[151]
+[153]
 ./content/chapter_10.tex:89: Undefined control sequence.
 l.89 \Verse
            [10.12–13]
@@ -20364,7 +20371,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [152]
+ [154]
 ./content/chapter_10.tex:131: Undefined control sequence.
 l.131 \enquote
               {Now, Arjuna is not thinking of war; he is not thinking of any...
@@ -20516,7 +20523,7 @@ l.151
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[153]
+[155]
 ./content/chapter_10.tex:152: Undefined control sequence.
 l.152 \Verse
             [10.22]
@@ -20797,7 +20804,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [154]
+ [156]
 ./content/chapter_10.tex:177: Undefined control sequence.
 l.177 \Verse
             [10.27]
@@ -21044,7 +21051,7 @@ l.196
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[155]
+[157]
 ./content/chapter_10.tex:197: Undefined control sequence.
 l.197 \Verse
             [10.31]
@@ -21304,7 +21311,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [156]
+ [158]
 ./content/chapter_10.tex:232: Undefined control sequence.
 l.232 \Verse
             [10.38]
@@ -21609,7 +21616,7 @@ l.260
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[157]
+[159]
 ./content/chapter_10.tex:261: Undefined control sequence.
 l.261 \enquote
               {Here Bhagavān says that the glories are endless and countles...
@@ -21651,9 +21658,9 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [158]
+ [160]
 
-[159
+[161
 
 ]
 ./content/chapter_11.tex:16: Undefined control sequence.
@@ -21846,7 +21853,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (16.71666pt too high) has occurred while \output is active []
 
- [160]
+ [162]
 ./content/chapter_11.tex:42: Undefined control sequence.
 l.42 ...somebody asks this, you will say, \enquote
                                                   {You want to see because y...
@@ -21930,7 +21937,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[161]
+[163]
 ./content/chapter_11.tex:60: Undefined control sequence.
 l.60 \Verse
            [11.7]
@@ -22033,7 +22040,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (16.71666pt too high) has occurred while \output is active []
 
- [162]
+ [164]
 ./content/chapter_11.tex:77: Undefined control sequence.
 l.77 \Verse
            [11.9–11]
@@ -22251,7 +22258,7 @@ l.104
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[163]
+[165]
 ./content/chapter_11.tex:109: Undefined control sequence.
 l.109 \Verse
             [11.15]
@@ -22566,7 +22573,7 @@ You may provide a definition with
 
 Overfull \vbox (16.71666pt too high) has occurred while \output is active []
 
- [164]
+ [166]
 ./content/chapter_11.tex:139: Undefined control sequence.
 l.139 \Verse
             [11.19]
@@ -22879,7 +22886,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[165]
+[167]
 
 ./content/chapter_11.tex:175: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
@@ -23099,7 +23106,7 @@ You may provide a definition with
 
 Overfull \vbox (16.71666pt too high) has occurred while \output is active []
 
- [166]
+ [168]
 ./content/chapter_11.tex:220: Undefined control sequence.
 l.220 \Verse
             [11.31]
@@ -23221,7 +23228,7 @@ l.243
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[167]
+[169]
 ./content/chapter_11.tex:244: Undefined control sequence.
 l.244 \Verse
             [11.33]
@@ -23349,7 +23356,7 @@ You may provide a definition with
 
 Overfull \vbox (16.71666pt too high) has occurred while \output is active []
 
- [168]
+ [170]
 ./content/chapter_11.tex:261: Undefined control sequence.
 l.261 \Verse
             [11.35]
@@ -23543,7 +23550,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[169]
+[171]
 ./content/chapter_11.tex:300: Undefined control sequence.
 l.300 \Verse
             [11.40]
@@ -23698,7 +23705,7 @@ You may provide a definition with
 
 Overfull \vbox (16.71666pt too high) has occurred while \output is active []
 
- [170]
+ [172]
 ./content/chapter_11.tex:332: Undefined control sequence.
 l.332 \Verse
             [11.45]
@@ -23846,7 +23853,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[171]
+[173]
 ./content/chapter_11.tex:352: Undefined control sequence.
 l.352 \enquote
               {It is very important to know where the \textit{guru} stands a...
@@ -23980,7 +23987,7 @@ You may provide a definition with
 
 Overfull \vbox (16.71666pt too high) has occurred while \output is active []
 
- [172]
+ [174]
 ./content/chapter_11.tex:369: Undefined control sequence.
 l.369 \Verse
             [11.48]
@@ -24236,7 +24243,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[173]
+[175]
 ./content/chapter_11.tex:401: Undefined control sequence.
 l.401 \enquote
               {I remember once somebody asked me, \enquote{I want to realize...
@@ -24401,7 +24408,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Overfull \vbox (16.71666pt too high) has occurred while \output is active []
 
- [174]
+ [176]
 ./content/chapter_11.tex:418: Undefined control sequence.
 l.418 \Verse
             [11.53]
@@ -24562,12 +24569,12 @@ and I'll forget about whatever was undefined.
 
 ) (./content/chapter_12.tex
 
-[175]
+[177]
 
 
 Overfull \vbox (16.71666pt too high) has occurred while \output is active []
 
- [176]
+ [178]
 ./content/chapter_12.tex:16: Undefined control sequence.
 l.16 \Verse
            [12.1]
@@ -24634,7 +24641,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[177
+[179
 
 ]
 ./content/chapter_12.tex:23: Undefined control sequence.
@@ -24819,7 +24826,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [178]
+ [180]
 ./content/chapter_12.tex:48: Undefined control sequence.
 l.48 \enquote
              {Beyond this energy is someone who controls all this energy. Th...
@@ -24852,7 +24859,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [179]
+ [181]
 ./content/chapter_12.tex:57: Undefined control sequence.
 l.57 \Verse
            [12.6–7]
@@ -24972,7 +24979,7 @@ Underfull \vbox (badness 3179) has occurred while \output is active []
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [180]
+ [182]
 ./content/chapter_12.tex:70: Undefined control sequence.
 l.70 \Verse
            [12.8]
@@ -25191,7 +25198,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[181]
+[183]
 ./content/chapter_12.tex:101: Undefined control sequence.
 l.101 ...or five minutes, Bhagavān says, \enquote
                                                   {Go and do your work! Do c...
@@ -25268,7 +25275,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [182]
+ [184]
 ./content/chapter_12.tex:115: Undefined control sequence.
 l.115 \Verse
             [12.15]
@@ -25483,7 +25490,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [183]
+ [185]
 ./content/chapter_12.tex:146: Undefined control sequence.
 l.146 \enquote
               {When one practices spirituality, one has to have a firm faith...
@@ -25570,7 +25577,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [184]
+ [186]
 ./content/chapter_12.tex:154: Undefined control sequence.
 l.154 \enquote
               {The ones whose aim is only God are \enquote{the perfect devot...
@@ -25642,13 +25649,13 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [185]
+ [187]
 
-[186
+[188
 
 ]
 
-[187]
+[189]
 ./content/chapter_13.tex:19: Undefined control sequence.
 l.19 \Verse
            [13.1]
@@ -26018,7 +26025,7 @@ You may provide a definition with
 
 Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
- [188]
+ [190]
 ./content/chapter_13.tex:55: Undefined control sequence.
 l.55 \enquote
              {Here Bhagavān is saying, \enquote{My dear Arjuna, I know you ...
@@ -26093,7 +26100,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[189]
+[191]
 ./content/chapter_13.tex:65: Undefined control sequence.
 l.65 \enquote
              {Here Bhagavān Kṛṣṇa says to Arjuna, \enquote{Understand...
@@ -26252,7 +26259,7 @@ You may provide a definition with
 
 Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
- [190]
+ [192]
 ./content/chapter_13.tex:84: Undefined control sequence.
 l.84 \enquote
              {With the true knowledge, one knows that this body goes through...
@@ -26335,7 +26342,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[191]
+[193]
 
 ./content/chapter_13.tex:99: LaTeX Error: Unicode character ṁ (U+1E41)
                not set up for use with LaTeX.
@@ -26661,7 +26668,7 @@ You may provide a definition with
 
 Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
- [192]
+ [194]
 ./content/chapter_13.tex:129: Undefined control sequence.
 l.129 \enquote
               {Even though the Lord is present everywhere, in everything---e...
@@ -26756,7 +26763,7 @@ You may provide a definition with
 
 
 
-[193]
+[195]
 ./content/chapter_13.tex:143: Undefined control sequence.
 l.143 \Verse
             [13.22]
@@ -26903,7 +26910,7 @@ You may provide a definition with
 
 Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
- [194]
+ [196]
 ./content/chapter_13.tex:162: Undefined control sequence.
 l.162 \enquote
               {Sometimes you are born due to a certain \textit{karma}, but y...
@@ -26954,7 +26961,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[195]
+[197]
 ./content/chapter_13.tex:175: Undefined control sequence.
 l.175 \Verse
             [13.26]
@@ -27232,7 +27239,7 @@ You may provide a definition with
 
 Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
- [196]
+ [198]
 ./content/chapter_13.tex:215: Undefined control sequence.
 l.215 \Verse
             [13.34]
@@ -27424,7 +27431,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [197]
+ [199]
 ./content/chapter_13.tex:235: Undefined control sequence.
 l.235 \enquote
               {So, when that truth shines, the seers start to see. That’s ...
@@ -27474,7 +27481,7 @@ You may provide a definition with
 
 Overfull \vbox (16.34766pt too high) has occurred while \output is active []
 
- [198]
+ [200]
 ./content/chapter_14.tex:15: Undefined control sequence.
 l.15 \Verse
            [14.1]
@@ -27528,7 +27535,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[199
+[201
 
 ]
 ./content/chapter_14.tex:22: Undefined control sequence.
@@ -27677,7 +27684,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [200]
+ [202]
 ./content/chapter_14.tex:47: Undefined control sequence.
 l.47 \Verse
            [14.5]
@@ -27911,7 +27918,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [201]
+ [203]
 ./content/chapter_14.tex:87: Undefined control sequence.
 l.87 \Verse
            [14.13]
@@ -28129,7 +28136,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [202]
+ [204]
 ./content/chapter_14.tex:121: Undefined control sequence.
 l.121 \enquote
               {Someone who has \textit{sattvic} qualities focuses their enjo...
@@ -28211,7 +28218,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [203]
+ [205]
 ./content/chapter_14.tex:135: Undefined control sequence.
 l.135 \Verse
             [14.19]
@@ -28332,7 +28339,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [204]
+ [206]
 ./content/chapter_14.tex:153: Undefined control sequence.
 l.153 \Verse
             [14.21]
@@ -28453,7 +28460,7 @@ l.175
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[205]
+[207]
 ./content/chapter_14.tex:176: Undefined control sequence.
 l.176 \enquote
               {One who has become completely absorbed in the cosmic body of ...
@@ -28569,7 +28576,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [206]
+ [208]
 ./content/chapter_14.tex:191: Undefined control sequence.
 l.191 \Verse
             [14.27]
@@ -28621,9 +28628,9 @@ l.1 \chapter
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[207]
+[209]
 
-[208
+[210
 
 ]
 ./content/chapter_15.tex:16: Undefined control sequence.
@@ -28684,7 +28691,7 @@ Underfull \vbox (badness 6792) has occurred while \output is active []
 
 
 
-[209]
+[211]
 ./content/chapter_15.tex:25: Undefined control sequence.
 l.25 \Verse
            [15.2]
@@ -28844,7 +28851,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [210]
+ [212]
 ./content/chapter_15.tex:47: Undefined control sequence.
 l.47 \enquote
              {Through dispassion one advances toward God-realization. These ...
@@ -28909,7 +28916,7 @@ You may provide a definition with
 
 
 
-[211]
+[213]
 ./content/chapter_15.tex:63: Undefined control sequence.
 l.63 \Verse
            [15.6]
@@ -29143,7 +29150,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [212]
+ [214]
 ./content/chapter_15.tex:94: Undefined control sequence.
 l.94 \Verse
            [15.11]
@@ -29367,7 +29374,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [213]
+ [215]
 ./content/chapter_15.tex:125: Undefined control sequence.
 l.125 \enquote
               {The realized ones perceive only the Divine. Everywhere they l...
@@ -29443,7 +29450,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [214]
+ [216]
 ./content/chapter_15.tex:143: Undefined control sequence.
 l.143 \Verse
             [15.17]
@@ -29603,7 +29610,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [215]
+ [217]
 ./content/chapter_15.tex:167: Undefined control sequence.
 l.167 \enquote
               {The \textit{guṇas} and the mode of \textit{prakṛti} are p...
@@ -29685,7 +29692,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [216]
+ [218]
 ./content/chapter_16.tex:5: Undefined control sequence.
 l.5 ...hat make up one’s character. The \enquote
                                                   {\textit{daivi-sampad}}, o...
@@ -29809,7 +29816,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[217
+[219
 
 ]
 ./content/chapter_16.tex:24: Undefined control sequence.
@@ -29901,7 +29908,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [218]
+ [220]
 ./content/chapter_16.tex:41: Undefined control sequence.
 l.41 \enquote
              {A \textit{bhakta} is humble! Humility is the greatest treasure...
@@ -30054,7 +30061,7 @@ You may provide a definition with
 
 
 
-[219]
+[221]
 ./content/chapter_16.tex:60: Undefined control sequence.
 l.60 \Verse
            [16.9]
@@ -30298,7 +30305,7 @@ Overfull \hbox (9.44592pt too wide) in paragraph at lines 94--98
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [220]
+ [222]
 ./content/chapter_16.tex:99: Undefined control sequence.
 l.99 \Verse
            [16.19]
@@ -30447,7 +30454,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[221]
+[223]
 ./content/chapter_16.tex:117: Undefined control sequence.
 l.117 \enquote
               {Of course, the Love of God awakens in everybody’s life once...
@@ -30559,7 +30566,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [222]
+ [224]
 ./content/chapter_16.tex:132: Undefined control sequence.
 l.132 \enquote
               {These three qualities---desire, anger, and greed---are due to...
@@ -30694,7 +30701,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[223]
+[225]
 ./content/chapter_16.tex:155: Undefined control sequence.
 l.155 \enquote
               {However, those who are not ruled by their own reason or pride...
@@ -30718,7 +30725,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [224]
+ [226]
 Overfull \hbox (2.18819pt too wide) in paragraph at lines 6--7
 \OT1/cmr/bx/n/12 THE THREE DI-VI-SIONS OF FAITH \OT1/cmr/m/n/12 In the pre-vi-ous chap-ter, K[][][]a
  []
@@ -30760,7 +30767,7 @@ You may provide a definition with
 
 
 
-[225
+[227
 
 ]
 ./content/chapter_17.tex:23: Undefined control sequence.
@@ -30991,7 +30998,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (16.71666pt too high) has occurred while \output is active []
 
- [226]
+ [228]
 ./content/chapter_17.tex:51: Undefined control sequence.
 l.51 \enquote
              {They don’t build their friendship, relationship, or prayer e...
@@ -31132,7 +31139,7 @@ l.73
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[227]
+[229]
 ./content/chapter_17.tex:74: Undefined control sequence.
 l.74 \Verse
            [17.10]
@@ -31266,7 +31273,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (16.71666pt too high) has occurred while \output is active []
 
- [228]
+ [230]
 ./content/chapter_17.tex:95: Undefined control sequence.
 l.95 \Verse
            [17.12]
@@ -31445,7 +31452,7 @@ l.112
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[229]
+[231]
 ./content/chapter_17.tex:113: Undefined control sequence.
 l.113 \enquote
               {When one is doing something for personal gain like, \enquote{...
@@ -31633,7 +31640,7 @@ Underfull \vbox (badness 2435) has occurred while \output is active []
 
 Overfull \vbox (16.71666pt too high) has occurred while \output is active []
 
- [230]
+ [232]
 ./content/chapter_17.tex:130: Undefined control sequence.
 l.130 \Verse
             [17.15]
@@ -31912,7 +31919,7 @@ l.158
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[231]
+[233]
 ./content/chapter_17.tex:159: Undefined control sequence.
 l.159 \enquote
               {Purifying everything that comes out of the mind happens throu...
@@ -32046,7 +32053,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Overfull \vbox (16.71666pt too high) has occurred while \output is active []
 
- [232]
+ [234]
 ./content/chapter_17.tex:174: Undefined control sequence.
 l.174 \Verse
             [17.21]
@@ -32217,7 +32224,7 @@ l.193
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[233]
+[235]
 ./content/chapter_17.tex:194: Undefined control sequence.
 l.194 \enquote
               {You don’t need to judge anyone, but see how you can make th...
@@ -32484,7 +32491,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (16.71666pt too high) has occurred while \output is active []
 
- [234]
+ [236]
 ./content/chapter_17.tex:227: Undefined control sequence.
 l.227 ...gavān Kṛṣṇa and just say, \enquote
                                                   {\textit{oṁ}, \textit{ta...
@@ -32737,7 +32744,7 @@ l.239 \section
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[235]
+[237]
 ./content/chapter_17.tex:241: Undefined control sequence.
 l.241 \Verse
             [17.28]
@@ -32831,7 +32838,7 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (16.71666pt too high) has occurred while \output is active []
 
- [236]
+ [238]
 ./content/chapter_18.tex:6: Undefined control sequence.
 l.6 ...ng clarification between two terms \enquote
                                                   {\textit{sannyāsa}} and \...
@@ -32870,7 +32877,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[237
+[239
 
 ]
 
@@ -33061,7 +33068,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [238]
+ [240]
 ./content/chapter_18.tex:55: Undefined control sequence.
 l.55 \Verse
            [18.4]
@@ -33246,7 +33253,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[239]
+[241]
 ./content/chapter_18.tex:78: Undefined control sequence.
 l.78 \enquote
              {Bhagavān says that one must perform one’s duty in this way,...
@@ -33467,7 +33474,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [240]
+ [242]
 ./content/chapter_18.tex:109: Undefined control sequence.
 l.109 \Verse
             [18.12]
@@ -33625,7 +33632,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[241]
+[243]
 ./content/chapter_18.tex:126: Undefined control sequence.
 l.126 \Verse
             [18.13]
@@ -33876,7 +33883,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [242]
+ [244]
 ./content/chapter_18.tex:161: Undefined control sequence.
 l.161 \enquote
               {Bhagavān says that whatever one does, whether it’s good or...
@@ -33993,7 +34000,7 @@ l.176
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[243]
+[245]
 ./content/chapter_18.tex:177: Undefined control sequence.
 l.177 \Verse
             [18.22]
@@ -34175,7 +34182,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [244]
+ [246]
 ./content/chapter_18.tex:207: Undefined control sequence.
 l.207 \enquote
               {That’s why it is said that when you are spiritual, you have...
@@ -34265,7 +34272,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [245]
+ [247]
 ./content/chapter_18.tex:228: Undefined control sequence.
 l.228 \enquote
               {These people, Bhagavān says, receive the light of God. This ...
@@ -34293,7 +34300,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [246]
+ [248]
 ./content/chapter_18.tex:234: Undefined control sequence.
 l.234 \Verse
             [18.29]
@@ -34496,7 +34503,7 @@ l.262
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[247]
+[249]
 ./content/chapter_18.tex:264: Undefined control sequence.
 l.264 \Verse
             [18.34]
@@ -34612,7 +34619,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [248]
+ [250]
 ./content/chapter_18.tex:281: Undefined control sequence.
 l.281 \Verse
             [18.36–37]
@@ -34923,7 +34930,7 @@ l.306
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[249]
+[251]
 ./content/chapter_18.tex:307: Undefined control sequence.
 l.307 \enquote
               {In this state, one creates jealousy, one creates a state of c...
@@ -35109,7 +35116,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [250]
+ [252]
 ./content/chapter_18.tex:330: Undefined control sequence.
 l.330 \Verse
             [18.44]
@@ -35271,7 +35278,7 @@ l.346
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[251]
+[253]
 ./content/chapter_18.tex:347: Undefined control sequence.
 l.347 \Verse
             [18.46]
@@ -35462,12 +35469,12 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [252]
+ [254]
 
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [253]
+ [255]
 ./content/chapter_18.tex:381: Undefined control sequence.
 l.381 \Verse
             [18.50]
@@ -35683,7 +35690,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [254]
+ [256]
 ./content/chapter_18.tex:408: Undefined control sequence.
 l.408 \Verse
             [18.55]
@@ -35797,7 +35804,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[255]
+[257]
 ./content/chapter_18.tex:429: Undefined control sequence.
 l.429 \enquote
               {When one longs for God, He Himself will come and reveal Himse...
@@ -35896,7 +35903,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [256]
+ [258]
 ./content/chapter_18.tex:452: Undefined control sequence.
 l.452 \Verse
             [18.61]
@@ -36053,7 +36060,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[257]
+[259]
 
 
 ./content/chapter_18.tex:471: LaTeX Error: Unicode character Ṣ (U+1E62)
@@ -36071,7 +36078,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [258]
+ [260]
 ./content/chapter_18.tex:475: Undefined control sequence.
 l.475 \Verse
             [18.64]
@@ -36315,7 +36322,7 @@ l.495
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[259]
+[261]
 ./content/chapter_18.tex:496: Undefined control sequence.
 l.496 \enquote
               {Bhagavān is reminding all on the spiritual path who are surr...
@@ -36532,7 +36539,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [260]
+ [262]
 ./content/chapter_18.tex:517: Undefined control sequence.
 l.517 \Verse
             [18.70]
@@ -36610,7 +36617,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[261]
+[263]
 ./content/chapter_18.tex:534: Undefined control sequence.
 l.534 \Verse
             [18.72]
@@ -36810,7 +36817,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [262]
+ [264]
 ./content/chapter_18.tex:566: Undefined control sequence.
 l.566 \Verse
             [18.76]
@@ -36949,13 +36956,13 @@ and I'll forget about whatever was undefined.
 
 ) (./misc/take_the_next_step.tex
 
-[263]
+[265]
 
-[264
+[266
 
 ]
 
-[265]
+[267]
 ./misc/take_the_next_step.tex:46: Undefined control sequence.
 l.46 \noindent {\avenirnextboldfont
                                    \large{Take the Next Step}}
@@ -36983,7 +36990,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [266]
+ [268]
 ./misc/glossary.tex:10: Undefined control sequence.
 l.10     \includegraphics
                          [width=0.8\linewidth]{assets/imgs/qr_glossary.svg}
@@ -37064,32 +37071,32 @@ my insertion and my current dilemma will both disappear.
 
 ) (./misc/related_books.tex
 
-[267
+[269
 
 ]
 
-[268
+[270
 
 ]
 
-[269])
+[271])
 
 Class memoir Warning: The material used in the headers is too large
 (43.49998pt) for the given head height (14.5pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 40.
+(in both cases you will find help in the memoir manual). on input line 41.
 
 
 
 
-/Users/sahadev/CORE/Knowledge/PUBLICATIONS/EPUB_BG_Essentials_2nd_Edition/main.tex:40: LaTeX Error: Unicode character Ṣ (U+1E62)
+/Users/sahadev/CORE/Knowledge/PUBLICATIONS/EPUB_BG_Essentials_2nd_Edition/main.tex:41: LaTeX Error: Unicode character Ṣ (U+1E62)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \end{document}
+l.41 \end{document}
                    
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -37097,7 +37104,7 @@ You may provide a definition with
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
- [270]
+ [272]
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
@@ -37112,18 +37119,18 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 5574 strings out of 473190
- 93614 string characters out of 5715800
+ 5586 strings out of 473190
+ 93863 string characters out of 5715800
  517638 words of memory out of 5000000
- 28726 multiletter control sequences out of 15000+600000
- 565787 words of font info for 58 fonts, out of 8000000 for 9000
+ 28732 multiletter control sequences out of 15000+600000
+ 566430 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,13n,93p,2009b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (270 pages, 793372 bytes).
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (272 pages, 812005 bytes).
 PDF statistics:
- 931 PDF objects out of 1000 (max. 8388607)
- 630 compressed objects within 7 object streams
+ 949 PDF objects out of 1000 (max. 8388607)
+ 642 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

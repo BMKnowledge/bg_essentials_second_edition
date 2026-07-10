@@ -64,16 +64,47 @@ h1 + h5 {
   letter-spacing: 0.02em;
 }
 
+/* Keep a heading attached to the content that follows it. */
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
   page-break-after: avoid;
   break-after: avoid;
 }
 
-/* Tables */
-table,
-table th,
+/* Never split a chapter/section/subsection title across a page or column.
+   Matters most for the two-line chapter titles (e.g. "Chapter 6:" + the
+   Sanskrit name, separated by <br/>) and any section title that wraps. */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+/* --- Landing position when a TOC / cross-reference link is tapped ---
+   Pandoc gives each section a wrapper <section id="sec-…" class="level2"> whose
+   first child is the <h2>; that wrapper (not the h2) is the link target. In
+   Apple Books' paginated view, a section that happens to begin near the foot of
+   a page makes the tapped title appear at the very bottom of the screen. Making
+   each section start a new page means a jump always lands the title at the top.
+   padding-top keeps it a little below the top edge, clear of the reader's
+   auto-hiding toolbar; scroll-margin-top does the same in Apple Books'
+   scrolling (non-paginated) view, where the page break is ignored. Values are
+   easy to tune if you want more/less clearance. */
+section.level2,
+section.level3 {
+  break-before: page;
+  page-break-before: always;
+  padding-top: 1.5em;
+  scroll-margin-top: 2.5em;
+}
 table td,
 table th p,
 table td p,
@@ -109,7 +140,7 @@ blockquote > p:first-child {
 blockquote > p:first-child em {
   display: block;
   font-style: italic;
-  font-size: 0.9em;
+  font-size: 0.75em;
 
   line-height: 1.25; /* tight stacking */
   margin: 0;
