@@ -88,22 +88,29 @@ h6 {
   break-inside: avoid;
 }
 
-/* --- Landing position when a TOC / cross-reference link is tapped ---
-   Pandoc gives each section a wrapper <section id="sec-…" class="level2"> whose
-   first child is the <h2>; that wrapper (not the h2) is the link target. In
-   Apple Books' paginated view, a section that happens to begin near the foot of
-   a page makes the tapped title appear at the very bottom of the screen. Making
-   each section start a new page means a jump always lands the title at the top.
-   padding-top keeps it a little below the top edge, clear of the reader's
-   auto-hiding toolbar; scroll-margin-top does the same in Apple Books'
-   scrolling (non-paginated) view, where the page break is ignored. Values are
-   easy to tune if you want more/less clearance. */
-section.level2,
-section.level3 {
+/* --- Landing position when a TOC link is tapped ---
+   TOC links target the <section id="sec-…" class="level2"> wrappers (the h2 is
+   the wrapper's first child). Paginated readers (Apple Books, Kindle) display
+   the pre-computed page that CONTAINS the anchor — there is no CSS that can
+   reposition an anchor within a page, so a tapped title lands at the top of
+   the view only if the section starts at a page boundary. Hence the forced
+   break below; padding-top keeps the title clear of the reader's toolbar
+   overlay (the h2's own margin collapses/truncates at a page start and cannot
+   provide that clearance). Kindle documents support for page-break-before /
+   break-before; Apple Books honors them in its column pagination.
+   scroll-margin-top is a free progressive enhancement for scroll-mode /
+   browser-based readers (unverified in Apple Books' Scroll theme, harmless and
+   inert elsewhere).
+   NOTE: if the build ever moves to one-file-per-section (pandoc
+   --split-level=2), REMOVE the break rule — a forced break coinciding with a
+   file boundary triggers Apple Books' known blank-page bug. */
+[id] {
+  scroll-margin-top: 2.5em;
+}
+section.level2 {
   break-before: page;
   page-break-before: always;
   padding-top: 1.5em;
-  scroll-margin-top: 2.5em;
 }
 table td,
 table th p,
